@@ -4,7 +4,6 @@ layout: collection
 collection: fingerboards
 entries_layout: grid
 permalink: /fingerboards/
-classes: wide
 ---
 
 ### 指板材の比較

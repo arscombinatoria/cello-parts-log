@@ -4,7 +4,6 @@ layout: collection
 collection: endpins
 entries_layout: grid
 permalink: /endpins/
-classes: wide
 ---
 
 以下の表は、エンドピンの材質ごとの音響特性をまとめたものです。

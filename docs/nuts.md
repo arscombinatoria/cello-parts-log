@@ -4,7 +4,6 @@ layout: collection
 collection: nuts
 entries_layout: grid
 permalink: /nuts/
-classes: wide
 ---
 
 以下では、一般的なナット材の種類ごとの音響傾向をまとめます。

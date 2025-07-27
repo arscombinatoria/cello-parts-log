@@ -4,7 +4,6 @@ layout: collection
 collection: tailguts
 entries_layout: grid
 permalink: /tailguts/
-classes: wide
 ---
 
 テールコードの材質ごとの特徴を以下にまとめます。

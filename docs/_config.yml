@@ -2,6 +2,7 @@ url: "https://arscombinatoria.github.io"
 baseurl: "/cello-parts-log"
 repository: "arscombinatoria/cello-parts-log"
 remote_theme: "mmistakes/minimal-mistakes"
+sass_dir: _sass
 locale: ja-JP
 title: "チェロパーツログ"
 minimal_mistakes_skin: "air"

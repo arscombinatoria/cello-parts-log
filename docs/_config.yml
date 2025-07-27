@@ -1,0 +1,33 @@
+theme: minimal-mistakes-jekyll
+locale: ja-JP
+title: "チェロパーツログ"
+minimal_mistakes_skin: "air"
+collections:
+  strings:
+    output: true
+  bridges:
+    output: true
+  pegs:
+    output: true
+  fingerboards:
+    output: true
+  endpins:
+    output: true
+  tailpieces:
+    output: true
+  nuts:
+    output: true
+  saddles:
+    output: true
+  soundposts:
+    output: true
+  tailguts:
+    output: true
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: "parts"
+    values:
+      layout: single

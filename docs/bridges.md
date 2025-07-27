@@ -4,7 +4,6 @@ layout: collection
 collection: bridges
 entries_layout: grid
 permalink: /bridges/
-classes: wide
 ---
 
 以下はチェロ駒に使われる主な材質ごとの音の傾向をまとめた表です。

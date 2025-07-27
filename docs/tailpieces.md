@@ -4,7 +4,6 @@ layout: collection
 collection: tailpieces
 entries_layout: grid
 permalink: /tailpieces/
-classes: wide
 ---
 
 以下はチェロのテールピースに使われる主な材質ごとの違いをまとめた表です。

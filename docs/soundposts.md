@@ -4,7 +4,6 @@ layout: collection
 collection: soundposts
 entries_layout: grid
 permalink: /soundposts/
-classes: wide
 ---
 
 以下の表では、一般的な木製魂柱とカーボンファイバー製魂柱の音響的な傾向をまとめています。

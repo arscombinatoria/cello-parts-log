@@ -35,4 +35,3 @@ defaults:
       type: "parts"
     values:
       layout: single
-      classes: wide

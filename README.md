@@ -6,5 +6,5 @@
 
 ```bash
 bundle install
-bundle exec jekyll serve --source docs
+bundle exec jekyll serve --source docs --baseurl "/cello-parts-log"
 ```

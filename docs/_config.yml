@@ -34,6 +34,9 @@ collections:
     output: true
   tailguts:
     output: true
+  string_makers:
+    output: true
+    permalink: /strings/manufacturers/:path/
 
 # Front Matter Defaults
 defaults:
@@ -95,5 +98,10 @@ defaults:
   - scope:
       path: ""
       type: tailguts
+    values:
+      entries_layout: grid
+  - scope:
+      path: ""
+      type: string_makers
     values:
       entries_layout: grid

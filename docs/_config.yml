@@ -35,3 +35,8 @@ defaults:
       type: "parts"
     values:
       layout: single
+      classes: wide
+  - scope:
+      path: ""
+    values:
+      classes: wide

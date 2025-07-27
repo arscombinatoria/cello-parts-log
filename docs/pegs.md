@@ -4,6 +4,7 @@ layout: collection
 collection: pegs
 entries_layout: grid
 permalink: /pegs/
+classes: wide
 ---
 
 以下はペグに使われる代表的な素材ごとの音響的な特徴を整理した表です。

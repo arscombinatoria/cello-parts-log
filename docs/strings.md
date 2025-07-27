@@ -4,6 +4,7 @@ layout: collection
 collection: strings
 entries_layout: grid
 permalink: /strings/
+classes: wide
 ---
 
 以下はチェロ弦に使われる主な材質ごとの特徴をまとめた表です。

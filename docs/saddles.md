@@ -4,6 +4,7 @@ layout: collection
 collection: saddles
 entries_layout: grid
 permalink: /saddles/
+classes: wide
 ---
 
 以下はチェロのサドル（あご当て側サドル）の材質によって生じるわずかな音色の違いをまとめた表です。

@@ -3,6 +3,8 @@ layout: single
 title: チェロパーツログ
 ---
 
+チェロの各パーツについて、交換や調整の参考になりそうな情報をLLMを使ってWebで調べた内容からまとめています。
+
 <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
 <a class="block border p-4 rounded-lg" href="{{ '/strings/' | relative_url }}">弦</a>
 <a class="block border p-4 rounded-lg" href="{{ '/bridges/' | relative_url }}">駒</a>

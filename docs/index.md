@@ -3,13 +3,7 @@ layout: single
 title: チェロパーツログ
 ---
 
-<div class="bg-gray-100 py-12 text-center">
-  <h1 class="text-3xl md:text-5xl font-bold mb-4">チェロパーツログ</h1>
-  <p class="mb-6">チェロのパーツ交換記録とメモをまとめています。</p>
-  <a href="#parts" class="btn-primary">パーツ一覧へ</a>
-</div>
-
-<div id="parts" class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
 <a class="block border p-4 rounded-lg" href="{{ '/strings/' | relative_url }}">弦</a>
 <a class="block border p-4 rounded-lg" href="{{ '/bridges/' | relative_url }}">駒</a>
 <a class="block border p-4 rounded-lg" href="{{ '/pegs/' | relative_url }}">ペグ</a>

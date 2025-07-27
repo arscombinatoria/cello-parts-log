@@ -1,7 +1,13 @@
-theme: minimal-mistakes-jekyll
+url: "https://arscombinatoria.github.io"
+baseurl: "/cello-parts-log"
+repository: "arscombinatoria/cello-parts-log"
+remote_theme: "mmistakes/minimal-mistakes"
 locale: ja-JP
 title: "チェロパーツログ"
 minimal_mistakes_skin: "air"
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
 collections:
   strings:
     output: true
@@ -23,8 +29,6 @@ collections:
     output: true
   tailguts:
     output: true
-plugins:
-  - jekyll-feed
 defaults:
   - scope:
       path: ""

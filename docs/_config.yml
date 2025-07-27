@@ -1,7 +1,7 @@
 url: "https://arscombinatoria.github.io"
 baseurl: "/cello-parts-log"
 repository: "arscombinatoria/cello-parts-log"
-remote_theme: "mmistakes/minimal-mistakes"
+theme: "minimal-mistakes-jekyll"
 locale: ja-JP
 title: "チェロパーツログ"
 minimal_mistakes_skin: "air"

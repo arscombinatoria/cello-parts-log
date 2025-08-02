@@ -1,8 +1,7 @@
 ---
 title: bridges
-layout: collection
+layout: page
 collection: bridges
-entries_layout: grid
 permalink: /bridges/
 ---
 

@@ -1,8 +1,7 @@
 ---
 title: endpins
-layout: collection
+layout: page
 collection: endpins
-entries_layout: grid
 permalink: /endpins/
 ---
 

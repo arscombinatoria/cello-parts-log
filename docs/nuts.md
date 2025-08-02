@@ -1,8 +1,7 @@
 ---
 title: nuts
-layout: collection
+layout: page
 collection: nuts
-entries_layout: grid
 permalink: /nuts/
 ---
 

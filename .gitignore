@@ -1,4 +1,7 @@
-# Ignore build output
+.next/
+node_modules/
+out/
+# Ignore build output from Jekyll (legacy)
 _site/
 
 vendor/

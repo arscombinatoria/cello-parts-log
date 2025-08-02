@@ -8,8 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: ruby/setup-ruby@v1
+      - uses: actions/setup-node@v4
         with:
-          ruby-version: '3.2'
-          bundler-cache: true
-      - run: bundle exec jekyll build --source docs --destination _site_test
+          node-version: 20
+      - run: npm ci
+      - run: npm test
+      - run: npm run build

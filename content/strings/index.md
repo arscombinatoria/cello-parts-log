@@ -17,4 +17,4 @@ permalink: /strings/
 
 ## メーカー一覧
 
-[弦メーカーの一覧はこちら]({{ '/strings/manufacturers/' | relative_url }})
+[弦メーカーの一覧はこちら](/strings/manufacturers/)

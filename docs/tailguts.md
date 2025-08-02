@@ -1,8 +1,7 @@
 ---
 title: tailguts
-layout: collection
+layout: page
 collection: tailguts
-entries_layout: grid
 permalink: /tailguts/
 ---
 

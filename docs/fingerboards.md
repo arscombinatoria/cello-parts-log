@@ -1,8 +1,7 @@
 ---
 title: fingerboards
-layout: collection
+layout: page
 collection: fingerboards
-entries_layout: grid
 permalink: /fingerboards/
 ---
 

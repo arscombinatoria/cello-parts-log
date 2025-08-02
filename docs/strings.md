@@ -1,8 +1,7 @@
 ---
 title: strings
-layout: collection
+layout: page
 collection: strings
-entries_layout: grid
 permalink: /strings/
 ---
 

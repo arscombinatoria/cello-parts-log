@@ -1,8 +1,7 @@
 ---
 title: tailpieces
-layout: collection
+layout: page
 collection: tailpieces
-entries_layout: grid
 permalink: /tailpieces/
 ---
 

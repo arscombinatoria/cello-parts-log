@@ -6,8 +6,7 @@ locale: ja-JP
 repository: "arscombinatoria/cello-parts-log"
 
 # テーマ＆プラグイン
-theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "air"
+theme: "awesome-jekyll-theme"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
@@ -44,64 +43,5 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: single
-      classes: wide
-      sidebar: false
-      author_profile: false
+      layout: page
 
-  # 各コレクションをグリッド表示
-  - scope:
-      path: ""
-      type: strings
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: bridges
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: pegs
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: fingerboards
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: endpins
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: tailpieces
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: nuts
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: saddles
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: soundposts
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: tailguts
-    values:
-      entries_layout: grid
-  - scope:
-      path: ""
-      type: string_makers
-    values:
-      entries_layout: grid

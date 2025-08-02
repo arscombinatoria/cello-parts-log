@@ -1,8 +1,7 @@
 ---
 title: saddles
-layout: collection
+layout: page
 collection: saddles
-entries_layout: grid
 permalink: /saddles/
 ---
 

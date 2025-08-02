@@ -6,7 +6,11 @@ export default function Page({ title, contentHtml }) {
     <main>
       <h1>{title}</h1>
       <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-      <p><Link href="/">トップへ戻る</Link></p>
+      <p>
+        <Link href="/" legacyBehavior>
+          <a>トップへ戻る</a>
+        </Link>
+      </p>
     </main>
   );
 }

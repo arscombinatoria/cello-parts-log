@@ -1,21 +1,7 @@
-body {
-  font-family: sans-serif;
-  padding: 1rem;
-  line-height: 1.6;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 1rem;
-  padding: 0;
-  list-style: none;
-}
-.grid a {
-  display: block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 0.5rem;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-}
+:root{--max-w:1000px}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.7 system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:#111;background:#fff}
+main{max-width:var(--max-w);margin:0 auto;padding:24px}
+header,nav,footer{max-width:var(--max-w);margin:0 auto;padding:12px 24px}
+nav a{display:inline-block;margin:0 6px 6px 0;padding:6px 10px;text-decoration:none;border:1px solid #ddd;border-radius:6px}
+h1,h2{line-height:1.25}

@@ -1,0 +1,23 @@
+{
+  "name": "cello-parts-log",
+  "version": "1.0.0",
+  "description": "チェロのパーツ交換について調べた備忘録です。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "next": "^15.4.5",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  }
+}

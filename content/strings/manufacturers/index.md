@@ -7,3 +7,6 @@ permalink: /strings/manufacturers/
 ---
 
 弦メーカーに関する情報をまとめます。
+
+- [ヤーガー](jargar/)
+- [ラーセン](larsen/)

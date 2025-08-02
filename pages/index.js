@@ -21,8 +21,8 @@ export default function Home() {
       <p>チェロの各パーツについて、交換や調整の参考になりそうな情報をLLMを使ってWebで調べた内容からまとめています。</p>
       <div className="grid">
         {links.map(link => (
-          <Link key={link.href} href={link.href} legacyBehavior>
-            <a>{link.label}</a>
+          <Link key={link.href} href={link.href}>
+            {link.label}
           </Link>
         ))}
       </div>

@@ -11,13 +11,15 @@ npm install
 npm run dev
 ```
 
-## ビルド
+## ビルドとデプロイ
 
 ```bash
 npm run build
+npm run predeploy
+npm run deploy
 ```
 
-ビルド後の静的ファイルは `out/` に出力されます。
+ビルド後の静的ファイルは `out/` に出力され、`deploy` スクリプトで GitHub Pages に公開できます。
 
 ## テスト
 

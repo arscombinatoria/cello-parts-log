@@ -1,11 +1,10 @@
-const repo = 'cello-parts-log';
-const isProd = process.env.NODE_ENV === 'production';
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: isProd ? `/${repo}` : '',
-  assetPrefix: isProd ? `/${repo}/` : '',
+  basePath: '/cello-parts-log',
+  assetPrefix: '/cello-parts-log/',
   images: { unoptimized: true },
+  trailingSlash: true,
 };
 
 export default nextConfig;

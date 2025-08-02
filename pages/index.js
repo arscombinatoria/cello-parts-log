@@ -17,7 +17,7 @@ const links = [
 export default function Home() {
   return (
     <main>
-      <h1>チェロパーツログ</h1>
+      <h1>チェロのパーツ交換についての備忘録</h1>
       <p>チェロの各パーツについて、交換や調整の参考になりそうな情報をLLMを使ってWebで調べた内容からまとめています。</p>
       <div className="grid">
         {links.map(link => (

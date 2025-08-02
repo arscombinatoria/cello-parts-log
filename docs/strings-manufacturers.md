@@ -1,7 +1,8 @@
 ---
 title: "メーカー一覧"
-layout: page
+layout: collection
 collection: string_makers
+entries_layout: grid
 permalink: /strings/manufacturers/
 ---
 

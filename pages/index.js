@@ -11,7 +11,6 @@ const links = [
   { href: '/saddles', label: 'サドル' },
   { href: '/soundposts', label: '魂柱' },
   { href: '/tailguts', label: 'テールコード' },
-  { href: '/strings/manufacturers', label: '弦メーカー一覧' },
 ];
 
 export default function Home() {

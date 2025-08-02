@@ -17,4 +17,4 @@ permalink: /strings/
 
 ## メーカー一覧
 
-[弦メーカーの一覧はこちら](./manufacturers/)
+[弦メーカーの一覧はこちら](strings/manufacturers/)

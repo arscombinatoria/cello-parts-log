@@ -1,0 +1,21 @@
+main:
+  - title: "弦"
+    url: /strings/
+  - title: "駒"
+    url: /bridges/
+  - title: "ペグ"
+    url: /pegs/
+  - title: "指板"
+    url: /fingerboards/
+  - title: "エンドピン"
+    url: /endpins/
+  - title: "テールピース"
+    url: /tailpieces/
+  - title: "ナット"
+    url: /nuts/
+  - title: "サドル"
+    url: /saddles/
+  - title: "魂柱"
+    url: /soundposts/
+  - title: "テールコード"
+    url: /tailguts/

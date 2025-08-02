@@ -1,28 +1,10 @@
-# チェロのパーツ交換についての備忘録
+# cello-parts-log
 
-チェロのパーツ交換についての備忘録です。
+チェロのパーツ交換について調べた備忘録です。
 
-Next.js を使って Markdown から静的サイトを生成しています。
-
-## 開発
+`docs` ディレクトリ以下に Jekyll (Minimal Mistakes テーマ) を使ったサイトがあります。GitHub Pages のソースを `docs` に設定すると公開できます。
 
 ```bash
-npm install
-npm run dev
-```
-
-## ビルドとデプロイ
-
-```bash
-npm run build
-npm run predeploy
-npm run deploy
-```
-
-ビルド後の静的ファイルは `out/` に出力され、`deploy` スクリプトで GitHub Pages に公開できます。
-
-## テスト
-
-```bash
-npm test
+bundle install
+bundle exec jekyll serve --source docs --baseurl "/cello-parts-log"
 ```

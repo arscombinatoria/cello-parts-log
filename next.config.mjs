@@ -4,7 +4,6 @@ const nextConfig = {
   basePath: '/cello-parts-log',
   assetPrefix: '/cello-parts-log/',
   images: { unoptimized: true },
-  trailingSlash: true,
+  trailingSlash: true
 };
-
 export default nextConfig;

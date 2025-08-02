@@ -1,7 +1,8 @@
 ---
 title: soundposts
-layout: page
+layout: collection
 collection: soundposts
+entries_layout: grid
 permalink: /soundposts/
 ---
 

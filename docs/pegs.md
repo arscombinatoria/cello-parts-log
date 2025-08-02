@@ -1,7 +1,8 @@
 ---
 title: pegs
-layout: page
+layout: collection
 collection: pegs
+entries_layout: grid
 permalink: /pegs/
 ---
 

@@ -18,3 +18,9 @@ npm run build
 ```
 
 ビルド後の静的ファイルは `out/` に出力されます。
+
+## テスト
+
+```bash
+npm test
+```

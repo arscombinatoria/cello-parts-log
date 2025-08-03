@@ -1,0 +1,19 @@
+---
+---
+@import "minimal-mistakes";
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mm-text-color: #e6e6e6;
+    --mm-bg-color: #111;
+    --mm-link-color: #9ecbff;
+  }
+  body { color: var(--mm-text-color); background: var(--mm-bg-color); }
+  a { color: var(--mm-link-color); }
+}
+
+:root[data-theme="dark"] { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] body { background:#111; color:#e6e6e6; }
+:root[data-theme="light"] body { background:#fff; color:#222; }
+

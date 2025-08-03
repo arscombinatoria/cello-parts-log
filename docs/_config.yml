@@ -62,54 +62,98 @@ defaults:
       path: ""
       type: strings
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: bridges
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: pegs
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: fingerboards
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: endpins
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: tailpieces
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: nuts
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: saddles
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: soundposts
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: tailguts
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid
   - scope:
       path: ""
       type: string_makers
     values:
+      layout: single
+      author_profile: false
+      sidebar: null
+      classes: wide
       entries_layout: grid

@@ -6,9 +6,11 @@ locale: ja-JP
 repository: "arscombinatoria/cello-parts-log"
 
 # テーマ＆プラグイン
-theme: "jekyll-theme-dinky"
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "air"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # コレクション定義
 collections:
@@ -42,7 +44,10 @@ defaults:
   - scope:
       path: ""
     values:
-      layout: default
+      layout: single
+      classes: wide
+      sidebar: false
+      author_profile: false
 
   # 各コレクションをグリッド表示
   - scope:

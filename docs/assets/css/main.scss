@@ -1,7 +1,7 @@
 ---
 ---
 
-@import "minimal-mistakes/skins/air"; // _config.yml の minimal_mistakes_skin に合わせて変更
+@import "minimal-mistakes/skins/default"; // _config.yml の minimal_mistakes_skin に合わせて変更
 @import "minimal-mistakes";
 
 // 左余白の原因となるサイドバー系を無効化し、本文を全幅化
@@ -11,3 +11,18 @@
 
 // ナビ下のコンテナが左右に余白を固定化している場合の保険
 .masthead, .page, .initial-content, .site-footer { max-width: none; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --mm-text-color: #e6e6e6;
+    --mm-bg-color: #111;
+    --mm-link-color: #9ecbff;
+  }
+  body { color: var(--mm-text-color); background: var(--mm-bg-color); }
+  a { color: var(--mm-link-color); }
+}
+
+:root[data-theme="dark"] { color-scheme: dark; }
+:root[data-theme="light"] { color-scheme: light; }
+:root[data-theme="dark"] body { background:#111; color:#e6e6e6; }
+:root[data-theme="light"] body { background:#fff; color:#222; }

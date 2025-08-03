@@ -1,0 +1,14 @@
+<button id="theme-toggle" aria-label="Toggle theme">Theme</button>
+<script>
+(function(){
+  var btn=document.getElementById('theme-toggle');
+  btn&&btn.addEventListener('click', function(){
+    var html=document.documentElement, k='theme';
+    var v=html.getAttribute('data-theme');
+    // tri-state: auto(null) -> dark -> light -> auto
+    var next = v===null ? 'dark' : (v==='dark' ? 'light' : null);
+    if(next===null){ html.removeAttribute('data-theme'); localStorage.removeItem(k); }
+    else{ html.setAttribute('data-theme', next); localStorage.setItem(k,next); }
+  });
+})();
+</script>

@@ -11,3 +11,8 @@
 
 // ナビ下のコンテナが左右に余白を固定化している場合の保険
 .masthead, .page, .initial-content, .site-footer { max-width: none; }
+
+// 中央揃え: 全てのテーブルヘッダー
+th {
+  text-align: center;
+}

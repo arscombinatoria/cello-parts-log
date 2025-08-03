@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
-gem 'jekyll-theme-dinky'
-gem 'jekyll-feed'
+
+gem 'minimal-mistakes-jekyll'
+gem 'jekyll-include-cache'

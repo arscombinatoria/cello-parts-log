@@ -7,7 +7,7 @@ repository: "arscombinatoria/cello-parts-log"
 
 # テーマ＆プラグイン
 theme: "minimal-mistakes-jekyll"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "default"
 plugins:
   - jekyll-feed
   - jekyll-include-cache

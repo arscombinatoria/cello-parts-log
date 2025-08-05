@@ -1,5 +1,5 @@
 ---
-title: "ラーセン"
+title: "Larsen Strings(ラーセン)"
 ---
 
 ## 基本情報

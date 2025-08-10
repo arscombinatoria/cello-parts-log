@@ -1,6 +1,9 @@
 main:
   - title: "弦"
     url: /strings/
+    children:
+      - title: "メーカー一覧"
+        url: /strings/manufacturers/
   - title: "駒"
     url: /bridges/
   - title: "ペグ"

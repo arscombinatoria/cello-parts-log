@@ -1,5 +1,6 @@
 ---
 title: "D'Addario(ダダリオ)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

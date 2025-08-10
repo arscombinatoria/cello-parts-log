@@ -1,5 +1,6 @@
 ---
 title: "Jargar(ヤーガー)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

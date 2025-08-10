@@ -1,5 +1,6 @@
 ---
 title: "Savarez/Corelli(サバレス/コレリ)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

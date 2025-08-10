@@ -1,5 +1,6 @@
 ---
 title: "Larsen Strings(ラーセン)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

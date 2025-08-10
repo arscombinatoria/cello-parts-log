@@ -58,8 +58,6 @@ defaults:
       author_profile: false
       sidebar: null
       classes: wide
-      footer_scripts:
-        - /assets/js/no-sidebar.js
   - scope:
       path: ""
       type: posts
@@ -68,8 +66,6 @@ defaults:
       author_profile: false
       sidebar: null
       classes: wide
-      footer_scripts:
-        - /assets/js/no-sidebar.js
 
   # 各コレクションをグリッド表示
   - scope:

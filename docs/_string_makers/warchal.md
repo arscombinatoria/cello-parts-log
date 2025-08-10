@@ -1,6 +1,5 @@
 ---
 title: "Warchal(ワーチャル)"
-toc: true
 ---
 
 ## 基本情報

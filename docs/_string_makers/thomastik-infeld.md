@@ -1,6 +1,5 @@
 ---
 title: "Thomastik-Infeld(トマスティーク・インフェルト)"
-toc: true
 ---
 
 ## 基本情報

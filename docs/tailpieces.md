@@ -1,6 +1,5 @@
 ---
 title: tailpieces
-toc: true
 layout: collection
 collection: tailpieces
 entries_layout: grid

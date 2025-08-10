@@ -1,5 +1,6 @@
 ---
 title: "Savarez/Corelli(サバレス/コレリ)"
+toc: true
 ---
 
 ## 基本情報

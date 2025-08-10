@@ -1,5 +1,6 @@
 ---
 title: "Pirastro(ピラストロ)"
+toc: true
 ---
 
 ## 基本情報

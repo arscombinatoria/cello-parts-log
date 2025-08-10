@@ -1,5 +1,6 @@
 ---
 title: strings
+toc: true
 layout: collection
 collection: strings
 entries_layout: grid

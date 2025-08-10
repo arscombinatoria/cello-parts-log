@@ -1,5 +1,6 @@
 ---
 title: soundposts
+toc: true
 layout: collection
 collection: soundposts
 entries_layout: grid

@@ -8,6 +8,8 @@ repository: "arscombinatoria/cello-parts-log"
 # テーマ＆プラグイン
 theme: "minimal-mistakes-jekyll"
 minimal_mistakes_skin: "air"
+toc: true
+toc_label: "目次"
 plugins:
   - jekyll-feed
   - jekyll-include-cache

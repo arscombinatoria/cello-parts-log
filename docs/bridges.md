@@ -1,6 +1,5 @@
 ---
 title: bridges
-toc: true
 layout: collection
 collection: bridges
 entries_layout: grid

@@ -1,6 +1,5 @@
 ---
 title: endpins
-toc: true
 layout: collection
 collection: endpins
 entries_layout: grid

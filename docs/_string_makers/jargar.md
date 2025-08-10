@@ -1,6 +1,5 @@
 ---
 title: "Jargar(ヤーガー)"
-toc: true
 ---
 
 ## 基本情報

@@ -1,6 +1,5 @@
 ---
 title: fingerboards
-toc: true
 layout: collection
 collection: fingerboards
 entries_layout: grid

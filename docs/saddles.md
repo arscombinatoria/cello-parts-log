@@ -1,6 +1,5 @@
 ---
 title: saddles
-toc: true
 layout: collection
 collection: saddles
 entries_layout: grid

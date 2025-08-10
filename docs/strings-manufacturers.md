@@ -1,6 +1,5 @@
 ---
 title: "メーカー一覧"
-toc: true
 layout: collection
 collection: string_makers
 entries_layout: grid

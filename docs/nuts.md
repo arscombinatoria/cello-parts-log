@@ -1,6 +1,5 @@
 ---
 title: nuts
-toc: true
 layout: collection
 collection: nuts
 entries_layout: grid

@@ -1,5 +1,6 @@
 ---
 title: "Warchal(ワーチャル)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

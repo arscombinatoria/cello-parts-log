@@ -1,0 +1,22 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+{%- assign url_base = site.url | append: site.baseurl -%}
+{%- assign crumbs = '' -%}
+{%- assign position = 1 -%}
+{%- assign crumbs = crumbs | append: '{"@type": "ListItem","position": ' | append: position | append: ', "name": "ホーム", "item": "' | append: url_base | append: '/"}' -%}
+{%- assign position = position | plus: 1 -%}
+{%- if page.categories -%}
+  {%- assign cumulative = '' -%}
+  {%- for category in page.categories -%}
+    {%- assign cumulative = cumulative | append: '/' | append: category -%}
+    {%- assign crumbs = crumbs | append: ',{"@type": "ListItem","position": ' | append: position | append: ', "name": "' | append: category | append: '", "item": "' | append: url_base | append: cumulative | append: '/"}' -%}
+    {%- assign position = position | plus: 1 -%}
+  {%- endfor -%}
+{%- endif -%}
+{%- assign crumbs = crumbs | append: ',{"@type": "ListItem","position": ' | append: position | append: ', "name": "' | append: page.title | append: '", "item": "' | append: url_base | append: page.url | append: '"}' -%}
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "BreadcrumbList",
+ "itemListElement": [{{ crumbs }}]
+}
+</script>

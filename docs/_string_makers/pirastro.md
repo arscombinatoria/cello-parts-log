@@ -1,5 +1,6 @@
 ---
 title: "Pirastro(ピラストロ)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

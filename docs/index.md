@@ -4,8 +4,8 @@ title: チェロのパーツ交換についての備忘録
 ---
 
 チェロの各パーツについて、交換や調整の参考になりそうな情報をLLMを使ってWebで調べた内容からまとめています。
-
-<div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+<main role="main">
+<nav role="navigation" class="grid grid-cols-2 md:grid-cols-3 gap-4">
 <a class="block border p-4 rounded-lg" href="{{ '/strings/' | relative_url }}">弦</a>
 <a class="block border p-4 rounded-lg" href="{{ '/bridges/' | relative_url }}">駒</a>
 <a class="block border p-4 rounded-lg" href="{{ '/pegs/' | relative_url }}">ペグ</a>
@@ -16,4 +16,5 @@ title: チェロのパーツ交換についての備忘録
 <a class="block border p-4 rounded-lg" href="{{ '/saddles/' | relative_url }}">サドル</a>
 <a class="block border p-4 rounded-lg" href="{{ '/soundposts/' | relative_url }}">魂柱</a>
 <a class="block border p-4 rounded-lg" href="{{ '/tailguts/' | relative_url }}">テールコード</a>
-</div>
+</nav>
+</main>

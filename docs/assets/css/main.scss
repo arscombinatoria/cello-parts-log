@@ -16,3 +16,14 @@
 th {
   text-align: center;
 }
+
+// 視覚的に控えめなパーマリンク表示
+a.headerlink {
+  text-decoration: none;
+  opacity: 0.5;
+  font-size: 0.85em;
+}
+a.headerlink:hover,
+a.headerlink:focus {
+  opacity: 1;
+}

@@ -1,5 +1,6 @@
 ---
 title: "Thomastik-Infeld(トマスティーク・インフェルト)"
+categories: [strings, manufacturers]
 ---
 
 ## 基本情報

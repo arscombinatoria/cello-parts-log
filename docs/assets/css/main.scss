@@ -16,3 +16,12 @@
 th {
   text-align: center;
 }
+
+// パンくずリストのモバイル対応
+.breadcrumbs {
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.breadcrumbs a {
+  text-decoration: none;
+}

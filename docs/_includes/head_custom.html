@@ -1,1 +1,39 @@
 <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+{% assign crumbs = page.url | split: '/' %}
+{% if crumbs.size > 1 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "{{ site.data.ui-text[site.locale].breadcrumb_home_label | default: 'Home' }}",
+      "item": "{{ site.url }}{{ site.baseurl }}/"
+    }
+    {% assign crumb_path = "" %}
+    {% for crumb in crumbs offset: 1 %}
+      {% assign crumb_path = crumb_path | append: '/' | append: crumb %}
+      {% assign pos = forloop.index | plus: 1 %}
+      {% if forloop.last %}
+        ,{
+          "@type": "ListItem",
+          "position": {{ pos }},
+          "name": "{{ page.title }}",
+          "item": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+        }
+      {% else %}
+        ,{
+          "@type": "ListItem",
+          "position": {{ pos }},
+          "name": "{{ crumb | url_decode | replace: '-', ' ' | capitalize }}",
+          "item": "{{ site.url }}{{ site.baseurl }}{{ crumb_path }}/"
+        }
+      {% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

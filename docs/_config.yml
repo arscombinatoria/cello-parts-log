@@ -4,6 +4,8 @@ baseurl: "/cello-parts-log"
 title: "チェロのパーツ交換についての備忘録"
 locale: ja-JP
 repository: "arscombinatoria/cello-parts-log"
+permalink: /:categories/:title/
+breadcrumbs: true
 
 # テーマ＆プラグイン
 theme: "minimal-mistakes-jekyll"

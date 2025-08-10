@@ -1,5 +1,6 @@
 ---
 title: pegs
+toc: true
 layout: collection
 collection: pegs
 entries_layout: grid

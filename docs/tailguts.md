@@ -1,5 +1,6 @@
 ---
 title: tailguts
+toc: true
 layout: collection
 collection: tailguts
 entries_layout: grid

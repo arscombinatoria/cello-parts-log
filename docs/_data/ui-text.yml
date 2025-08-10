@@ -1,2 +1,3 @@
-breadcrumb_home_label: "ホーム"
-breadcrumb_separator: "›"
+ja-JP:
+  breadcrumb_home_label: "ホーム"
+  breadcrumb_separator: "›"

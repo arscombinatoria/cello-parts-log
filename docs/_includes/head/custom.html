@@ -1,0 +1,20 @@
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+{% if site.breadcrumbs and page.breadcrumbs %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+  {% for crumb in page.breadcrumbs %}
+    {
+      "@type": "ListItem",
+      "position": {{ forloop.index }},
+      "name": "{{ crumb.title | escape }}"{% if crumb.url %},
+      "item": "{{ site.url }}{{ site.baseurl }}{{ crumb.url }}"{% endif %}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ]
+}
+</script>
+{% endif %}

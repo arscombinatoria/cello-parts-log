@@ -18,24 +18,34 @@ plugins:
 collections:
   strings:
     output: true
+    permalink: /strings/:path/
   bridges:
     output: true
+    permalink: /bridges/:path/
   pegs:
     output: true
+    permalink: /pegs/:path/
   fingerboards:
     output: true
+    permalink: /fingerboards/:path/
   endpins:
     output: true
+    permalink: /endpins/:path/
   tailpieces:
     output: true
+    permalink: /tailpieces/:path/
   nuts:
     output: true
+    permalink: /nuts/:path/
   saddles:
     output: true
+    permalink: /saddles/:path/
   soundposts:
     output: true
+    permalink: /soundposts/:path/
   tailguts:
     output: true
+    permalink: /tailguts/:path/
   string_makers:
     output: true
     permalink: /strings/manufacturers/:path/

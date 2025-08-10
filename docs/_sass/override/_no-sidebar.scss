@@ -1,0 +1,10 @@
+/* Collapse empty/absent left sidebar in Minimal Mistakes */
+.layout--single .sidebar:empty { display: none; }
+
+/* When there is no sidebar element OR it's empty, use single column */
+@supports selector(.page:has(.sidebar)) {
+  .layout--single .page:not(:has(.sidebar)),
+  .layout--single .page:has(.sidebar:empty) {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

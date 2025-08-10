@@ -16,3 +16,18 @@
 th {
   text-align: center;
 }
+
+// メーカー一覧のレスポンシブ対応
+// 画面幅600px以下ではカードを1列表示にする
+@media screen and (max-width: 600px) {
+  .entries-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+// 大きなテーブルを横スクロール可能にする
+.page__content table {
+  display: block;
+  overflow-x: auto;
+  width: 100%;
+}

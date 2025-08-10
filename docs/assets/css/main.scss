@@ -4,6 +4,23 @@
 @import "minimal-mistakes/skins/air"; // _config.yml の minimal_mistakes_skin に合わせて変更
 @import "minimal-mistakes";
 
+// グローバルな文字設定
+body {
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+// テーブルやリストの行間
+table,
+th,
+td,
+ul,
+ol,
+li {
+  line-height: 1.6;
+}
+
 // 左余白の原因となるサイドバー系を無効化し、本文を全幅化
 .sidebar, .page__related { display: none; }
 .layout--single .page { width: 100%; }

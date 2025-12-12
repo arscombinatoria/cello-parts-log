@@ -31,7 +31,7 @@ const config = {
       {
         docs: {
           routeBasePath: '/',
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: false,
           editUrl: 'https://github.com/arscombinatoria/cello-parts-log/edit/main/',
         },
         blog: false,
@@ -52,10 +52,27 @@ const config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'docsSidebar',
+          type: 'doc',
+          docId: 'intro',
           position: 'left',
-          label: 'Docs',
+          label: 'イントロ',
+        },
+        {
+          label: 'パーツ',
+          position: 'left',
+          items: [
+            {type: 'doc', docId: 'strings', label: '弦'},
+            {type: 'doc', docId: 'strings-manufacturers', label: '弦メーカー'},
+            {type: 'doc', docId: 'bridges', label: '駒'},
+            {type: 'doc', docId: 'pegs', label: '糸巻き'},
+            {type: 'doc', docId: 'fingerboards', label: '指板'},
+            {type: 'doc', docId: 'endpins', label: 'エンドピン'},
+            {type: 'doc', docId: 'tailpieces', label: 'テールピース'},
+            {type: 'doc', docId: 'nuts', label: '上ナット'},
+            {type: 'doc', docId: 'saddles', label: '下ナット'},
+            {type: 'doc', docId: 'soundposts', label: '魂柱'},
+            {type: 'doc', docId: 'tailguts', label: 'テールガット'},
+          ],
         },
         {
           href: 'https://github.com/arscombinatoria/cello-parts-log',

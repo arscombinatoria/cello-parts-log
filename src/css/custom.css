@@ -1,0 +1,25 @@
+:root {
+  --ifm-color-primary: #b9732f;
+  --ifm-color-primary-dark: #a4662a;
+  --ifm-color-primary-darker: #955a25;
+  --ifm-color-primary-darkest: #804c1f;
+  --ifm-color-primary-light: #c9833b;
+  --ifm-color-primary-lighter: #d19247;
+  --ifm-color-primary-lightest: #d9a253;
+  --ifm-font-family-base: 'Noto Sans JP', system-ui, -apple-system, Segoe UI, sans-serif;
+}
+
+a {
+  word-break: break-word;
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem 0;
+  }
+}

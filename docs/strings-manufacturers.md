@@ -1,10 +1,8 @@
 ---
-title: "メーカー一覧"
-layout: collection
-collection: string_makers
-entries_layout: grid
-permalink: /strings/manufacturers/
-categories: [strings]
+id: strings-manufacturers
+title: 弦メーカー一覧
+slug: /strings/manufacturers
+sidebar_position: 11
 ---
 
-弦メーカーに関する情報をまとめます。
+弦メーカーに関する情報をまとめます。随時追記予定です。

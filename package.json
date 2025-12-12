@@ -1,0 +1,26 @@
+{
+  "name": "cello-parts-log",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "lint": "eslint .",
+    "test": "echo \"No tests configured yet\""
+  },
+  "dependencies": {
+    "@docusaurus/core": "^3.4.0",
+    "@docusaurus/preset-classic": "^3.4.0",
+    "clsx": "^2.1.1",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "^3.4.0",
+    "@tsconfig/docusaurus": "^2.0.3",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1"
+  }
+}

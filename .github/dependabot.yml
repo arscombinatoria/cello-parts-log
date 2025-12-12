@@ -1,12 +1,13 @@
 version: 2
 updates:
-  - package-ecosystem: "bundler"
+  - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
       day: "saturday"
       time: "06:00"
       timezone: "Asia/Tokyo"
+    versioning-strategy: increase
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:

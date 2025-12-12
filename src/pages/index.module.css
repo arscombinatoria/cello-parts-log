@@ -1,0 +1,29 @@
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  display: block;
+  padding: 1rem;
+  border: 1px solid var(--ifm-color-primary);
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--ifm-color-primary-darker);
+  background: #fff7ee;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.card:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}

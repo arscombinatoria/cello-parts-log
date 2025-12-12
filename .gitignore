@@ -1,5 +1,8 @@
-# Ignore build output
-_site/
-
-vendor/
-.bundle/
+node_modules
+.build
+.DS_Store
+build
+.docusaurus
+.cache
+npm-debug.log*
+.env.local

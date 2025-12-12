@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Cello Parts Log</title>
+  <desc id="desc">Stylized cello f-hole mark</desc>
+  <circle cx="60" cy="60" r="56" fill="#f4e5d3" stroke="#b9732f" stroke-width="6"/>
+  <path d="M48 25c-6 6-6 17 3 23 9 6 12 16 12 24 0 8-3 14-9 18" fill="none" stroke="#b9732f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M72 95c6-6 6-17-3-23-9-6-12-16-12-24 0-8 3-14 9-18" fill="none" stroke="#b9732f" stroke-width="6" stroke-linecap="round"/>
+</svg>

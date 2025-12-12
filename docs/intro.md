@@ -10,6 +10,7 @@ sidebar_position: 0
 ## セクション一覧
 
 - [弦](strings.md)
+  - [弦メーカー一覧](strings-manufacturers.md)
 - [駒](bridges.md)
 - [ペグ](pegs.md)
 - [指板](fingerboards.md)
@@ -19,4 +20,3 @@ sidebar_position: 0
 - [サドル](saddles.md)
 - [魂柱](soundposts.md)
 - [テールコード](tailguts.md)
-- [弦メーカー一覧](strings-manufacturers.md)

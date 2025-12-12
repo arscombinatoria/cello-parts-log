@@ -6,8 +6,12 @@ const sidebars = {
       type: 'category',
       label: 'パーツ',
       items: [
-        'strings',
-        'strings-manufacturers',
+        {
+          type: 'category',
+          label: '弦',
+          link: { type: 'doc', id: 'strings' },
+          items: ['strings-manufacturers'],
+        },
         'bridges',
         'pegs',
         'fingerboards',

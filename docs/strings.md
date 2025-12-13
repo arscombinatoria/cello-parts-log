@@ -2,6 +2,7 @@
 id: strings
 title: 弦
 slug: /strings
+hide_table_of_contents: true
 sidebar_position: 1
 ---
 

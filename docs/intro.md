@@ -2,6 +2,7 @@
 id: intro
 title: チェロのパーツ交換についての備忘録
 slug: /
+hide_table_of_contents: true
 sidebar_position: 0
 ---
 

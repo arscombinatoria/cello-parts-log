@@ -2,6 +2,7 @@
 id: endpins
 title: エンドピン
 slug: /endpins
+hide_table_of_contents: true
 sidebar_position: 5
 ---
 

@@ -2,6 +2,7 @@
 id: pegs
 title: ペグ
 slug: /pegs
+hide_table_of_contents: true
 sidebar_position: 3
 ---
 

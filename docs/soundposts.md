@@ -2,6 +2,7 @@
 id: soundposts
 title: 魂柱
 slug: /soundposts
+hide_table_of_contents: true
 sidebar_position: 9
 ---
 

@@ -2,6 +2,7 @@
 id: strings-manufacturers
 title: 弦メーカー一覧
 slug: /strings/manufacturers
+hide_table_of_contents: true
 sidebar_position: 11
 ---
 

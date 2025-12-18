@@ -7,7 +7,8 @@
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "lint": "eslint .",
-    "test": "echo \"No tests configured yet\""
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck"
   },
   "dependencies": {
     "@docusaurus/core": "^3.4.0",

@@ -6,7 +6,7 @@
 - `/docs` 配下に各パーツのメモを配置しています。トップは `docs/intro.md` で、サイドバーから各カテゴリに移動できます。
 
 ## 必要な環境
-- Node.js LTS（20 〜 22 系を想定）
+- Node.js LTS（20 〜 24 系を想定）
 - npm
 
 ## 開発用コマンド
@@ -16,6 +16,8 @@
 - `npm run serve` — ビルド済みサイトをローカルで確認
 - `npm run lint` — ESLint による静的解析
 - `npm test` — 現状はプレースホルダー（失敗しません）
+
+Node.js は CI で 20 / 22 / 24 系の matrix で動作確認しています。
 
 ## GitHub Pages へのデプロイ
 - `deploy-pages.yml` により、`main` ブランチへの push で自動ビルドと Pages デプロイが行われます。

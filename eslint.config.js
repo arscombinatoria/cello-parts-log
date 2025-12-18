@@ -9,7 +9,7 @@ const compat = new FlatCompat({
 
 module.exports = [
   {
-    ignores: ['build/', 'node_modules/'],
+    ignores: ['build/', '.docusaurus/', 'node_modules/'],
   },
   ...compat.config({
     env: {

@@ -20,6 +20,12 @@ const config = {
     },
   },
 
+  future: {
+    experimental_faster: {
+      rspackBundler: true,
+    },
+  },
+
   i18n: {
     defaultLocale: 'ja',
     locales: ['ja'],

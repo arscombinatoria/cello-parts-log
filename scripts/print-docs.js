@@ -106,6 +106,48 @@ function buildTree(items, prefix = '') {
   });
 }
 
+function buildDocsDirTree(docs) {
+  const root = new Map();
+
+  for (const { id } of docs) {
+    const parts = id.split(path.sep);
+    let node = root;
+
+    parts.forEach((part, idx) => {
+      if (!node.has(part)) {
+        node.set(part, new Map());
+      }
+      if (idx === parts.length - 1) {
+        // Mark leaf
+        node.set(part, null);
+      } else {
+        const next = node.get(part);
+        if (next !== null) {
+          node = next;
+        }
+      }
+    });
+  }
+
+  function traverse(map, prefix = '') {
+    const entries = Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b));
+    return entries.flatMap(([name, child], index) => {
+      const isLast = index === entries.length - 1;
+      const connector = isLast ? '└─ ' : '├─ ';
+      const childPrefix = prefix + (isLast ? '   ' : '│  ');
+
+      if (child === null) {
+        return `${prefix}${connector}${name}`;
+      }
+
+      const children = traverse(child, childPrefix);
+      return [`${prefix}${connector}${name}`, ...children];
+    });
+  }
+
+  return traverse(root);
+}
+
 function printSidebarTree() {
   const sidebarItems = sidebars.docsSidebar ?? [];
   const lines = buildTree(sidebarItems);
@@ -133,6 +175,10 @@ function printDocsContent() {
   for (const { id, path: docPath } of remainingDocs) {
     printDoc(id, docPath);
   }
+
+  console.log('\n=== Docs directory tree ===');
+  const dirTree = buildDocsDirTree(allDocs);
+  console.log(dirTree.join('\n'));
 }
 
 printSidebarTree();

@@ -41,7 +41,31 @@ function collectDocs(items, order, visited = new Set()) {
     }
   }
 
-  return order;
+  return { order, visited };
+}
+
+function listAllDocs(dir, accumulator = []) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      listAllDocs(fullPath, accumulator);
+      continue;
+    }
+
+    if (entry.isFile()) {
+      const ext = path.extname(entry.name).toLowerCase();
+      if (ext === '.md' || ext === '.mdx') {
+        const relativePath = path.relative(docsDir, fullPath);
+        const docId = relativePath.slice(0, -ext.length).split(path.sep).join('/');
+        accumulator.push(docId);
+      }
+    }
+  }
+
+  return accumulator;
 }
 
 function buildTree(items, prefix = '') {
@@ -84,7 +108,10 @@ function printSidebarTree() {
 
 function printDocsContent() {
   const sidebarItems = sidebars.docsSidebar ?? [];
-  const docOrder = collectDocs(sidebarItems, []);
+  const { order: sidebarDocs, visited } = collectDocs(sidebarItems, []);
+  const allDocs = listAllDocs(docsDir).sort();
+  const missingDocs = allDocs.filter((id) => !visited.has(id));
+  const docOrder = [...sidebarDocs, ...missingDocs];
 
   console.log('\n=== Docs content ===');
   for (const id of docOrder) {

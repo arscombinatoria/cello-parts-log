@@ -11,3 +11,4 @@ sidebar_position: 11
 - [D'Addario (ダダリオ)](strings-manufacturer-daddario.md)
 - [Jargar (ヤーガー)](strings-manufacturer-jargar.md)
 - [Larsen Strings (ラーセン)](strings-manufacturer-larsen.md)
+- [Pirastro (ピラストロ)](strings-manufacturer-pirastro.md)

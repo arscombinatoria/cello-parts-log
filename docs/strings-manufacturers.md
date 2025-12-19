@@ -13,3 +13,4 @@ sidebar_position: 11
 - [Larsen Strings (ラーセン)](strings-manufacturer-larsen.md)
 - [Pirastro (ピラストロ)](strings-manufacturer-pirastro.md)
 - [Savarez/Corelli (サバレス/コレリ)](strings-manufacturer-savarez-corelli.md)
+- [Thomastik-Infeld (トマスティーク・インフェルト)](strings-manufacturer-thomastik-infeld.md)

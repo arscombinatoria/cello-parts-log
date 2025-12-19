@@ -9,3 +9,4 @@ sidebar_position: 11
 弦メーカーに関する情報をまとめます。随時追記予定です。
 
 - [D'Addario (ダダリオ)](strings-manufacturer-daddario.md)
+- [Jargar (ヤーガー)](strings-manufacturer-jargar.md)

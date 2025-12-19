@@ -12,3 +12,4 @@ sidebar_position: 11
 - [Jargar (ヤーガー)](strings-manufacturer-jargar.md)
 - [Larsen Strings (ラーセン)](strings-manufacturer-larsen.md)
 - [Pirastro (ピラストロ)](strings-manufacturer-pirastro.md)
+- [Savarez/Corelli (サバレス/コレリ)](strings-manufacturer-savarez-corelli.md)

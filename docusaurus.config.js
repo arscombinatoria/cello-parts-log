@@ -50,7 +50,6 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: false,
-          editUrl: 'https://github.com/arscombinatoria/cello-parts-log/edit/main/',
         },
         blog: false,
         pages: false,

@@ -11,7 +11,6 @@ sidebar_position: 0
 ## セクション一覧
 
 - [弦](strings.md)
-  - [弦メーカー一覧](strings-manufacturers.md)
 - [駒](bridges.md)
 - [ペグ](pegs.md)
 - [指板](fingerboards.md)

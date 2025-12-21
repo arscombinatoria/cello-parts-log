@@ -6,7 +6,7 @@ const sidebars = {
       type: 'category',
       label: '弦',
       link: { type: 'doc', id: 'strings' },
-      items: ['strings-manufacturers'],
+      items: [],
     },
     'bridges',
     'pegs',

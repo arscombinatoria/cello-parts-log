@@ -79,7 +79,6 @@ const config = {
           position: 'left',
           items: [
             {type: 'doc', docId: 'strings', label: '弦'},
-            {type: 'doc', docId: 'strings-manufacturers', label: '弦メーカー一覧'},
           ],
         },
         {type: 'doc', docId: 'bridges', position: 'left', label: '駒'},

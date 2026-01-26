@@ -7,6 +7,14 @@ updates:
       time: "06:00"
       timezone: "Asia/Tokyo"
     versioning-strategy: increase
+    groups:
+      react-libraries:
+        patterns:
+          - "react"
+          - "react-dom"
+          - "react-*"
+          - "@types/react"
+          - "@types/react-dom"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:

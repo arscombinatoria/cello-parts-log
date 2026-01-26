@@ -8,6 +8,11 @@ updates:
       timezone: "Asia/Tokyo"
     versioning-strategy: increase
     groups:
+      docusaurus:
+        patterns:
+          - "@docusaurus/*"
+          - "docusaurus"
+          - "docusaurus-*"
       react-libraries:
         patterns:
           - "react"

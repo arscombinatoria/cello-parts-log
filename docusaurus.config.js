@@ -75,11 +75,10 @@ const config = {
           label: 'ホーム',
         },
         {
-          label: '弦',
+          type: 'doc',
+          docId: 'strings',
           position: 'left',
-          items: [
-            {type: 'doc', docId: 'strings', label: '弦'},
-          ],
+          label: '弦',
         },
         {type: 'doc', docId: 'bridges', position: 'left', label: '駒'},
         {type: 'doc', docId: 'pegs', position: 'left', label: 'ペグ'},

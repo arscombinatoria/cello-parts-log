@@ -43,10 +43,10 @@ sidebar_position: 2
 
 | グレード | 刻印・識別（例） | 一次情報に基づく違い（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
-| Étude | “Etude” | 卸カタログでは入門レンジとして扱われ、上位ほど材の選別が厳しい体系の起点になります。 | 入門 | https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier- |
-| Mirecourt | “Mirecourt” / “A Mirecourt” | 卸カタログでは「select wood」「flamed」などの表現で、標準～中位として扱われます（楽器種により表現揺れがあります）。 | 標準 | https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier- |
-| Luxe | “Luxe” | 卸カタログでは「seasoned old wood」「well-flamed」や「select old flamed wood」などの表現で、上位として扱われます。 | 上位 | https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier- |
-| De Luxe（Deluxe） | “De Luxe” / “DELUXE” | 卸カタログでは「deeply-flamed」または「finest old well-flamed wood」などの表現で、最上位として扱われます。 | 最上位 | https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier- |
+| Étude | “Etude” | 卸カタログでは入門レンジとして扱われ、上位ほど材の選別が厳しい体系の起点になります。 | 入門 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
+| Mirecourt | “Mirecourt” / “A Mirecourt” | 卸カタログでは「select wood」「flamed」などの表現で、標準～中位として扱われます（楽器種により表現揺れがあります）。 | 標準 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
+| Luxe | “Luxe” | 卸カタログでは「seasoned old wood」「well-flamed」や「select old flamed wood」などの表現で、上位として扱われます。 | 上位 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
+| De Luxe（Deluxe） | “De Luxe” / “DELUXE” | 卸カタログでは「deeply-flamed」または「finest old well-flamed wood」などの表現で、最上位として扱われます。 | 最上位 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
 
 > 補足: 国内代理店（プリマ楽器）の掲載では、チェロ用は No.14 Étude / No.16 Mirecourt が例示され、未加工品と仕上げ品の区分も併記されています。未加工品/仕上げ品は「グレード」ではなく、加工済みかどうかの仕様差です。
 
@@ -62,11 +62,11 @@ sidebar_position: 2
 
 | グレード | 刻印・識別（例） | 公式・販売店情報に基づく違い（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
-| A（3ツリー） | 3-tree stamp | 公式は「最も権威ある駒は3ツリー刻印」と説明しています。販売店ではAを3ツリーとして、木目が整い髄線（メイプルの放射組織）が強いと説明しています。 | 最上位 | https://www.despiau-chevalets.com/the-bridge.html / https://fiddlershop.com/products/despiau-violin-bridge-vb10-a |
-| B（2ツリー） | 2-tree stamp | 販売店ではBを2ツリーとして、木目が整い髄線が出ると説明しています。公式は4段階があることは述べますが、各段階の詳細対応は公開範囲が限られます。 | 上位 | https://www.despiau-chevalets.com/the-bridge.html / https://fiddlershop.com/products/despiau-violin-bridge-vb10-a |
-| C（1ツリー） | 1-tree stamp | 販売店ではCを1ツリーとして、髄線が弱めになると説明しています。英国ディストリビューターはA/B/C/Dの等級を用いて製品コードを案内しています。 | 標準〜学生 | https://www.thesoundpost.co.uk/despiau-bridges/ / https://fiddlershop.com/products/despiau-violin-bridge-vb10-a |
-| D | （販売店でD表記） | 英国ディストリビューターは一部モデルでD Gradeを案内しており、流通上の等級として存在します。公式は4段階があることを述べますが、Dの定義詳細は公開範囲が限られます。 | 学生 | https://www.thesoundpost.co.uk/despiau-bridges/ / https://www.despiau-chevalets.com/the-bridge.html |
-| Planet（Despiau Planet） | Planet表記（3ツリー系） | 公式は「見た目ではなく音響基準で木材を選ぶ」という趣旨でPlanetを説明し、3ツリー駒としての位置付けも示しています。英国ディストリビューターはPlanetをA Grade相当として案内しています（販売店説明）。 | 環境配慮の上位 | https://www.despiau-chevalets.com/despiau-planet.html / https://www.thesoundpost.co.uk/despiau-bridges/ |
+| A（3ツリー） | 3-tree stamp | 公式は「最も権威ある駒は3ツリー刻印」と説明しています。販売店ではAを3ツリーとして、木目が整い髄線（メイプルの放射組織）が強いと説明しています。 | 最上位 | [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
+| B（2ツリー） | 2-tree stamp | 販売店ではBを2ツリーとして、木目が整い髄線が出ると説明しています。公式は4段階があることは述べますが、各段階の詳細対応は公開範囲が限られます。 | 上位 | [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
+| C（1ツリー） | 1-tree stamp | 販売店ではCを1ツリーとして、髄線が弱めになると説明しています。英国ディストリビューターはA/B/C/Dの等級を用いて製品コードを案内しています。 | 標準〜学生 | [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
+| D | （販売店でD表記） | 英国ディストリビューターは一部モデルでD Gradeを案内しており、流通上の等級として存在します。公式は4段階があることを述べますが、Dの定義詳細は公開範囲が限られます。 | 学生 | [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) / [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) |
+| Planet（Despiau Planet） | Planet表記（3ツリー系） | 公式は「見た目ではなく音響基準で木材を選ぶ」という趣旨でPlanetを説明し、3ツリー駒としての位置付けも示しています。英国ディストリビューターはPlanetをA Grade相当として案内しています（販売店説明）。 | 環境配慮の上位 | [Despiau公式（Planet）](https://www.despiau-chevalets.com/despiau-planet.html) / [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) |
 
 #### Despiau（公式・販売店の参照範囲の整理）
 
@@ -82,10 +82,10 @@ sidebar_position: 2
 
 | 品質クラス（公式） | 公式に確認できる差分（要約） | 位置付け | 参考リンク |
 |---|---|---|---|
-| Royal | 公式のチェロ駒ページでRoyalが最上位の品質クラスとして掲載され、価格がPremium/Standard/Studentより高いことが示されています。 | 最上位 | https://www.milostamm.com/violoncello.htm |
-| Premium | 公式のチェロ駒ページでPremiumが中上位の品質クラスとして掲載され、価格がStandard/Studentより高いことが示されています。 | 上位 | https://www.milostamm.com/violoncello.htm |
-| Standard | 公式のチェロ駒ページでStandardが標準の品質クラスとして掲載され、価格がStudentより高いことが示されています。 | 標準 | https://www.milostamm.com/violoncello.htm |
-| Student | 公式のチェロ駒ページでStudentが入門の品質クラスとして掲載され、価格が最も低いことが示されています。 | 入門 | https://www.milostamm.com/violoncello.htm |
+| Royal | 公式のチェロ駒ページでRoyalが最上位の品質クラスとして掲載され、価格がPremium/Standard/Studentより高いことが示されています。 | 最上位 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| Premium | 公式のチェロ駒ページでPremiumが中上位の品質クラスとして掲載され、価格がStandard/Studentより高いことが示されています。 | 上位 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| Standard | 公式のチェロ駒ページでStandardが標準の品質クラスとして掲載され、価格がStudentより高いことが示されています。 | 標準 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| Student | 公式のチェロ駒ページでStudentが入門の品質クラスとして掲載され、価格が最も低いことが示されています。 | 入門 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
 
 > 補足（販売店の説明）: 一部販売店はRoyal等級について「長期乾燥」「手選別」「未加工ブランク」などの説明を付与しています。これは公式の全量開示ではないため、販売店説明として扱ってください。
 
@@ -97,7 +97,7 @@ sidebar_position: 2
 #### Milo Stamm（所在地・表記に関する注記）
 
 - 公式利用規約には返送先住所がセルビア表記で掲載されています。製造国や本拠地は購入元の一次情報で確認してください。  
-  （この注記の根拠リンク: https://www.milostamm.com/terms.htm）
+  （この注記の根拠リンク: [Milo Stamm公式利用規約](https://www.milostamm.com/terms.htm)）
 
 ### Josef Teller（ヨーゼフ・テラー）：グレード差
 
@@ -108,9 +108,9 @@ sidebar_position: 2
 
 | 品質クラス（公式） | 刻印・識別（公式） | 公式に確認できる差分（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
-| Student | “Teller Germany” など（Student quality） | 公式の刻印資料では、初心者・学生レベル向けの等級であり、ボスニア産メイプルを最低5年は自社保管場で天然乾燥させる旨が明示されています。 | 入門 | https://www.teller.de/teller-catalog.html / https://www.teller.de/media/teller_datasheet_stamp.pdf |
-| Master | Master（Master line） | 公式は材の多様性に応じて等級を分け、等級により必要なシーズニング期間が変わると説明しています。個々のモデルに対して、Masterが選択可能かどうかを仕様ページで提示しています。 | 標準〜上位 | https://www.teller.de/teller-catalog.html / https://www.teller.de/teller-bridges.html |
-| Royal de Luxe | Royal de Luxe（Manufacture line） | 公式カタログでは、Royal de Luxeはマニュファクチャーラインとして「最良の手選別材で製作する」旨が明示されています。 | 最上位 | https://www.teller.de/media/teller_catalog_bridges.pdf / https://www.teller.de/teller-catalog.html |
+| Student | “Teller Germany” など（Student quality） | 公式の刻印資料では、初心者・学生レベル向けの等級であり、ボスニア産メイプルを最低5年は自社保管場で天然乾燥させる旨が明示されています。 | 入門 | [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) / [刻印データシート](https://www.teller.de/media/teller_datasheet_stamp.pdf) |
+| Master | Master（Master line） | 公式は材の多様性に応じて等級を分け、等級により必要なシーズニング期間が変わると説明しています。個々のモデルに対して、Masterが選択可能かどうかを仕様ページで提示しています。 | 標準〜上位 | [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) / [Teller公式ブリッジ一覧](https://www.teller.de/teller-bridges.html) |
+| Royal de Luxe | Royal de Luxe（Manufacture line） | 公式カタログでは、Royal de Luxeはマニュファクチャーラインとして「最良の手選別材で製作する」旨が明示されています。 | 最上位 | [Teller橋カタログPDF](https://www.teller.de/media/teller_catalog_bridges.pdf) / [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) |
 
 #### Josef Teller（工程・素材に関する公式説明の要点）
 

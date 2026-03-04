@@ -1,0 +1,41 @@
+name: markdownlint (changed files)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+  checks: write
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Collect changed Markdown files
+        id: changed
+        shell: bash
+        run: |
+          git fetch origin "${{ github.base_ref }}" --depth=1
+          files="$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- '*.md' '*.mdx' | tr '\n' ' ')"
+          if [ -z "$files" ]; then
+            echo "any=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "any=true" >> "$GITHUB_OUTPUT"
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+
+      - name: markdownlint
+        if: steps.changed.outputs.any == 'true'
+        uses: reviewdog/action-markdownlint@v0.26.2
+        with:
+          reporter: github-pr-review
+          filter_mode: file
+          level: error
+          fail_level: any
+          markdownlint_flags: ${{ steps.changed.outputs.files }}

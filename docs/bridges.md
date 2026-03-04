@@ -26,12 +26,13 @@ sidebar_position: 2
 
 ## 駒ブランクの主要メーカー
 
-以下は、弦楽器用の駒ブランクとして流通量が多いメーカーの整理です。駒の削り合わせや高さ調整は安全性と結果に直結するため、専門の工房に相談することを推奨します。
+注意: 表の「特徴」はブランクとしての選ばれ方です。最終的な音や弾きやすさは、駒の加工（弦高、厚み、足の当たり、弦溝など）で大きく変わります。駒の加工や交換は安全面もあるため、基本的に工房へ相談してください。
 
-| メーカー名 | 本拠地 | 主なグレード体系 | 主なモデル・カット体系 |
-| --- | --- | --- | --- |
-| Aubert Lutherie（オベール） | Mirecourt（フランス） | （国内流通表記例）Cello: No.14 Étude / No.16 Mirecourt など | （流通表記として見かける例）Belgian / French（公式資料では未確認） |
-| Chevalets Despiau（デスピオー） | Gimont（フランス） | 4 standards。最上位は three-tree stamp。Despiau Planet は 3-Tree bridges として扱われる | （流通表記として見かける例）Belgian model / French model（型番体系は公式で未確認） |
-| Milo Stamm Ponticelli（ミロ・スタム） | Inđija（セルビア） | Royal / Premium / Standard / Student | （公式表記）Cello: B, B1, B2, B3, D, F, F1, H, H1, H2, K, M, ALFA+ など |
-| Josef Teller（ヨーゼフ・テラー） | Bubenreuth（ドイツ） | Student（1–3 Stars）/ Master（1–3 Stars）/ Royal de luxe（刻印） | German model / French model。Cello: No.16 / No.27 など |
+| メーカー名 | 本拠地 | 主なグレード体系 | 主なモデル・カット体系 | 特徴（選ばれる理由） |
+| --- | --- | --- | --- | --- |
+| Aubert Lutherie（オベール・リューテリエ） | フランス（ミルクール） | Mirecourt / Luxe / De Luxe など（刻印・ラインで区別） | French / Belgian、No.18系など | 流通量が多く入手性が高いので、まず定番として選びやすい。天然乾燥と天然由来の処理で音響特性の向上をうたう。 |
+| Chevalets Despiau（デスピオー） | フランス（ジモン／オクシタニー） | 4段階（最高位は「3ツリー刻印」） | French / Belgian、Supérieur など | 伝達速度、明瞭度、音量、倍音の豊かさに焦点を当てた説明があり、上位グレードほど選別が厳しい。 |
+| Milo Stamm Ponticelli（ミロ・スタム） | （公式規約の返送先）セルビア（Indjija）※ | Standard / Premium / Royal（取扱店表記） | Model B など（取扱店表記） | ラインが複数あり、予算に応じて段階選択しやすい。取扱店の型番・在庫が比較的多く、同一工房でグレード比較の試行がしやすい。 |
+| Josef Teller（ヨーゼフ・テラー） | ドイツ（ブーベンロイト） | Student / Master、最上位は Manufacture line「Royal de Luxe」 | German / French / Belgian、Bausch / Tourte など（モデル数が多い） | ボスニア産メイプルの手選別と自然乾燥（化学処理を避ける方針）を明示している。モデル体系が広く、楽器個体や目的に合わせて選択肢を作りやすい。 |
 
+※ Milo Stamm は販売店で Made in Germany 表記が見られる例もあるため、製造国の表記は購入元の一次情報で確認してください。

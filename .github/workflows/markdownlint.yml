@@ -27,12 +27,21 @@ jobs:
             **/*.md
             **/*.mdx
 
+      - name: Normalize changed Markdown file list
+        id: markdown_files
+        run: |
+          files='${{ steps.changed.outputs.all_changed_files }}'
+          if [ -z "$files" ]; then
+            files='${{ steps.changed.outputs.files }}'
+          fi
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+
       - name: Run markdownlint with reviewdog
-        if: steps.changed.outputs.all_changed_files != ''
+        if: steps.markdown_files.outputs.files != ''
         uses: reviewdog/action-markdownlint@v0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           reporter: github-pr-review
           level: warning
           fail_level: warning
-          markdownlint_flags: -c .markdownlint.json ${{ steps.changed.outputs.all_changed_files }}
+          markdownlint_flags: -c .markdownlint.json ${{ steps.markdown_files.outputs.files }}

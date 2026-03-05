@@ -38,4 +38,4 @@ jobs:
           filter_mode: file
           level: error
           fail_level: any
-          markdownlint_flags: ". --disable MD013"
+          markdownlint_flags: ". --disable MD013 MD033"

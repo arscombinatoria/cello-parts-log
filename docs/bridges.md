@@ -62,10 +62,10 @@ sidebar_position: 2
 
 | グレード | 刻印・識別（例） | 公式・販売店情報に基づく違い（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
-| A（3ツリー） | 3-tree stamp | 公式は「最も権威ある駒は3ツリー刻印」と説明しています。販売店ではAを3ツリーとして、木目が整い髄線（メイプルの放射組織）が強いと説明しています。 | 最上位 | [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
-| B（2ツリー） | 2-tree stamp | 販売店ではBを2ツリーとして、木目が整い髄線が出ると説明しています。公式は4段階があることは述べますが、各段階の詳細対応は公開範囲が限られます。 | 上位 | [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
-| C（1ツリー） | 1-tree stamp | 販売店ではCを1ツリーとして、髄線が弱めになると説明しています。英国ディストリビューターはA/B/C/Dの等級を用いて製品コードを案内しています。 | 標準〜学生 | [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
 | D | （販売店でD表記） | 英国ディストリビューターは一部モデルでD Gradeを案内しており、流通上の等級として存在します。公式は4段階があることを述べますが、Dの定義詳細は公開範囲が限られます。 | 学生 | [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) / [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) |
+| C（1ツリー） | 1-tree stamp | 販売店ではCを1ツリーとして、髄線が弱めになると説明しています。英国ディストリビューターはA/B/C/Dの等級を用いて製品コードを案内しています。 | 標準〜学生 | [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
+| B（2ツリー） | 2-tree stamp | 販売店ではBを2ツリーとして、木目が整い髄線が出ると説明しています。公式は4段階があることは述べますが、各段階の詳細対応は公開範囲が限られます。 | 上位 | [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
+| A（3ツリー） | 3-tree stamp | 公式は「最も権威ある駒は3ツリー刻印」と説明しています。販売店ではAを3ツリーとして、木目が整い髄線（メイプルの放射組織）が強いと説明しています。 | 最上位 | [Despiau公式](https://www.despiau-chevalets.com/the-bridge.html) / [販売店例（Fiddlershop）](https://fiddlershop.com/products/despiau-violin-bridge-vb10-a) |
 | Planet（Despiau Planet） | Planet表記（3ツリー系） | 公式は「見た目ではなく音響基準で木材を選ぶ」という趣旨でPlanetを説明し、3ツリー駒としての位置付けも示しています。英国ディストリビューターはPlanetをA Grade相当として案内しています（販売店説明）。 | 環境配慮の上位 | [Despiau公式（Planet）](https://www.despiau-chevalets.com/despiau-planet.html) / [販売店例（The Sound Post）](https://www.thesoundpost.co.uk/despiau-bridges/) |
 
 #### Despiau（公式・販売店の参照範囲の整理）

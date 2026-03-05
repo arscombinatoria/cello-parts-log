@@ -41,7 +41,7 @@ sidebar_position: 2
 
 > 注意: ここでの「グレード差」はブランクとしての材の選別・乾燥・杢（フレイム）差の整理です。最終的な音や弾きやすさは、駒の加工（厚み、足の当たり、弦高など）で大きく変わるため、加工や交換は工房へ相談してください。
 
-| グレード | 刻印・識別（例） | 一次情報に基づく違い（要約） | 位置付け | 参考リンク |
+| グレード | 刻印・識別（例） | 公式・販売店情報に基づく違い（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
 | Étude | “Etude” | 国内代理店の掲載ではチェロ用に No.14 Étude と No.16 Mirecourt があり、Mirecourt のほうが高価格帯です。販売店の説明では、価格差が材の品質や乾燥年数を反映するとされるため、入門グレードの目安になります。 | 入門（目安） | [プリマ楽器](https://www.prima-gakki.co.jp/catalog/aubert_lutherie/index.html)<br />[Southwest Strings](https://www.swstrings.com/product/accessories/bridges/BFL4) |
 | Mirecourt | “Mirecourt” / “A Mirecourt” | 取扱い業者カタログでは、選別された材（select wood）や杢入り（flamed）といった説明が付く例があります。販売店の説明では、選別されたヨーロピアンメイプル材（select European maple）を用い、木材を硬く均質にする処理（treated）が施されるとされます。 | 標準（目安） | [取扱い業者カタログ例（International Violin）](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) <br />[Southwest Strings](https://www.swstrings.com/product/accessories/bridges/BFL4) |
@@ -80,14 +80,14 @@ sidebar_position: 2
 > 注意: 公式ページだけでは材の選別基準などの詳細が十分に開示されないため、販売店の説明は「販売店の説明である」旨を分離して記載してください。  
 > 注意: 最終的な音や弾きやすさは駒加工で大きく変わるため、加工や交換は工房へ相談してください。
 
-| 品質クラス（公式） | 公式に確認できる差分（要約） | 位置付け | 参考リンク |
-|---|---|---|---|
-| Royal | 公式のチェロ駒ページでRoyalが最上位の品質クラスとして掲載され、価格がPremium/Standard/Studentより高いことが示されています。 | 最上位 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
-| Premium | 公式のチェロ駒ページでPremiumが中上位の品質クラスとして掲載され、価格がStandard/Studentより高いことが示されています。 | 上位 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
-| Standard | 公式のチェロ駒ページでStandardが標準の品質クラスとして掲載され、価格がStudentより高いことが示されています。 | 標準 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
-| Student | 公式のチェロ駒ページでStudentが入門の品質クラスとして掲載され、価格が最も低いことが示されています。 | 入門 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| グレード | 刻印・識別（例） | 公式・販売店情報に基づく違い（要約） | 位置付け | 参考リンク |
+|---|---|---|---|---|
+| Student | “Student”（公式の品質クラス表記） | 公式のチェロ駒ページではStudentが最も低価格の品質クラスとして掲載されています。公式ページでは材の選別基準などの詳細は十分に開示されないため、必要なら販売店説明を「販売店の説明」として補足します。 | 入門 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| Standard | “Standard”（公式の品質クラス表記） | 公式のチェロ駒ページではStandardがStudentより高価格で掲載されています。公式ページでは材の選別基準などの詳細は十分に開示されないため、必要なら販売店説明を「販売店の説明」として補足します。 | 標準 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| Premium | “Premium”（公式の品質クラス表記） | 公式のチェロ駒ページではPremiumがStandard/Studentより高価格で掲載されています。公式ページでは材の選別基準などの詳細は十分に開示されないため、必要なら販売店説明を「販売店の説明」として補足します。 | 上位 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
+| Royal | “Royal”（公式の品質クラス表記） | 公式のチェロ駒ページではRoyalが最上位の品質クラスとして掲載され、Premium/Standard/Studentより高価格です。公式ページでは材の選別基準などの詳細は十分に開示されないため、必要なら販売店説明を「販売店の説明」として補足します。 | 最上位 | [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm) |
 
-> 補足（販売店の説明）: 一部販売店はRoyal等級について「長期乾燥」「手選別」「未加工ブランク」などの説明を付与しています。これは公式の全量開示ではないため、販売店説明として扱ってください。
+> 補足（販売店の説明）: 一部販売店はRoyal等級について「長期乾燥」「手選別」「未加工ブランク」などの説明を付与しています。これは公式の全量開示ではないため、販売店説明として扱ってください。（販売店説明例リンク: [Southwest Strings（Milo Stamm bridges の説明例）](https://www.swstrings.com/product/milo-stamm-violin-bridges/)）
 
 #### Milo Stamm（モデル体系と仕様の区別）
 
@@ -106,11 +106,11 @@ sidebar_position: 2
 > 注意: Royal de Luxe はマニュファクチャーラインとして、最良の手選別材を用いる旨がカタログで明示されています。  
 > 注意: 最終的な音や弾きやすさは駒加工で大きく変わるため、加工や交換は工房へ相談してください。
 
-| 品質クラス（公式） | 刻印・識別（公式） | 公式に確認できる差分（要約） | 位置付け | 参考リンク |
+| グレード | 刻印・識別（例） | 公式・販売店情報に基づく違い（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
-| Student | “Teller Germany” など（Student quality） | 公式の刻印資料では、初心者・学生レベル向けの等級であり、ボスニア産メイプルを最低5年は自社保管場で天然乾燥させる旨が明示されています。 | 入門 | [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) / [刻印データシート](https://www.teller.de/media/teller_datasheet_stamp.pdf) |
-| Master | Master（Master line） | 公式は材の多様性に応じて等級を分け、等級により必要なシーズニング期間が変わると説明しています。個々のモデルに対して、Masterが選択可能かどうかを仕様ページで提示しています。 | 標準〜上位 | [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) / [Teller公式ブリッジ一覧](https://www.teller.de/teller-bridges.html) |
-| Royal de Luxe | Royal de Luxe（Manufacture line） | 公式カタログでは、Royal de Luxeはマニュファクチャーラインとして「最良の手選別材で製作する」旨が明示されています。 | 最上位 | [Teller橋カタログPDF](https://www.teller.de/media/teller_catalog_bridges.pdf) / [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) |
+| Student | “Teller Germany” + ★（1〜3）など | 公式の刻印資料ではStudentは初心者・学生向けの等級として説明されています。あわせて、ボスニア産メイプルを自社保管場で少なくとも5年間、天然乾燥させる旨が明記されています。★はStudent等級内の品質差（最大3段階）として示されています。 | 入門 | [Teller公式カタログ案内](https://www.teller.de/teller-catalog.html) / [刻印データシート](https://www.teller.de/media/teller_datasheet_stamp.pdf) |
+| Master | “Josef Teller 1891 Germany” + ★（1〜3）など | 公式の刻印資料ではMasterはコンサート/ソリスト向けの等級として説明されています。木材は非常に細かい木目と強い髄線を持つとされ、少なくとも10年間、人工乾燥を用いずに保管・乾燥する旨が明記されています。★は年輪密度や髄線の美しさ等による品質差（最大3段階）として示されています。 | 標準〜上位 | [刻印データシート](https://www.teller.de/media/teller_datasheet_stamp.pdf) / [Teller公式ブリッジ一覧](https://www.teller.de/teller-bridges.html) |
+| Royal de Luxe | “TELLER ROYAL DE LUXE Germany”（楕円刻印）など | 公式の刻印資料ではRoyal de luxeは、この刻印に値する駒が「ごく少数」である旨が説明されています。また、この品質の駒は生産数が限られる旨が明記されています。 | 最上位 | [刻印データシート](https://www.teller.de/media/teller_datasheet_stamp.pdf) / [Teller橋カタログPDF](https://www.teller.de/media/teller_catalog_bridges.pdf) |
 
 #### Josef Teller（工程・素材に関する公式説明の要点）
 

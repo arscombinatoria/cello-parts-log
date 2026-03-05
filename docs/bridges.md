@@ -43,12 +43,12 @@ sidebar_position: 2
 
 | グレード | 刻印・識別（例） | 一次情報に基づく違い（要約） | 位置付け | 参考リンク |
 |---|---|---|---|---|
-| Étude | “Etude” | 卸カタログでは入門レンジとして扱われ、上位ほど材の選別が厳しい体系の起点になります。 | 入門 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
-| Mirecourt | “Mirecourt” / “A Mirecourt” | 卸カタログでは「select wood」「flamed」などの表現で、標準～中位として扱われます（楽器種により表現揺れがあります）。 | 標準 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
-| Luxe | “Luxe” | 卸カタログでは「seasoned old wood」「well-flamed」や「select old flamed wood」などの表現で、上位として扱われます。 | 上位 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
-| De Luxe（Deluxe） | “De Luxe” / “DELUXE” | 卸カタログでは「deeply-flamed」または「finest old well-flamed wood」などの表現で、最上位として扱われます。 | 最上位 | [卸カタログ](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) |
+| Étude | “Etude” | 国内代理店の掲載ではチェロ用に No.14 Étude と No.16 Mirecourt があり、Mirecourt のほうが高価格帯です。販売店の説明では、価格差が材の品質や乾燥年数を反映するとされるため、入門グレードの目安になります。 | 入門（目安） | [プリマ楽器](https://www.prima-gakki.co.jp/catalog/aubert_lutherie/index.html)<br />[Southwest Strings](https://www.swstrings.com/product/accessories/bridges/BFL4) |
+| Mirecourt | “Mirecourt” / “A Mirecourt” | 取扱い業者カタログでは、選別された材（select wood）や杢入り（flamed）といった説明が付く例があります。販売店の説明では、選別されたヨーロピアンメイプル材（select European maple）を用い、木材を硬く均質にする処理（treated）が施されるとされます。 | 標準（目安） | [取扱い業者カタログ例（International Violin）](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-) <br />[Southwest Strings](https://www.swstrings.com/product/accessories/bridges/BFL4) |
+| Luxe | “Luxe” | 取扱い業者カタログでは、厳選した乾燥済みの杢入り材（select old flamed wood）といった表現で上位として扱われる例があります。別資料の価格表では「Luxe/old maple（長期乾燥材のメイプル）」と表現される例があります。 | 上位（目安） | [取扱い業者カタログ例（International Violin）](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-)<br />[Saga 価格表（例）](https://jedistar.com/images/August18/Saga_Retail_Price_List_2018_v3.pdf) |
+| De Luxe（Deluxe） | “De Luxe” / “DELUXE” | 取扱い業者カタログでは、乾燥・熟成した古材（seasoned old wood）や杢が非常に強い（deeply-flamed）、または最上級の乾燥済み・杢の良い材（finest old well-flamed wood）などの表現で最上位として扱われる例があります。別資料の価格表では「De Luxe/old maple（長期乾燥材のメイプル）」と表現される例があります。 | 最上位（目安） | [取扱い業者カタログ例（International Violin）](https://www.yumpu.com/en/document/view/11663098/wholesale-catalog-international-violin-co-violin-luthier-)<br />[Saga 価格表（例）](https://jedistar.com/images/August18/Saga_Retail_Price_List_2018_v3.pdf) |
 
-> 補足: 国内代理店（プリマ楽器）の掲載では、チェロ用は No.14 Étude / No.16 Mirecourt が例示され、未加工品と仕上げ品の区分も併記されています。未加工品/仕上げ品は「グレード」ではなく、加工済みかどうかの仕様差です。
+> 補足: 国内代理店（プリマ楽器）の掲載では、チェロ用は No.14 Étude / No.16 Mirecourt が例示され、未加工品と仕上げ品の区分も併記されています。未加工品/仕上げ品は「グレード」ではなく、加工済みかどうかの仕様差です。（リンク追記）: [プリマ楽器掲載ページ](https://www.prima-gakki.co.jp/catalog/aubert_lutherie/index.html)
 
 #### Aubert（国内代理店掲載の型番例）
 

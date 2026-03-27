@@ -1,9 +1,15 @@
 {
-  "extends": "@tsconfig/docusaurus/tsconfig.json",
-  "include": [
-    "src/**/*",
-    "docs/**/*",
-    "docusaurus.config.js",
-    "sidebars.js"
-  ]
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "allowJs": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom"],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "types": ["node", "@docusaurus/module-type-aliases", "@docusaurus/theme-classic"],
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "docs/**/*", "docusaurus.config.js", "sidebars.js"]
 }

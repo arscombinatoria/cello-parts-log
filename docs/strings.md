@@ -25,14 +25,32 @@ sidebar_position: 1
 | ナイロン・化繊コア（合成弦） | 中庸でバランスの良い音色（ガットに近い暖かさだがやや明るい） | ガットほどではないが豊かな共鳴 | 速い（ガットより俊敏） | 中程度〜良好（ガットより持続性が良い） | 音質はガットに近く豊かだが安定性に優れる。湿度や温度の影響が小さく、数日で安定する。初心者から上級者まで扱いやすい。 |
 | スチール（鋼線コア） | 明るく硬質でシャープな音色 | 非常に強い（大音量・強い響き） | 非常に速い（即座に反応） | 長い（音の伸びが良い） | フォーカスのはっきりした力強い音。音量が大きく調弦も安定。一方で倍音成分はガットより少なくシンプルな音傾向。ジャズやエレキチェロ、初心者用にも好まれる。 |
 
-## メーカー一覧
+## メーカー横断比較表
 
-弦メーカーに関する情報をまとめます。随時追記予定です。
+> 以下は「メーカー全体の見取り図」です。実際の音色・弾き心地は、楽器個体、弓、松脂、弾き方、部屋の響きで変わります。
 
-- [D'Addario (ダダリオ)](strings-manufacturer-daddario.md)
-- [Jargar (ヤーガー)](strings-manufacturer-jargar.md)
-- [Larsen Strings (ラーセン)](strings-manufacturer-larsen.md)
-- [Pirastro (ピラストロ)](strings-manufacturer-pirastro.md)
-- [Savarez/Corelli (サバレス/コレリ)](strings-manufacturer-savarez-corelli.md)
-- [Thomastik-Infeld (トマスティーク・インフェルト)](strings-manufacturer-thomastik-infeld.md)
-- [Warchal (ワーチャル)](strings-manufacturer-warchal.md)
+| メーカー | 主なチェロ弦シリーズ | メーカー全体の傾向（要約） | 強みが出やすい弦域・用途 | 価格帯の目安 | 詳細 |
+| --- | --- | --- | --- | --- | --- |
+| D'Addario | Prelude / Helicore / Kaplan / NS Electric | 価格帯の幅が広く、教育用途から実用機まで選びやすい | 初心者〜中級者、エレクトリック用途 | 低〜中 | [詳細ページ](./strings-manufacturer-daddario.md) |
+| Jargar | Classic / Special / Silver Sound / Superior / Evoke | 伝統的スチール系の安定感と、近年の新シリーズ展開 | A/Dの明瞭さ、オーケストラ〜ソロ | 中〜中高 | [詳細ページ](./strings-manufacturer-jargar.md) |
+| Larsen Strings | Aurora / Original / Soloist / Magnacore / Il Cannone | チェロ弦の定番ブランド。複数ラインで性格差を作りやすい | A/Dの定番運用、ソロ向けセットアップ | 中〜高 | [詳細ページ](./strings-manufacturer-larsen.md) |
+| Pirastro | Chromcor / Obligato / Evah Pirazzi / Perpetual ほか | ガット〜合成〜スチールまで選択肢が広い | 音色キャラクター重視、幅広いレベル帯 | 中〜高 | [詳細ページ](./strings-manufacturer-pirastro.md) |
+| Savarez/Corelli | Corelli Solea / New Concept / Corelli Gut | 歴史の長いブランド。ライン数は比較的絞られている | 近代的スチール系と伝統系の併用検討 | 中〜中高 | [詳細ページ](./strings-manufacturer-savarez-corelli.md) |
+| Thomastik-Infeld | Alphayue / Dominant / Spirocore / Versum / Rondo | ロープコア系を含む定番群が多く、組み合わせ運用の実績が豊富 | G/Cの定番選択、オーケストラ〜ソロ | 中〜高 | [詳細ページ](./strings-manufacturer-thomastik-infeld.md) |
+| Warchal | Amber / Brilliant | シリーズ数は少なめだが個性が明確 | 温かさと反応性の両立を狙う用途 | 中高 | [詳細ページ](./strings-manufacturer-warchal.md) |
+
+## 選び方（短い目安）
+
+- 最初の1セットは、**調弦安定性と扱いやすさ**を優先して選び、音色の微調整は2セット目以降で詰めると比較しやすくなります。
+- A/D と G/C を混ぜる場合は、まずはどちらか片側だけ変更し、変化を記録してから次の変更に進むと判断しやすくなります。
+- 張力差が大きい組み合わせは、楽器側の負荷や駒・ナットまわりの状態確認が重要です。違和感がある場合は工房へ相談してください。
+
+## メーカー別のシリーズ解説ページ
+
+- [D'Addario (ダダリオ)](./strings-manufacturer-daddario.md)
+- [Jargar (ヤーガー)](./strings-manufacturer-jargar.md)
+- [Larsen Strings (ラーセン)](./strings-manufacturer-larsen.md)
+- [Pirastro (ピラストロ)](./strings-manufacturer-pirastro.md)
+- [Savarez/Corelli (サバレス/コレリ)](./strings-manufacturer-savarez-corelli.md)
+- [Thomastik-Infeld (トマスティーク・インフェルト)](./strings-manufacturer-thomastik-infeld.md)
+- [Warchal (ワーチャル)](./strings-manufacturer-warchal.md)

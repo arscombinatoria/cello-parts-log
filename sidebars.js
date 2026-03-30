@@ -66,7 +66,14 @@ const sidebars = {
       items: ['tailpieces/tailpieces-materials'],
     },
   ],
-  nutsSidebar: ['nuts/nuts'],
+  nutsSidebar: [
+    {
+      type: 'category',
+      label: 'ナット',
+      link: {type: 'doc', id: 'nuts/nuts'},
+      items: ['nuts/nuts-materials'],
+    },
+  ],
   saddlesSidebar: ['saddles/saddles'],
   soundpostsSidebar: ['soundposts/soundposts'],
   tailgutsSidebar: ['tailguts/tailguts'],

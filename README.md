@@ -12,7 +12,7 @@
 
 ## 必要な環境
 
-- Node.js LTS（20 〜 24 系を想定）
+- Node.js LTS（22 〜 24 系を想定）
 - npm
 
 ## 開発用コマンド
@@ -22,9 +22,10 @@
 - `npm run build` — 本番ビルドを生成（`build/`）
 - `npm run serve` — ビルド済みサイトをローカルで確認
 - `npm run lint` — ESLint による静的解析
-- `npm test` — 現状はプレースホルダー（失敗しません）
+- `npm run typecheck` — TypeScript の型チェック
+- `npm test` — `npm run typecheck` を実行
 
-Node.js は CI で 20 / 22 / 24 系の matrix で動作確認しています。
+Node.js は CI で 22 / 24 系の matrix で動作確認しています。Pages デプロイは Node.js 24 系で実行しています。
 
 ## GitHub Pages へのデプロイ
 

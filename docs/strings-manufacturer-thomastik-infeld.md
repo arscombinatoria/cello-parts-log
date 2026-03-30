@@ -1,5 +1,6 @@
 ---
 id: strings-manufacturer-thomastik-infeld
+displayed_sidebar: stringsSidebar
 title: "Thomastik-Infeld (トマスティーク・インフェルト)"
 slug: /strings/manufacturers/thomastik-infeld
 sidebar_position: 6

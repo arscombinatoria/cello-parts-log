@@ -3,6 +3,7 @@ id: tailguts
 title: テールコード
 slug: /tailguts
 hide_table_of_contents: true
+displayed_sidebar: tailgutsSidebar
 sidebar_position: 10
 ---
 

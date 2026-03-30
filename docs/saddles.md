@@ -3,6 +3,7 @@ id: saddles
 title: サドル
 slug: /saddles
 hide_table_of_contents: true
+displayed_sidebar: saddlesSidebar
 sidebar_position: 8
 ---
 

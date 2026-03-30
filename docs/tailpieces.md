@@ -3,6 +3,7 @@ id: tailpieces
 title: テールピース
 slug: /tailpieces
 hide_table_of_contents: true
+displayed_sidebar: tailpiecesSidebar
 sidebar_position: 6
 ---
 

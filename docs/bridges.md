@@ -3,6 +3,7 @@ id: bridges
 title: 駒
 slug: /bridges
 hide_table_of_contents: true
+displayed_sidebar: bridgesSidebar
 sidebar_position: 2
 ---
 

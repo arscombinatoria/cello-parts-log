@@ -61,7 +61,14 @@ const sidebars = {
   tailpiecesSidebar: ['tailpieces/tailpieces'],
   nutsSidebar: ['nuts/nuts'],
   saddlesSidebar: ['saddles/saddles'],
-  soundpostsSidebar: ['soundposts/soundposts'],
+  soundpostsSidebar: [
+    {
+      type: 'category',
+      label: '魂柱',
+      link: {type: 'doc', id: 'soundposts/soundposts'},
+      items: ['soundposts/soundposts-materials'],
+    },
+  ],
   tailgutsSidebar: ['tailguts/tailguts'],
   bowsSidebar: ['bows/bows'],
   rosinSidebar: ['rosin/rosin'],

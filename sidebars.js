@@ -26,7 +26,14 @@ const sidebars = {
       ],
     },
   ],
-  bridgesSidebar: ['bridges'],
+  bridgesSidebar: [
+    {
+      type: 'category',
+      label: '駒',
+      link: {type: 'doc', id: 'bridges'},
+      items: ['bridges-material-trends', 'bridges-blank-manufacturers'],
+    },
+  ],
   pegsSidebar: ['pegs'],
   fingerboardsSidebar: ['fingerboards'],
   endpinsSidebar: ['endpins'],

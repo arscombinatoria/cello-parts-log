@@ -1,6 +1,6 @@
 ---
 id: strings-materials
-title: 材質ごとの特徴
+title: 材質別の比較
 slug: /strings/materials
 displayed_sidebar: stringsSidebar
 sidebar_position: 2

@@ -1,6 +1,6 @@
 ---
 id: pegs-materials
-title: 素材別の特徴
+title: 材質別の比較
 slug: /pegs/materials
 displayed_sidebar: pegsSidebar
 sidebar_position: 1

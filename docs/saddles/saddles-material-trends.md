@@ -1,6 +1,6 @@
 ---
 id: saddles-material-trends
-title: 材質ごとの傾向
+title: 材質別の比較
 slug: /saddles/material-trends
 displayed_sidebar: saddlesSidebar
 ---

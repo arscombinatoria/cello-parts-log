@@ -50,7 +50,14 @@ const sidebars = {
       items: ['fingerboards/fingerboards-materials'],
     },
   ],
-  endpinsSidebar: ['endpins/endpins'],
+  endpinsSidebar: [
+    {
+      type: 'category',
+      label: 'エンドピン',
+      link: {type: 'doc', id: 'endpins/endpins'},
+      items: ['endpins/endpins-materials'],
+    },
+  ],
   tailpiecesSidebar: ['tailpieces/tailpieces'],
   nutsSidebar: ['nuts/nuts'],
   saddlesSidebar: ['saddles/saddles'],

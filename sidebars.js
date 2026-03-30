@@ -67,7 +67,14 @@ const sidebars = {
     },
   ],
   nutsSidebar: ['nuts/nuts'],
-  saddlesSidebar: ['saddles/saddles'],
+  saddlesSidebar: [
+    {
+      type: 'category',
+      label: 'サドル',
+      link: {type: 'doc', id: 'saddles/saddles'},
+      items: ['saddles/saddles-material-trends'],
+    },
+  ],
   soundpostsSidebar: ['soundposts/soundposts'],
   tailgutsSidebar: ['tailguts/tailguts'],
   bowsSidebar: ['bows/bows'],

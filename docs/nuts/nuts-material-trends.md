@@ -1,6 +1,7 @@
 ---
 id: nuts-material-trends
 title: 材質別の比較
+hide_table_of_contents: true
 displayed_sidebar: nutsSidebar
 ---
 

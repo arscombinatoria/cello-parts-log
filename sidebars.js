@@ -75,7 +75,14 @@ const sidebars = {
       items: ['saddles/saddles-material-trends'],
     },
   ],
-  soundpostsSidebar: ['soundposts/soundposts'],
+  soundpostsSidebar: [
+    {
+      type: 'category',
+      label: '魂柱',
+      link: {type: 'doc', id: 'soundposts/soundposts'},
+      items: ['soundposts/soundposts-materials'],
+    },
+  ],
   tailgutsSidebar: [
     {
       type: 'category',

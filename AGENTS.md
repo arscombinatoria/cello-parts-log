@@ -83,4 +83,4 @@
 - Node.js LTS と npm を使用します。
 - 依存関係は `npm ci` で復元し、開発サーバーは `npm start` を使用します。
 - Docs は `/docs` 配下に配置し、Front Matter でタイトルやスラッグを設定します。
-- サイトのルート構成は `docs/intro.md` を参照してください。
+- サイトのルート構成は `docs/index.md` を参照してください。

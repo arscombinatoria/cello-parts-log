@@ -25,6 +25,9 @@ const sidebars = {
     'saddles',
     'soundposts',
     'tailguts',
+    'bows',
+    'rosin',
+    'cases',
   ],
 };
 

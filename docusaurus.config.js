@@ -89,6 +89,9 @@ const config = {
         {type: 'doc', docId: 'saddles', position: 'left', label: 'サドル'},
         {type: 'doc', docId: 'soundposts', position: 'left', label: '魂柱'},
         {type: 'doc', docId: 'tailguts', position: 'left', label: 'テールコード'},
+        {type: 'doc', docId: 'bows', position: 'left', label: '弓'},
+        {type: 'doc', docId: 'rosin', position: 'left', label: '松脂'},
+        {type: 'doc', docId: 'cases', position: 'left', label: 'ケース'},
         {
           href: 'https://github.com/arscombinatoria/cello-parts-log',
           label: 'GitHub',

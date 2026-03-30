@@ -1,5 +1,5 @@
 ---
-id: intro
+id: index
 title: チェロのパーツ交換についての備忘録
 slug: /
 hide_table_of_contents: true

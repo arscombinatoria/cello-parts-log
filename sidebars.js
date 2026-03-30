@@ -34,7 +34,14 @@ const sidebars = {
       items: ['bridges/bridges-material-trends', 'bridges/bridges-blank-manufacturers'],
     },
   ],
-  pegsSidebar: ['pegs/pegs'],
+  pegsSidebar: [
+    {
+      type: 'category',
+      label: 'ペグ',
+      link: {type: 'doc', id: 'pegs/pegs'},
+      items: ['pegs/pegs-materials', 'pegs/pegs-friction-vs-geared'],
+    },
+  ],
   fingerboardsSidebar: ['fingerboards/fingerboards'],
   endpinsSidebar: ['endpins/endpins'],
   tailpiecesSidebar: ['tailpieces/tailpieces'],

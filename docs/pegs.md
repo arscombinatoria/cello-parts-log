@@ -3,6 +3,7 @@ id: pegs
 title: ペグ
 slug: /pegs
 hide_table_of_contents: true
+displayed_sidebar: pegsSidebar
 sidebar_position: 3
 ---
 

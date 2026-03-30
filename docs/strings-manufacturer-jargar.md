@@ -1,5 +1,6 @@
 ---
 id: strings-manufacturer-jargar
+displayed_sidebar: stringsSidebar
 title: "Jargar (ヤーガー)"
 slug: /strings/manufacturers/jargar
 sidebar_position: 2

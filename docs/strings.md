@@ -3,6 +3,7 @@ id: strings
 title: 弦
 slug: /strings
 hide_table_of_contents: true
+displayed_sidebar: stringsSidebar
 sidebar_position: 1
 ---
 

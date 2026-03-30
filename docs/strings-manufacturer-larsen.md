@@ -1,5 +1,6 @@
 ---
 id: strings-manufacturer-larsen
+displayed_sidebar: stringsSidebar
 title: "Larsen Strings (ラーセン)"
 slug: /strings/manufacturers/larsen
 sidebar_position: 3

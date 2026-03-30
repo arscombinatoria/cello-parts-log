@@ -1,11 +1,11 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  docsSidebar: [
-    'intro',
+  homeSidebar: ['intro'],
+  stringsSidebar: [
     {
       type: 'category',
       label: '弦',
-      link: { type: 'doc', id: 'strings' },
+      link: {type: 'doc', id: 'strings'},
       items: [
         'strings-manufacturer-daddario',
         'strings-manufacturer-jargar',
@@ -16,19 +16,19 @@ const sidebars = {
         'strings-manufacturer-warchal',
       ],
     },
-    'bridges',
-    'pegs',
-    'fingerboards',
-    'endpins',
-    'tailpieces',
-    'nuts',
-    'saddles',
-    'soundposts',
-    'tailguts',
-    'bows',
-    'rosin',
-    'cases',
   ],
+  bridgesSidebar: ['bridges'],
+  pegsSidebar: ['pegs'],
+  fingerboardsSidebar: ['fingerboards'],
+  endpinsSidebar: ['endpins'],
+  tailpiecesSidebar: ['tailpieces'],
+  nutsSidebar: ['nuts'],
+  saddlesSidebar: ['saddles'],
+  soundpostsSidebar: ['soundposts'],
+  tailgutsSidebar: ['tailguts'],
+  bowsSidebar: ['bows'],
+  rosinSidebar: ['rosin'],
+  casesSidebar: ['cases'],
 };
 
 module.exports = sidebars;

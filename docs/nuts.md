@@ -3,6 +3,7 @@ id: nuts
 title: ナット
 slug: /nuts
 hide_table_of_contents: true
+displayed_sidebar: nutsSidebar
 sidebar_position: 7
 ---
 

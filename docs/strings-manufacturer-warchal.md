@@ -1,5 +1,6 @@
 ---
 id: strings-manufacturer-warchal
+displayed_sidebar: stringsSidebar
 title: "Warchal (ワーチャル)"
 slug: /strings/manufacturers/warchal
 sidebar_position: 7

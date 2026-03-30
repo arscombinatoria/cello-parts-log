@@ -1,5 +1,6 @@
 ---
 id: strings-manufacturer-savarez-corelli
+displayed_sidebar: stringsSidebar
 title: "Savarez/Corelli (サバレス/コレリ)"
 slug: /strings/manufacturers/savarez-corelli
 sidebar_position: 5

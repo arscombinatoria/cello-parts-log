@@ -1,5 +1,6 @@
 ---
 id: strings-manufacturer-pirastro
+displayed_sidebar: stringsSidebar
 title: "Pirastro (ピラストロ)"
 slug: /strings/manufacturers/pirastro
 sidebar_position: 4

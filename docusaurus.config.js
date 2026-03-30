@@ -49,7 +49,7 @@ const config = {
       {
         docs: {
           routeBasePath: '/',
-          sidebarPath: false,
+          sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: false,
         pages: false,

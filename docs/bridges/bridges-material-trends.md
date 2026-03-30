@@ -1,6 +1,6 @@
 ---
 id: bridges-material-trends
-title: 材質別の傾向
+title: 材質別の比較
 slug: /bridges/material-trends
 displayed_sidebar: bridgesSidebar
 sidebar_position: 2

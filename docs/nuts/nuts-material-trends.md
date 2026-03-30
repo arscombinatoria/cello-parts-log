@@ -1,6 +1,6 @@
 ---
 id: nuts-material-trends
-title: 材質ごとの音響傾向
+title: 材質別の比較
 displayed_sidebar: nutsSidebar
 ---
 

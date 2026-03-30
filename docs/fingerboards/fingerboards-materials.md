@@ -1,6 +1,6 @@
 ---
 id: fingerboards-materials
-title: 指板材の比較
+title: 材質別の比較
 slug: /fingerboards/materials
 displayed_sidebar: fingerboardsSidebar
 sidebar_position: 1

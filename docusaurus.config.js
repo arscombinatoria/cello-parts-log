@@ -76,7 +76,7 @@ const config = {
         },
         {
           type: 'doc',
-          docId: 'strings',
+          docId: 'strings/strings',
           position: 'left',
           label: '弦',
         },

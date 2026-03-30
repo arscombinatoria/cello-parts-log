@@ -58,7 +58,14 @@ const sidebars = {
       items: ['endpins/endpins-materials'],
     },
   ],
-  tailpiecesSidebar: ['tailpieces/tailpieces'],
+  tailpiecesSidebar: [
+    {
+      type: 'category',
+      label: 'テールピース',
+      link: {type: 'doc', id: 'tailpieces/tailpieces'},
+      items: ['tailpieces/tailpieces-materials'],
+    },
+  ],
   nutsSidebar: ['nuts/nuts'],
   saddlesSidebar: ['saddles/saddles'],
   soundpostsSidebar: ['soundposts/soundposts'],

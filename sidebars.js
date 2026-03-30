@@ -42,7 +42,14 @@ const sidebars = {
       items: ['pegs/pegs-materials', 'pegs/pegs-friction-vs-geared'],
     },
   ],
-  fingerboardsSidebar: ['fingerboards/fingerboards'],
+  fingerboardsSidebar: [
+    {
+      type: 'category',
+      label: '指板',
+      link: {type: 'doc', id: 'fingerboards/fingerboards'},
+      items: ['fingerboards/fingerboards-materials'],
+    },
+  ],
   endpinsSidebar: ['endpins/endpins'],
   tailpiecesSidebar: ['tailpieces/tailpieces'],
   nutsSidebar: ['nuts/nuts'],

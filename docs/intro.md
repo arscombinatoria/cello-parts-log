@@ -11,8 +11,8 @@ sidebar_position: 0
 
 ## セクション一覧
 
-- [弦](strings.md)
-- [駒](bridges.md)
+- [弦](/strings)
+- [駒](/bridges)
 - [ペグ](pegs.md)
 - [指板](fingerboards.md)
 - [エンドピン](endpins.md)

@@ -76,11 +76,11 @@ const config = {
         },
         {
           type: 'doc',
-          docId: 'strings',
+          docId: 'strings/strings',
           position: 'left',
           label: '弦',
         },
-        {type: 'doc', docId: 'bridges', position: 'left', label: '駒'},
+        {type: 'doc', docId: 'bridges/bridges', position: 'left', label: '駒'},
         {type: 'doc', docId: 'pegs', position: 'left', label: 'ペグ'},
         {type: 'doc', docId: 'fingerboards', position: 'left', label: '指板'},
         {type: 'doc', docId: 'endpins', position: 'left', label: 'エンドピン'},

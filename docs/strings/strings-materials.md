@@ -1,6 +1,7 @@
 ---
 id: strings-materials
 title: 材質別の比較
+hide_table_of_contents: true
 slug: /strings/materials
 displayed_sidebar: stringsSidebar
 sidebar_position: 2

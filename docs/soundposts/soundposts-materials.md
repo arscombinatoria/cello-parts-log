@@ -1,6 +1,7 @@
 ---
 id: soundposts-materials
 title: 材質別の比較
+hide_table_of_contents: true
 slug: /soundposts/materials
 displayed_sidebar: soundpostsSidebar
 sidebar_position: 1

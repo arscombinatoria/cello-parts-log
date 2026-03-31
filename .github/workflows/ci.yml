@@ -26,6 +26,15 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
+      - name: Cache rspack build cache
+        uses: actions/cache@v5
+        with:
+          path: |
+            .cache/rspack
+            node_modules/.cache/rspack
+          key: ${{ runner.os }}-rspack-${{ matrix.node-version }}-${{ hashFiles('package-lock.json', 'docusaurus.config.js') }}
+          restore-keys: |
+            ${{ runner.os }}-rspack-${{ matrix.node-version }}-
       - name: Install dependencies
         run: npm ci
       - name: Print docs tree and content

@@ -31,6 +31,15 @@ jobs:
         with:
           path: node_modules
           key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+      - name: Cache rspack build cache
+        uses: actions/cache@v5
+        with:
+          path: |
+            .cache/rspack
+            node_modules/.cache/rspack
+          key: ${{ runner.os }}-rspack-24-${{ hashFiles('package-lock.json', 'docusaurus.config.js') }}
+          restore-keys: |
+            ${{ runner.os }}-rspack-24-
       - name: Install dependencies
         if: steps.cache-node-modules.outputs.cache-hit != 'true'
         run: npm ci

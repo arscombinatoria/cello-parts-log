@@ -63,7 +63,7 @@ const sidebars = {
       type: 'category',
       label: 'テールピース',
       link: {type: 'doc', id: 'tailpieces/tailpieces'},
-      items: ['tailpieces/tailpieces-materials'],
+      items: ['tailpieces/tailpieces-materials', 'tailpieces/tailpieces-mass-adjustment', 'tailpieces/tailpieces-adjusters'],
     },
   ],
   nutsSidebar: [

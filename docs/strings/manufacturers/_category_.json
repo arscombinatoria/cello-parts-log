@@ -1,8 +1,4 @@
 {
   "label": "メーカー横断比較表",
-  "position": 4,
-  "link": {
-    "type": "doc",
-    "id": "strings/strings-manufacturers"
-  }
+  "position": 4
 }

@@ -4,6 +4,7 @@ title: テールコード（概要）
 slug: /tailguts
 hide_table_of_contents: true
 displayed_sidebar: tailgutsSidebar
+sidebar_position: 1
 ---
 
 ## 概要

@@ -1,9 +1,10 @@
 ---
 id: saddles
-title: サドル
+title: サドル（概要）
 slug: /saddles
 hide_table_of_contents: true
 displayed_sidebar: saddlesSidebar
+sidebar_position: 1
 ---
 
 ## 概要

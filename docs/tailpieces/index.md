@@ -1,10 +1,10 @@
 ---
 id: tailpieces
-title: テールピース
+title: テールピース（概要）
 slug: /tailpieces
 hide_table_of_contents: true
 displayed_sidebar: tailpiecesSidebar
-sidebar_position: 6
+sidebar_position: 1
 ---
 
 ## 概要

@@ -4,7 +4,7 @@ title: 指板（概要）
 slug: /fingerboards
 hide_table_of_contents: true
 displayed_sidebar: fingerboardsSidebar
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 ## 概要

@@ -4,7 +4,7 @@ title: エンドピン（概要）
 slug: /endpins
 hide_table_of_contents: true
 displayed_sidebar: endpinsSidebar
-sidebar_position: 5
+sidebar_position: 1
 ---
 
 ## 概要

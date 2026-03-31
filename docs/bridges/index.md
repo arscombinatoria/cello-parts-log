@@ -1,6 +1,6 @@
 ---
 id: bridges
-title: 駒
+title: 駒（概要）
 slug: /bridges
 hide_table_of_contents: true
 displayed_sidebar: bridgesSidebar

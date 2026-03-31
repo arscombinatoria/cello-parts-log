@@ -4,7 +4,7 @@ title: ペグ（概要）
 slug: /pegs
 hide_table_of_contents: true
 displayed_sidebar: pegsSidebar
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 ## 概要

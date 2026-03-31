@@ -1,9 +1,10 @@
 ---
 id: nuts
-title: ナット
+title: ナット（概要）
 slug: /nuts
 hide_table_of_contents: true
 displayed_sidebar: nutsSidebar
+sidebar_position: 1
 ---
 
 ## 概要

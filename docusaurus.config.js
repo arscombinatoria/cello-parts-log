@@ -21,7 +21,7 @@ const config = {
   },
 
   future: {
-    experimental_faster: {
+    faster: {
       rspackBundler: true,
     },
   },

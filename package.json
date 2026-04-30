@@ -12,9 +12,9 @@
     "print:docs": "node scripts/print-docs.js"
   },
   "dependencies": {
-    "@docusaurus/core": "^3.10.0",
-    "@docusaurus/faster": "^3.10.0",
-    "@docusaurus/preset-classic": "^3.10.0",
+    "@docusaurus/core": "^3.10.1",
+    "@docusaurus/faster": "^3.10.1",
+    "@docusaurus/preset-classic": "^3.10.1",
     "@easyops-cn/docusaurus-search-local": "^0.55.1",
     "clsx": "^2.1.1",
     "prism-react-renderer": "^2.4.1",

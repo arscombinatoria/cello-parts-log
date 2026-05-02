@@ -25,6 +25,16 @@ sidebar_position: 2
   - 歴史的に高級弓で用例が多く、中〜高価格帯に多く見られます。
   - 国際取引や越境移動では、規制や必要書類の有無が問題になる場合があります（後述）。
 
+### メキシカン・フェルナンブーコ（カンペチェ材 / ログウッド）
+
+- **主観的な操作感・音色傾向（一般論）**
+  - フェルナンブーコ代替材として検討される新しい選択肢の1つですが、個体差と製作者の設計差が大きく、評価は一様ではありません。
+  - 腰や安定感を確保するためにスティックが太めに設計された個体では、音の安定感が得られる一方で、細かい返し、移弦、スピッカート、先弓の反応が重く感じられる場合があります。
+- **客観的な観点**
+  - 販売上は Mexican Pernambuco と表記される例がありますが、伝統的なフェルナンブーコ（*Paubrasilia echinata*）とは別樹種として扱われる素材です。
+  - 販売元情報では、*Haematoxylum campechianum*（カンペチェ材 / ログウッド、Campeche / Logwood）と説明される例があります。
+  - 素材名だけで同等性を判断せず、重量、重心、スティックの太さ、反り、発音の立ち上がり、弦への吸い付き、跳ねの制御性を試奏で確認することが重要です。
+
 ### ブラジルウッド
 
 - **主観的な音色傾向（一般論）**
@@ -65,6 +75,7 @@ sidebar_position: 2
 | 材質 | 音色傾向 | 反応性 | 弾きやすさ | 耐久性・気候変化 | 価格帯の傾向 | 向く用途 | 注意点 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | フェルナンブコ | 芯・密度感を感じる評価が多い（個体差大） | 高い個体が多いが個体差あり | バランスが合えば高い操作性 | 木材のため環境影響あり | 中〜高価格帯中心 | 本番、室内楽、ソロ、長期運用 | 規制・書類確認、個体差の見極めが重要 |
+| メキシカン・フェルナンブーコ（カンペチェ材 / ログウッド） | 代替材候補として注目されるが、設計差・個体差が大きい | 個体・設計により幅が大きい | 合う個体は実用的だが、太め設計では細かい操作が重く感じる場合 | 木材のため環境影響あり | 中価格帯〜上位まで例あり | フェルナンブーコ代替材の比較検討、木製弓の選択肢拡張 | フェルナンブーコ（*Paubrasilia echinata*）とは別樹種。素材名だけで同等と判断しない |
 | ブラジルウッド | 素直で扱いやすい傾向（一般論） | 標準〜良好（製品差大） | 入門段階で扱いやすい個体が多い | 木材のため環境影響あり | 入門〜中価格帯中心 | 学習初期、基礎練習、部活動 | 同価格帯でも仕上げ差が大きい |
 | カーボンファイバー | 明瞭・反応が速いと感じる例が多い | 速い反応を得やすい | 条件が合うと安定しやすい | 気候変化に強い傾向 | 中〜高価格帯まで広い | 持ち替え、屋外移動、安定運用 | 設計差が大きく、先入観で判断しない |
 | グラスファイバー | シンプルで分かりやすい発音傾向 | 標準的 | 価格重視で導入しやすい | 比較的強い | 低〜中価格帯 | 学校備品、予備弓、練習用 | 上位材に比べ表現域で差を感じる場合 |
@@ -114,6 +125,9 @@ sidebar_position: 2
 
 - [CITES Species+（*Paubrasilia echinata*）](https://speciesplus.net/)
 - [CITES 公式サイト](https://cites.org/)
+- [Fiddlershop: Arcos Lusitânia Mexican Pernambuco Violin Bow](https://fiddlershop.com/products/arcos-lusitania-mexican-pernambuco-violin-bow)
+- [Fiddlershop: Arcos Lusitânia Silver Special Select Mexican Pernambuco Cello Bow](https://fiddlershop.com/products/arcos-lusitania-silver-special-select-mexican-pernambuco-cello-bow)
+- [J.R. Judd Violins: M Pereira Mexican Pernambuco Sterling Silver Special Plus Violin Bow](https://www.jrjuddviolins.com/product/m-pereira-mexican-pernambuco-sterling-silver-special-plus-violin-bow/)
 - [CodaBow 公式サイト（カーボン弓の製品情報）](https://codabow.com/)
 - [Yamaha（弦楽器・弓に関する基礎情報）](https://jp.yamaha.com/)
 

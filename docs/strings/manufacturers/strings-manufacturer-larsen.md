@@ -3,7 +3,7 @@ id: strings-manufacturer-larsen
 displayed_sidebar: stringsSidebar
 title: "Larsen Strings (ラーセン)"
 slug: /strings/manufacturers/larsen
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 Larsen Strings のチェロ弦シリーズ比較ページです。ラーセン内でのシリーズ差（定番〜上位）を把握しやすいよう整理しています。

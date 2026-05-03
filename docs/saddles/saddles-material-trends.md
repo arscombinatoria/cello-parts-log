@@ -4,6 +4,7 @@ title: 材質別の比較
 hide_table_of_contents: true
 slug: /saddles/material-trends
 displayed_sidebar: saddlesSidebar
+sidebar_position: 2
 ---
 
 以下はチェロのサドル（あご当て側サドル）の材質によって生じるわずかな音色の違いをまとめた表です。

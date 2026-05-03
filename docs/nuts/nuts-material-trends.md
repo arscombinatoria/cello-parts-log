@@ -3,6 +3,7 @@ id: nuts-material-trends
 title: 材質別の比較
 hide_table_of_contents: true
 displayed_sidebar: nutsSidebar
+sidebar_position: 2
 ---
 
 以下では、一般的なナット材の種類ごとの音響傾向をまとめます。

@@ -4,6 +4,7 @@ title: 材質別の比較
 slug: /tailguts/materials
 hide_table_of_contents: true
 displayed_sidebar: tailgutsSidebar
+sidebar_position: 2
 ---
 
 テールコードの材質ごとの特徴を以下にまとめます。

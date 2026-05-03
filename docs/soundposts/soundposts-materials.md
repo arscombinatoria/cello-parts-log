@@ -4,7 +4,7 @@ title: 材質別の比較
 hide_table_of_contents: true
 slug: /soundposts/materials
 displayed_sidebar: soundpostsSidebar
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 以下の表では、一般的な木製魂柱とカーボンファイバー製魂柱の音響的な傾向をまとめています。

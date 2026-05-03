@@ -4,7 +4,7 @@ title: 材質別の比較
 hide_table_of_contents: true
 slug: /pegs/materials
 displayed_sidebar: pegsSidebar
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 以下はペグに使われる代表的な素材ごとの音響的な特徴を整理した表です。

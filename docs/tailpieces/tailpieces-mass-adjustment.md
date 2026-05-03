@@ -4,7 +4,7 @@ title: 質量調整（軽量化・加重）でどう変わるか
 slug: /tailpieces/mass-adjustment
 hide_table_of_contents: true
 displayed_sidebar: tailpiecesSidebar
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 テールピースは、材質や長さだけでなく、質量の増減でも反応が変わることがあります。工房では、裏面を少し削って軽くしたり、可逆的な重りを追加して反応を確かめたりすることがあります。ただし、単純に「軽いほど良い」「重いほど良い」とは言えず、楽器本体、テールコード長、アフター長との組み合わせで最適点が変わります。

@@ -3,7 +3,7 @@ id: pegs-friction-vs-geared
 title: 摩擦ペグと機械式ペグ
 slug: /pegs/friction-vs-geared
 displayed_sidebar: pegsSidebar
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## 通常のペグ（摩擦ペグ）

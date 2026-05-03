@@ -21,7 +21,7 @@ jobs:
         id: changed
         shell: bash
         run: |
-          git fetch origin "${{ github.base_ref }}" --depth=1
+          git fetch origin "${{ github.base_ref }}"
           files="$(git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- '*.md' '*.mdx' | tr '\n' ' ')"
           if [ -z "$files" ]; then
             echo "any=false" >> "$GITHUB_OUTPUT"

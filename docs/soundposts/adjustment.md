@@ -3,7 +3,7 @@ id: adjustment
 title: 魂柱調整で変わること
 slug: /soundposts/adjustment
 displayed_sidebar: soundpostsSidebar
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## 概要

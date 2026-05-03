@@ -4,7 +4,7 @@ title: 材質別の比較
 hide_table_of_contents: true
 slug: /fingerboards/materials
 displayed_sidebar: fingerboardsSidebar
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 以下は、指板材の代表的な傾向を比較した表です。

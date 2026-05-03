@@ -4,7 +4,7 @@ title: 材質別の比較
 slug: /endpins/materials
 hide_table_of_contents: true
 displayed_sidebar: endpinsSidebar
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 以下の表は、エンドピンの材質ごとの音響特性をまとめたものです。

@@ -30,6 +30,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 ## 各シリーズ解説
 
 ### Alphayue
+
 - **位置づけ**: 入門帯の比較基準。
 - **構造・材質（客観仕様）**: A/D は carbon steel、G/C は rope core。
 - **音の傾向（主観）**: 素直で扱いやすい方向。
@@ -38,6 +39,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **注意点**: 合成系としては扱わない。
 
 ### Dominant
+
 - **位置づけ**: 合成コア系の長期定番。
 - **構造・材質（客観仕様）**: synthetic core。
 - **音の傾向（主観）**: 暖かめで中庸。
@@ -46,6 +48,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **注意点**: 発売年は今回確認できず。
 
 ### Spirocore
+
 - **位置づけ**: Thomastik-Infeld の代表的定番。
 - **構造・材質（客観仕様）**: spiral core。巻線バリエーションがある。
 - **音の傾向（主観）**: 芯と輪郭を作りやすい方向。
@@ -54,6 +57,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **注意点**: 巻線違いで体感が変わるため単弦単位で確認する。
 
 ### Belcanto Gold
+
 - **位置づけ**: 上位の独立ライン。
 - **構造・材質（客観仕様）**: steel 系列。
 - **音の傾向（主観）**: 深さと明瞭さの両立を狙う方向。
@@ -62,6 +66,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **注意点**: 現行名称は Belcanto Gold。
 
 ### Versum
+
 - **位置づけ**: 現代設計の上位ライン。
 - **構造・材質（客観仕様）**: A/D は carbon steel + multialloy、G/C は spiral core + tungsten/chrome。
 - **音の傾向（主観）**: 密度感と明瞭さの両立志向。
@@ -70,6 +75,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **注意点**: 楽器が明るい場合は硬さ方向の確認が必要。
 
 ### Versum Solo
+
 - **位置づけ**: Versum のソロ志向派生。
 - **構造・材質（客観仕様）**: A/D は carbon steel + multialloy、G/C は spiral core + tungsten/chrome。
 - **音の傾向（主観）**: 前方投射を狙う方向。
@@ -78,6 +84,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **注意点**: Versum 本体と比較して選ぶ。
 
 ### Rondo
+
 - **位置づけ**: current official の advanced/pro line。
 - **構造・材質（客観仕様）**: steel 系列上位設計。Rondo Experience A string の展開あり。
 - **音の傾向（主観）**: 力強い音像を狙う方向。

@@ -4,7 +4,7 @@ title: アジャスター（微調整ネジ）の有無でどう変わるか
 slug: /tailpieces/adjusters
 hide_table_of_contents: true
 displayed_sidebar: tailpiecesSidebar
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 現代のチェロでは、4本ともアジャスター付きのテールピースが使われることが一般的です。ただし、アジャスターが付いていれば常に有利、付いていなければ常に音が良い、という単純な話ではありません。違いは主に、調弦のしやすさ、テールピース周辺の重量、アフター長の取りやすさ、異音や接触のリスクに現れます。

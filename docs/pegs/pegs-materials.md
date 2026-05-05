@@ -45,8 +45,8 @@ sidebar_position: 2
 
 ## 参考リンク
 
-- Bois d’Harmonie Technical Information: https://www.boisdharmonie.net/en/technical-information
-- Wittner Finetune-Pegs for Cello: https://wittner-gmbh.de/wittner_finetune_peg_cello.html
-- Knilling Perfection Pegs: https://www.knilling.com/pegs/
-- Perfection Pegs Information: https://perfectionpegs.twofold.com.au/information/
-- Thomann Cello Tuning Pegs: https://www.thomannmusic.com/cello_pegs.html
+- Bois d’Harmonie Technical Information: [www.boisdharmonie.net/en/technical-information](https://www.boisdharmonie.net/en/technical-information)
+- Wittner Finetune-Pegs for Cello: [wittner-gmbh.de/wittner_finetune_peg_cello.html](https://wittner-gmbh.de/wittner_finetune_peg_cello.html)
+- Knilling Perfection Pegs: [www.knilling.com/pegs/](https://www.knilling.com/pegs/)
+- Perfection Pegs Information: [perfectionpegs.twofold.com.au/information/](https://perfectionpegs.twofold.com.au/information/)
+- Thomann Cello Tuning Pegs: [www.thomannmusic.com/cello_pegs.html](https://www.thomannmusic.com/cello_pegs.html)

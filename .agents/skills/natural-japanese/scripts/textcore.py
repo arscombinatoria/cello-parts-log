@@ -259,6 +259,11 @@ def mask_markdown_structure(text: str) -> str:
                 in_front_matter = False
             continue
 
+        # コメント内のフェンスはコードブロックを開かない。
+        # 一方、実際のコードブロック内の <!-- はコメント状態を変更しない。
+        if open_fence is None:
+            line, in_html_comment = _mask_html_comments_in_line(line, in_html_comment)
+
         fence_match = _CODE_FENCE_RE.match(line)
         if fence_match:
             fence_run = fence_match.group(1)
@@ -282,8 +287,6 @@ def mask_markdown_structure(text: str) -> str:
         if open_fence is not None:
             masked_lines.append("")
             continue
-
-        line, in_html_comment = _mask_html_comments_in_line(line, in_html_comment)
 
         if (
             _HEADING_RE.match(line)

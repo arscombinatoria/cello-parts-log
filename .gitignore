@@ -7,3 +7,4 @@ build
 npm-debug.log*
 .env.local
 .agents/skills/**/__pycache__/
+/corpus/reports/

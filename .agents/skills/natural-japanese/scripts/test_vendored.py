@@ -10,6 +10,7 @@ from pathlib import Path
 import calibrate
 from outline import build_outline
 from terms import build_term_inventory
+from lint import run_lint
 from textcore import mask_html_comments, mask_markdown_structure
 
 
@@ -22,6 +23,21 @@ class VendoredLayoutTests(unittest.TestCase):
 
 
 class MarkdownCommentTests(unittest.TestCase):
+    def test_inline_comment_literals_preserve_following_text(self):
+        for ticks in ('`', '``', '```'):
+            with self.subTest(ticks=ticks):
+                source = f"HTMLコメントは {ticks}<!--{ticks} で始めます。\n本文を検査する。\n"
+                self.assertEqual(mask_html_comments(source), source)
+                self.assertIn('本文を検査する。', mask_markdown_structure(source))
+
+    def test_real_comments_after_inline_code_are_still_masked(self):
+        source = "記号は `<!--`。<!--非表示-->本文。\n後続。\n"
+        self.assertEqual(mask_html_comments(source), "記号は `<!--`。          本文。\n後続。\n")
+
+    def test_backticks_inside_real_comment_do_not_hide_comment_closure(self):
+        source = "<!-- ` -->本文。`\n後続。\n"
+        self.assertEqual(mask_html_comments(source), "          本文。`\n後続。\n")
+
     def test_comment_masker_preserves_offsets_and_code_examples(self):
         source = "```html\n<!--\n```\n<!--非表示-->本文。\n"
         masked = mask_html_comments(source)
@@ -58,6 +74,16 @@ class MarkdownCommentTests(unittest.TestCase):
 
 
 class CallerRegressionTests(unittest.TestCase):
+    def test_all_callers_retain_prose_after_inline_comment_opener(self):
+        for ticks in ('`', '``', '```'):
+            with self.subTest(ticks=ticks):
+                source = f"HTMLコメントは {ticks}<!--{ticks} で始めます。\n\n# APIの説明\n\n重要なのは、APIで情報を取得することです。\n"
+                self.assertTrue(any(item['line'] == 3 and item['text'] == 'APIの説明'
+                                    for item in build_outline(source)))
+                self.assertTrue(any(item['term'] == 'API' for item in build_term_inventory(source)))
+                findings, _ = run_lint(source)
+                self.assertTrue(any(item.line == 5 for item in findings))
+
     def test_outline_retains_headings_and_prose_after_html_code_example(self):
         for fence in ("```", "~~~", "````"):
             with self.subTest(fence=fence):

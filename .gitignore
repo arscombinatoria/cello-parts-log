@@ -6,3 +6,4 @@ build
 .cache
 npm-debug.log*
 .env.local
+.agents/skills/**/__pycache__/

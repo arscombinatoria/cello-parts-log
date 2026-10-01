@@ -12,7 +12,7 @@
 の確認材料として使う。
 
 使い方:
-    uv run scripts/terms.py <file.md> [--json]
+    uv run .agents/skills/natural-japanese/scripts/terms.py <file.md> [--json]
 
 入力エラー（ファイル不在・ディレクトリ指定・読み取り不可等）は exit code 1、
 それ以外は exit code 0（判断は人間/AIに委ねる。他の検査層エントリと同じ方針）。
@@ -118,12 +118,12 @@ def build_term_inventory(raw_text: str) -> list[dict]:
     tokenizer = get_tokenizer()
     from sudachipy import SplitMode
 
-    masked_comments = mask_html_comments(raw_text)
+    masked_comments = mask_html_comments(raw_text, mask_fenced_code=True)
     masked_structure = mask_markdown_structure(masked_comments)
     body_lines = iter_lines_with_no(masked_structure)
 
     # 見出し行は mask_markdown_structure() で空文字化されるため、見出しテキストも
-    # 用語抽出の対象に含めたい場合は別途生テキストから拾って合流させる
+    # 用語抽出の対象に含めたい場合はコメント・コードを除いたテキストから拾って合流させる
     # （制品名・専門用語が見出しで最初に登場するケースを取りこぼさないため）。
     heading_lines: list[tuple[int, str]] = []
     for no, line in iter_lines_with_no(masked_comments):
@@ -133,8 +133,8 @@ def build_term_inventory(raw_text: str) -> list[dict]:
 
     combined_lines = sorted(body_lines + heading_lines, key=lambda t: t[0])
 
-    # masked_comments は raw_text と文字数・行数が完全に一致する（HTMLコメントの
-    # 中身のみ空白化）ため、ここで作るオフセットは raw_text 側にもそのまま使える。
+    # masked_comments はコメント・コードを同じ長さの空白に置換しているため、
+    # ここで作るオフセットは raw_text 側にもそのまま使える。
     line_offsets: dict[int, int] = {}
     pos = 0
     for no, line_text in enumerate(masked_comments.split("\n"), start=1):
@@ -199,7 +199,7 @@ def build_term_inventory(raw_text: str) -> list[dict]:
 
     results = []
     for term, info in seen.items():
-        # 出現回数もコメントを除いた本文（masked_comments）基準で数える
+        # 出現回数もコメント・コードを除いた本文（masked_comments）基準で数える
         # （校正メモ等のコメント内言及を実際の用語出現としてカウントしないため）。
         count = len(re.findall(re.escape(term), masked_comments))
         context, has_gloss_hint = _term_context_and_gloss_hint(
@@ -263,4 +263,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

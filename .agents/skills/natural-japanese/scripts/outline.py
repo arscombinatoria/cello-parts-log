@@ -17,7 +17,7 @@
 ——見出し統計そのものが「AI臭い/自然」を断定することはしない。
 
 使い方:
-    uv run scripts/outline.py <file.md> [--json]
+    uv run .agents/skills/natural-japanese/scripts/outline.py <file.md> [--json]
 
 入力エラー（ファイル不在・ディレクトリ指定・読み取り不可等）は exit code 1、
 それ以外は exit code 0（判断は人間/AIに委ねる。他の検査層エントリと同じ方針）。
@@ -62,7 +62,7 @@ from textcore import (
 # （見出し行そのものが空文字になってしまい、スケルトンの主役である見出しテキストが
 # 消えてしまうため）。かわりに、見出し検出は生テキストに対して直接行い、
 # 段落は「空行区切りの行グループ」として独自に走査する。HTMLコメントのみ
-# mask_html_comments() で先に空白化し、コメント内の見出し風・箇条書き風の行を
+# mask_html_comments(mask_fenced_code=True) で先にコメント・コードを空白化し、見出し風・箇条書き風の行を
 # 誤ってスケルトンに含めないようにする。
 # ---------------------------------------------------------------------------
 
@@ -82,7 +82,7 @@ def build_outline(raw_text: str) -> list[dict]:
     （空行がないからといって同じブロックにまとめてしまうと、後続ブロックの内容が
     丸ごと出力から消えてしまう）。
     """
-    text = mask_html_comments(raw_text)
+    text = mask_html_comments(raw_text, mask_fenced_code=True)
     lines = text.split("\n")
 
     outline: list[dict] = []
@@ -414,4 +414,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
-

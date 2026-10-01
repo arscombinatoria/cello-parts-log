@@ -22,9 +22,9 @@
     importlib で読み込んだ lint.py 内部の `from textcore import ...` もそのまま解決できる。
 
 使い方:
-    uv run scripts/calibrate.py report
-    uv run scripts/calibrate.py sweep --detector low_burstiness
-    uv run scripts/calibrate.py length-analysis
+    uv run .agents/skills/natural-japanese/scripts/calibrate.py report
+    uv run .agents/skills/natural-japanese/scripts/calibrate.py sweep --detector low_burstiness
+    uv run .agents/skills/natural-japanese/scripts/calibrate.py length-analysis
 
 出力は corpus/reports/ に Markdown + JSON で保存する（.gitignore 対象）。
 """

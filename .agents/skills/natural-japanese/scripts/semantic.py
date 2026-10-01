@@ -12,7 +12,7 @@
 【重要】これは lint.py の中核パイプラインとは独立した重量級のオプトイン検出器である。
 torch + sentence-transformers（cl-nagoya/ruri-v3-310m、初回~1GB級のHFダウンロード）に
 依存するため、scripts/lint.py・.github/workflows/release.yml・scripts/check-fixtures.sh の
-どこにも組み込まない。実行したい人だけが明示的に `uv run scripts/semantic.py` を叩く。
+どこにも組み込まない。実行したい人だけが明示的に `uv run .agents/skills/natural-japanese/scripts/semantic.py` を叩く。
 
 背景・設計思想（corpus/reports/nn-detector-sweep.md §B 参照）:
     perplexity・教師あり分類器・GiNZA係り受けの3系統は、コーパス実測の結果
@@ -36,7 +36,7 @@ torch + sentence-transformers（cl-nagoya/ruri-v3-310m、初回~1GB級のHFダ�
 実験で校正した閾値とそのまま対応するようにする。
 
 使い方:
-    uv run scripts/semantic.py <file.md> [--json] [--genre essay|tech|business]
+    uv run .agents/skills/natural-japanese/scripts/semantic.py <file.md> [--json] [--genre essay|tech|business]
 
 初回実行時は cl-nagoya/ruri-v3-310m（~1GB）を HuggingFace から自動ダウンロードする
 （2回目以降はHFキャッシュを再利用し、オフラインでも動作する）。

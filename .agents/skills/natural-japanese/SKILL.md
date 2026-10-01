@@ -71,8 +71,10 @@ argument-hint: "[write|score] [quick|full|exp] [対象ファイルや依頼内�
 
 ## 3. 検査(1) — 静的検知
 
+以下の実行コマンドはリポジトリルートを作業ディレクトリとする。対象ファイルのパスもリポジトリルートから指定する。
+
 ```
-uv run scripts/lint.py --json <file>
+uv run .agents/skills/natural-japanese/scripts/lint.py --json <file>
 ```
 
 禁止語・翻訳調・否定肯定対比の反復・文長の均質さ・体言止め率・段落頭の接続詞率・語彙多様性・英語統語の疑いなどを機械的に検出する。検出結果は件数に関わらず exit code 0（lint なので、件数で CI を止めることはしない）。入力エラーのときだけ exit code 1。
@@ -81,17 +83,17 @@ uv run scripts/lint.py --json <file>
 
 収束ループ（4〜5）では、直前の `--json` 出力を `--baseline` に渡すと resolved / new / persisting を自動で仕分けてくれる。`uv` が使えない環境（Claude.ai 等）では `references/manual-checklist.md` で同じ観点を人手でなぞる。
 
-もう一つ、`scripts/semantic.py` という EXPERIMENTAL な意味的検出器がある。文埋め込みで隣接文の類似度の起伏（話題の平板さ）を測るもので、torch + sentence-transformers 依存・初回~1GBのモデルダウンロードを伴う重量級のため lint.py 本体には組み込まず、独立した opt-in エントリにしている。フル工程や環境が許すときだけ `uv run scripts/semantic.py --json <file>` を追加で回し、findings は lint と同じく判断台帳に載せて扱う。
+もう一つ、`scripts/semantic.py` という EXPERIMENTAL な意味的検出器がある。文埋め込みで隣接文の類似度の起伏（話題の平板さ）を測るもので、torch + sentence-transformers 依存・初回~1GBのモデルダウンロードを伴う重量級のため lint.py 本体には組み込まず、独立した opt-in エントリにしている。フル工程や環境が許すときだけ `uv run .agents/skills/natural-japanese/scripts/semantic.py --json <file>` を追加で回し、findings は lint と同じく判断台帳に載せて扱う。
 
 ## 4. 検査(2) — 判断台帳と二つのレビュー
 
 lint の findings は疑いの提示であり、機械的に全部直せという指示ではない。今回ヒットしたカテゴリの節を `references/revision-guide.md` で読み直し、文脈に照らして「直す/直さない」を判断する。判断は finding 一つひとつに「直した」か「残す（理由）」かを書き残しながら進める（台帳の形式は同ファイルの「判断台帳」を参照）。
 
-用語カタログが必要なら: 禁止語 → `references/forbidden-patterns.md`、翻訳調 → `references/translationese.md`。専門用語が初出で説明されているか確認する材料には `uv run scripts/terms.py <file>` を使う。カタカナ複合語・ASCII略語・固有名詞らしき語を初出行・出現回数・説明マーカーの有無つきで列挙する（説明済みかどうかは機械が判断せず、AI/人間が行う）。
+用語カタログが必要なら: 禁止語 → `references/forbidden-patterns.md`、翻訳調 → `references/translationese.md`。専門用語が初出で説明されているか確認する材料には `uv run .agents/skills/natural-japanese/scripts/terms.py <file>` を使う。カタカナ複合語・ASCII略語・固有名詞らしき語を初出行・出現回数・説明マーカーの有無つきで列挙する（説明済みかどうかは機械が判断せず、AI/人間が行う）。
 
 ### 構造レビュー — スケルトン通読
 
-lint は文レベルの表層しか見えない。特に箇条書き主体の議事録・スライドでは lint がほぼ素通りするため、構造レビューが主役になる。完成した本文から見出しと各段落の先頭文だけを抜き出して読み、次を確かめる（`uv run scripts/outline.py <file>` で見出し・各段落の先頭文・箇条書きプレースホルダを行番号付きで機械抽出できる）:
+lint は文レベルの表層しか見えない。特に箇条書き主体の議事録・スライドでは lint がほぼ素通りするため、構造レビューが主役になる。完成した本文から見出しと各段落の先頭文だけを抜き出して読み、次を確かめる（`uv run .agents/skills/natural-japanese/scripts/outline.py <file>` で見出し・各段落の先頭文・箇条書きプレースホルダを行番号付きで機械抽出できる）:
 
 1. 論旨が通るか（スケルトンだけで話が追えるか）
 2. 各見出しがメッセージになっているか

@@ -18,7 +18,7 @@
     入力エラーの場合はエラーメッセージを表示し、exit code 1 で終了する。
 
 使い方:
-    uv run scripts/lint.py <file.md> [--json]
+    uv run .agents/skills/natural-japanese/scripts/lint.py <file.md> [--json]
 
 実装メモ:
     - sudachipy の Tokenizer 生成（辞書ロード）は重いので、プロセス内で

@@ -2,7 +2,7 @@
 
 エントリポイントではない（単体実行を想定しない）ため PEP 723 インラインメタデータは
 持たない。依存（sudachipy / sudachidict-core）は各エントリスクリプト側で宣言する。
-`uv run scripts/lint.py` 等の実行時は sys.path[0] が scripts/ ディレクトリになるため、
+`uv run .agents/skills/natural-japanese/scripts/lint.py` 等の実行時は sys.path[0] が scripts/ ディレクトリになるため、
 同ディレクトリの `import textcore` がそのまま解決できる。
 
 提供するもの:
@@ -199,19 +199,40 @@ def _mask_html_comments_in_line(line: str, in_comment: bool) -> tuple[str, bool]
     return "".join(out), in_comment
 
 
-def mask_html_comments(text: str) -> str:
+def mask_html_comments(text: str, *, mask_fenced_code: bool = False) -> str:
     """HTML コメント（`<!-- ... -->`）のみを同じ長さの空白に置換したテキストを返す。
 
     Markdown 構造（見出し・リスト・太字など）はマスクしない点が
     mask_markdown_structure() と異なる。構造検出器（detect_structural_ai_habits）は
     Markdown の構造そのものを検出対象とするため、構造はマスクせず、コメント内の
-    誤検知だけを防ぐために使う。行数・行内オフセットは元のテキストと完全に一致させる。
+    誤検知だけを防ぐために使う。コードブロック内のコメント記号は解釈しない。
+    mask_fenced_code=True ならコードブロックも空白化する。
+    行数・行内オフセットは元のテキストと完全に一致させる。
     """
     lines = text.split("\n")
     masked_lines = []
     in_html_comment = False
+    open_fence: tuple[str, int] | None = None
     for line in lines:
-        masked_line, in_html_comment = _mask_html_comments_in_line(line, in_html_comment)
+        was_in_fence = open_fence is not None
+        if was_in_fence:
+            masked_line = line
+        else:
+            masked_line, in_html_comment = _mask_html_comments_in_line(line, in_html_comment)
+        fence_match = _CODE_FENCE_RE.match(masked_line)
+        if fence_match:
+            fence_run = fence_match.group(1)
+            char, length = fence_run[0], len(fence_run)
+            if open_fence is None:
+                open_fence = (char, length)
+            elif (
+                char == open_fence[0]
+                and length >= open_fence[1]
+                and masked_line[fence_match.end() :].strip() == ""
+            ):
+                open_fence = None
+        if mask_fenced_code and (was_in_fence or open_fence is not None):
+            masked_line = " " * len(line)
         masked_lines.append(masked_line)
     return "\n".join(masked_lines)
 

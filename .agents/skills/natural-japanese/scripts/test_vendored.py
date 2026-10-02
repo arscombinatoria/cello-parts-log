@@ -5,12 +5,20 @@
 """配置先のパスと、各検査経路のMarkdownコメント処理の回帰テスト。"""
 
 import unittest
+import contextlib
+import io
+import json
+import tempfile
+from types import SimpleNamespace
+from unittest.mock import patch
 from pathlib import Path
 
 import calibrate
 from outline import build_outline
 from terms import build_term_inventory
 from lint import run_lint
+from semantic import doc_sentences_with_lines
+from textcore import Finding
 from textcore import mask_html_comments, mask_markdown_structure
 
 
@@ -74,6 +82,54 @@ class MarkdownCommentTests(unittest.TestCase):
 
 
 class CallerRegressionTests(unittest.TestCase):
+    def test_literal_comment_openers_across_all_inspection_paths(self):
+        cases = {
+            'metadata': "---\ntitle: 'API <!-- syntax'\nexample: '```'\n---\n",
+            'inline': "HTMLコメントは `<!--` で始めます。\n",
+            'nested_backticks': "HTMLコメントは `` `<!--` `` で始めます。\n",
+            'multiline_inline': "HTMLコメントは `<!--\n説明` で始めます。\n",
+            'fence': "```html\n<!--\n```\n",
+            'link_url': "[説明](https://example.com/<!--)\n",
+            'autolink': "<https://example.com/<!-->\n",
+            'escaped': r"HTMLコメント記号は \<!-- です。" + '\n',
+        }
+        for name, prefix in cases.items():
+            with self.subTest(case=name):
+                source = prefix + '\n# APIの説明\n\n重要なのは、APIで情報を取得することです。\n'
+                line = len(source.splitlines())
+                self.assertTrue(any(item['text'] == 'APIの説明' for item in build_outline(source)))
+                api = next(item for item in build_term_inventory(source) if item['term'] == 'API')
+                self.assertEqual(api['count'], 2)
+                findings, _ = run_lint(source)
+                self.assertTrue(any(item.line == line for item in findings))
+                self.assertTrue(any(no == line for no, _ in doc_sentences_with_lines(source)))
+                self.assertEqual(len(mask_html_comments(source)), len(source))
+
+    def test_real_unclosed_comments_still_mask_through_eof(self):
+        source = '実際のコメント<!--\n# SQL\nAPIで情報を取得します。\n'
+        self.assertNotIn('SQL', str(build_outline(source)))
+        self.assertNotIn('API', [item['term'] for item in build_term_inventory(source)])
+        self.assertNotIn('API', mask_markdown_structure(source))
+
+    def test_term_count_and_context_exclude_code_and_urls(self):
+        source = '`API` [説明](https://example.com/API)' + ' ' * 100 + 'API（定義）を使います。\n'
+        api = next(item for item in build_term_inventory(source) if item['term'] == 'API')
+        self.assertEqual(api['count'], 1)
+        self.assertTrue(api['has_gloss_hint'])
+        self.assertIn('定義', api['context'])
+        self.assertNotIn('example.com', api['context'])
+        self.assertNotIn('`', api['context'])
+
+    def test_heading_terms_and_body_share_masked_counting_buffer(self):
+        source = '# API `SQL` [説明](https://example.com/API)\n\nAPIを使います。\n'
+        inventory = build_term_inventory(source)
+        api = next(item for item in inventory if item['term'] == 'API')
+        self.assertEqual(api['count'], 2)
+        self.assertEqual(api['first_line'], 1)
+        self.assertNotIn('SQL', [item['term'] for item in inventory])
+        masked = mask_markdown_structure(source, preserve_offsets=True, include_headings=True)
+        self.assertEqual(len(masked), len(source))
+
     def test_all_callers_retain_prose_after_inline_comment_opener(self):
         for ticks in ('`', '``', '```'):
             with self.subTest(ticks=ticks):
@@ -110,6 +166,39 @@ class CallerRegressionTests(unittest.TestCase):
         inventory = build_term_inventory(source)
         self.assertIn('API', [item['term'] for item in inventory])
         self.assertNotIn('SQL', [item['term'] for item in inventory])
+
+
+class CalibrationSampleFloorTests(unittest.TestCase):
+    def estimate(self, human_lengths, ai_lengths):
+        category = calibrate.STATISTICAL_CATEGORIES[0]
+        groups = {
+            'human_aozora': [calibrate.CorpusDoc('human_aozora', Path('human.md'), '文' * n)
+                            for n in human_lengths],
+            'human_web': [],
+            'ai': [calibrate.CorpusDoc('ai', Path('ai.md'), '文' * n) for n in ai_lengths],
+        }
+        def prepared(mod, doc):
+            findings = [Finding(1, category, '例', 'warn')] if doc.corpus_type == 'ai' else []
+            return SimpleNamespace(doc=doc, findings=findings)
+        with tempfile.TemporaryDirectory() as directory, \
+             patch.object(calibrate, 'load_corpus', return_value=groups), \
+             patch.object(calibrate, 'prepare_doc', side_effect=prepared), \
+             patch.object(calibrate, 'run_full_lint'), \
+             patch.object(calibrate, 'REPORTS_DIR', Path(directory)), \
+             contextlib.redirect_stdout(io.StringIO()):
+            calibrate.cmd_length_analysis(None)
+            result = json.loads((Path(directory) / 'length_analysis.json').read_text())
+            return result['min_effective_length_bin'][category]
+
+    def test_sample_floor_boundaries(self):
+        for human, ai in ((0, 1), (1, 1), (2, 1), (3, 0), (3, 1)):
+            with self.subTest(human=human, ai=ai):
+                expected = calibrate.LENGTH_BINS[0][0] if human >= 3 and ai >= 1 else None
+                self.assertEqual(self.estimate([100] * human, [100] * ai), expected)
+
+    def test_sparse_short_bin_does_not_override_supported_longer_bin(self):
+        self.assertEqual(self.estimate([100, 1500, 1500, 1500], [100, 1500]),
+                         calibrate.LENGTH_BINS[1][0])
 
 
 if __name__ == "__main__":

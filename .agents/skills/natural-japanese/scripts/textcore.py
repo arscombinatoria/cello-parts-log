@@ -149,180 +149,120 @@ _FRONT_MATTER_DELIM_RE = re.compile(r"^---\s*$")
 # 行内のインラインコードスパン。同じ長さのバッククォート列で囲まれた範囲を
 # 認識し、内容に含まれる別の長さのバッククォート列は終端とみなさない。
 # 文解析前に該当部分だけ同じ文字数の空白に置換する（行番号・オフセットを保つため）。
-_INLINE_CODE_SPAN_RE = re.compile(r"(?<!`)(`+)(?!`)[^\n]*?(?<!`)\1(?!`)")
+_INLINE_CODE_SPAN_RE = re.compile(
+    r"(?<!`)(`+)(?!`)(?:(?!\n(?:[ \t]*\n|[ \t]*(?:`{3,}|~{3,}|#{1,6}[ \t])))[\s\S])*?(?<!`)\1(?!`)"
+)
 # インデントコードブロック（4スペース以上のインデント）はマスク対象に含めない。
 # 通常の文中でも字下げされた引用・リストの続きなど紛らわしいケースが多く、
 # 誤マスクのリスクの方が高いと判断して見送る（要検討事項として明示しておく）。
 # Markdown 内のリンク・画像 `[text](url)` / `![alt](url)` の url 部分。
 # alt/text 側は自然文の一部として残し、URL のみ空白化する。
-_MARKDOWN_LINK_URL_RE = re.compile(r"(\]\()([^)]*)(\))")
+_MARKDOWN_LINK_URL_RE = re.compile(r"(\]\()([^\n)]*)(\))")
+_AUTOLINK_RE = re.compile(r"<(?:https?://|mailto:)[^>\n]*>")
 
 
-def _mask_html_comments_in_line(line: str, in_comment: bool) -> tuple[str, bool]:
-    """行内の HTML コメント（`<!-- ... -->`）を同じ長さの空白に置換する。
+def _blank_preserving_offsets(text: str) -> str:
+    return "".join("\n" if char == "\n" else " " for char in text)
 
-    複数行コメント（前の行から続いている／次の行へ続く）に対応するため、
-    現在コメント内にいるかどうかを in_comment として受け取り、更新後の状態を
-    返す。1行に複数のコメントが含まれる場合や、コメントの開始・終了が
-    同一行内で完結する場合にも対応する。閉じタグ `-->` が見つからないまま
-    行末に達した場合は、行末までを空白化しコメント継続状態のまま返す
-    （CommonMark の閉じられないコメントは EOF までコメントとみなす扱いに合わせる）。
+
+def mask_html_comments(
+    text: str, *, mask_fenced_code: bool = False, mask_inline_code: bool = False
+) -> str:
+    """コメント・フロントマターを、改行と文字オフセットを保って空白化する。
+
+    共通の読み取り順序はメタデータ、フェンス、行内コード・URL、コメント。
+    コードとURLのコメント記号はリテラルとして扱い、実際のコメント内では
+    Markdown記法を解釈しない。行内コードは同じ長さのバッククォートで閉じる
+    範囲を認識し、空行・新しいブロックを越えない改行も扱う。
+    コード自体の空白化は各フラグで指定する。
     """
-    out = []
-    i = 0
-    n = len(line)
-    while i < n:
-        if in_comment:
-            close = line.find("-->", i)
-            if close == -1:
-                out.append(" " * (n - i))
-                i = n
-            else:
-                end = close + 3
-                out.append(" " * (end - i))
-                i = end
-                in_comment = False
-        else:
-            start = line.find("<!--", i)
-            # コード内のコメント記号は文字列として保持する。実際のコメント内では
-            # コード記法を解釈せず、上の分岐で --> をそのまま終端として扱う。
-            code_span = _INLINE_CODE_SPAN_RE.search(line, i)
-            if code_span is not None and (start == -1 or code_span.start() < start):
-                out.append(line[i:code_span.end()])
-                i = code_span.end()
-                continue
-            if start == -1:
-                out.append(line[i:])
-                i = n
-            else:
-                out.append(line[i:start])
-                i = start
-                in_comment = True
-    return "".join(out), in_comment
-
-
-def mask_html_comments(text: str, *, mask_fenced_code: bool = False) -> str:
-    """HTML コメント（`<!-- ... -->`）のみを同じ長さの空白に置換したテキストを返す。
-
-    Markdown 構造（見出し・リスト・太字など）はマスクしない点が
-    mask_markdown_structure() と異なる。構造検出器（detect_structural_ai_habits）は
-    Markdown の構造そのものを検出対象とするため、構造はマスクせず、コメント内の
-    誤検知だけを防ぐために使う。コードブロック内のコメント記号は解釈しない。
-    mask_fenced_code=True ならコードブロックも空白化する。
-    行数・行内オフセットは元のテキストと完全に一致させる。
-    """
-    lines = text.split("\n")
-    masked_lines = []
-    in_html_comment = False
-    open_fence: tuple[str, int] | None = None
-    for line in lines:
-        was_in_fence = open_fence is not None
-        if was_in_fence:
-            masked_line = line
-        else:
-            masked_line, in_html_comment = _mask_html_comments_in_line(line, in_html_comment)
-        fence_match = _CODE_FENCE_RE.match(masked_line)
-        if fence_match:
-            fence_run = fence_match.group(1)
-            char, length = fence_run[0], len(fence_run)
-            if open_fence is None:
-                open_fence = (char, length)
-            elif (
-                char == open_fence[0]
-                and length >= open_fence[1]
-                and masked_line[fence_match.end() :].strip() == ""
-            ):
-                open_fence = None
-        if mask_fenced_code and (was_in_fence or open_fence is not None):
-            masked_line = " " * len(line)
-        masked_lines.append(masked_line)
-    return "\n".join(masked_lines)
-
-
-def _blank_inline_code_spans(line: str) -> str:
-    """行内のインラインコードスパン・Markdownリンク/画像のURL部分を
-    同じ長さの空白に置換する（オフセット保持）。"""
-    line = _INLINE_CODE_SPAN_RE.sub(lambda m: " " * len(m.group(0)), line)
-    # `](url)` の url 部分だけ空白化し、`](` と `)` はそのまま残す
-    # （text/alt 側は文章の一部として解析対象に残すため）。
-    line = _MARKDOWN_LINK_URL_RE.sub(lambda m: m.group(1) + " " * len(m.group(2)) + m.group(3), line)
-    return line
-
-
-def mask_markdown_structure(text: str) -> str:
-    """見出し・リスト項目・コードブロック内・引用ブロック・表・YAMLフロントマターの行を
-    空文字に置き換え、さらにインラインコードスパンとリンク/画像URLを空白化したテキストを返す。
-    行数・行番号（およびインラインコードスパンの行内オフセット）は元のテキストと
-    完全に一致させる（削除ではなくマスク）。
-
-    インデントコードブロック（4スペースインデント）はマスク対象に含めない。
-    箇条書きの折り返しや引用の字下げ等と見分けがつきにくく、誤マスクのリスクが
-    フェンスコードブロックより高いと判断し、プロトタイプの段階では見送っている。
-    """
-    lines = text.split("\n")
-    masked_lines = []
-    in_code_block = False
-    # 開いているフェンスの (文字種, 長さ)。``` と ~~~ の混同や、フェンス内に
-    # 出てくる別種・より短いフェンス様の行での誤クローズを防ぐため、開始フェンスと
-    # 同じ文字種かつ同じ長さ以上の行でしか閉じない（CommonMark 準拠までは行わない）。
-    open_fence: tuple[str, int] | None = None
-    # YAML フロントマターは「ファイル先頭行が単独の `---`」の場合のみ認識する。
+    out: list[str] = []
+    pos = 0
     in_front_matter = False
-    # HTML コメント（<!-- ... -->）。複数行にまたがる場合があるため、
-    # 行をまたいで開いているかどうかを状態として持つ。
-    in_html_comment = False
-    for idx, line in enumerate(lines):
-        if idx == 0 and _FRONT_MATTER_DELIM_RE.match(line):
-            in_front_matter = True
-            masked_lines.append("")
-            continue
-        if in_front_matter:
-            masked_lines.append("")
-            if _FRONT_MATTER_DELIM_RE.match(line):
-                in_front_matter = False
-            continue
+    open_fence: tuple[str, int] | None = None
+    while pos < len(text):
+        if pos == 0 or text[pos - 1] == "\n":
+            end = text.find("\n", pos)
+            end = len(text) if end == -1 else end + 1
+            line = text[pos:end]
+            if pos == 0 and _FRONT_MATTER_DELIM_RE.match(line):
+                in_front_matter = True
+                out.append(_blank_preserving_offsets(line))
+                pos = end
+                continue
+            if in_front_matter:
+                if _FRONT_MATTER_DELIM_RE.match(line):
+                    in_front_matter = False
+                out.append(_blank_preserving_offsets(line))
+                pos = end
+                continue
+            fence = _CODE_FENCE_RE.match(line)
+            was_in_fence = open_fence is not None
+            if fence:
+                run = fence.group(1)
+                if open_fence is None:
+                    open_fence = (run[0], len(run))
+                elif (run[0] == open_fence[0] and len(run) >= open_fence[1]
+                      and not line[fence.end():].strip()):
+                    open_fence = None
+            if was_in_fence or open_fence is not None:
+                out.append(_blank_preserving_offsets(line) if mask_fenced_code else line)
+                pos = end
+                continue
 
-        # コメント内のフェンスはコードブロックを開かない。
-        # 一方、実際のコードブロック内の <!-- はコメント状態を変更しない。
-        if open_fence is None:
-            line, in_html_comment = _mask_html_comments_in_line(line, in_html_comment)
+        # エスケープされた記号もHTMLコメントの開始として解釈しない。
+        if text[pos] == "\\" and pos + 1 < len(text) and text[pos + 1] in r"\`*_{}[]()#+-.!<>~":
+            out.append(text[pos:pos + 2])
+            pos += 2
+            continue
+        code = _INLINE_CODE_SPAN_RE.match(text, pos)
+        if code:
+            out.append(_blank_preserving_offsets(code.group()) if mask_inline_code else code.group())
+            pos = code.end()
+            continue
+        link_url = _MARKDOWN_LINK_URL_RE.match(text, pos)
+        if link_url:
+            out.append(link_url.group(1) + _blank_preserving_offsets(link_url.group(2))
+                       + link_url.group(3) if mask_inline_code else link_url.group())
+            pos = link_url.end()
+            continue
+        autolink = _AUTOLINK_RE.match(text, pos)
+        if autolink:
+            out.append(_blank_preserving_offsets(autolink.group()) if mask_inline_code else autolink.group())
+            pos = autolink.end()
+            continue
+        if text.startswith("<!--", pos):
+            end = text.find("-->", pos + 4)
+            end = len(text) if end == -1 else end + 3
+            out.append(_blank_preserving_offsets(text[pos:end]))
+            pos = end
+            continue
+        out.append(text[pos])
+        pos += 1
+    return "".join(out)
 
-        fence_match = _CODE_FENCE_RE.match(line)
-        if fence_match:
-            fence_run = fence_match.group(1)
-            fence_char = fence_run[0]
-            fence_len = len(fence_run)
-            # CommonMark に合わせ、閉じフェンスは「フェンス文字の連続＋後続は空白のみ」の
-            # 行に限定する（開始フェンスは ```python のような info string を許容するが、
-            # 閉じ側でそれを許すと、フェンス内の地の文がたまたま ``` で始まっただけの
-            # 行を誤ってクローズ扱いしてしまう）。
-            remainder_after_fence = line[fence_match.end() :]
-            is_close_eligible = remainder_after_fence.strip() == ""
-            if open_fence is None:
-                open_fence = (fence_char, fence_len)
-            elif fence_char == open_fence[0] and fence_len >= open_fence[1] and is_close_eligible:
-                open_fence = None
-            # 種類・長さが一致しない行、あるいは後ろに文字が続く行は
-            # 「フェンス内の地の文（例: ```内で ~~ とだけ書いた行や ```これはコード）」
-            # として扱い、トグルしない。
-            masked_lines.append("")
-            continue
-        if open_fence is not None:
-            masked_lines.append("")
-            continue
 
-        if (
-            _HEADING_RE.match(line)
-            or _LIST_ITEM_RE.match(line)
-            or _BLOCKQUOTE_RE.match(line)
-            or (_TABLE_ROW_RE.match(line) and line.count("|") >= 2)
-            or _TABLE_DELIMITER_RE.match(line)
-        ):
-            masked_lines.append("")
-            continue
-        masked_lines.append(_blank_inline_code_spans(line))
+def mask_markdown_structure(
+    text: str, *, preserve_offsets: bool = False, include_headings: bool = False
+) -> str:
+    """検査対象外の構造をマスクし、行数を保つ。
+
+    preserve_offsets=True は除外行も同じ長さの空白にし、文字オフセットも保つ。
+    include_headings=True は見出しの本文を含める（用語抽出用）。
+    """
+    text = mask_html_comments(text, mask_fenced_code=True, mask_inline_code=True)
+    masked_lines = []
+    for line in text.split("\n"):
+        heading = _HEADING_RE.match(line)
+        if heading and include_headings:
+            masked_lines.append(" " * heading.end() + line[heading.end():])
+        elif (heading or _LIST_ITEM_RE.match(line) or _BLOCKQUOTE_RE.match(line)
+              or (_TABLE_ROW_RE.match(line) and line.count("|") >= 2)
+              or _TABLE_DELIMITER_RE.match(line)):
+            masked_lines.append(" " * len(line) if preserve_offsets else "")
+        else:
+            masked_lines.append(line)
     return "\n".join(masked_lines)
-
 
 
 def iter_lines_with_no(text: str) -> list[tuple[int, str]]:

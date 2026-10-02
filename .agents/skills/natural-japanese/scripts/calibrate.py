@@ -687,7 +687,7 @@ def cmd_length_analysis(mod) -> None:
         found_bin = None
         for label, lo, _ in LENGTH_BINS:
             cell = result[label][cat]
-            if cell["human_total"] == 0 and cell["ai_total"] == 0:
+            if cell["human_total"] < 3 or cell["ai_total"] < 1:
                 continue
             human_rate = cell["human_fired"] / cell["human_total"] if cell["human_total"] else None
             ai_rate = cell["ai_fired"] / cell["ai_total"] if cell["ai_total"] else None
@@ -743,7 +743,7 @@ def cmd_length_analysis(mod) -> None:
     lines_out.append("")
     lines_out.append(
         "ai発火率がhuman発火率を上回り始める最小の文書長ビン（弁別力が正になる最小ビン）。"
-        "両側とも標本があるビンのみ判定対象。"
+        "humanが3件以上、AIが1件以上あるビンのみ判定対象。"
     )
     lines_out.append("")
     lines_out.append("| 検出器 | 最低有効文書長ビン |")

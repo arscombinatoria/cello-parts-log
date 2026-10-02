@@ -27,11 +27,8 @@ import sys
 from pathlib import Path
 
 from textcore import (
-    _HEADING_RE,
-    _heading_level_and_text,
     get_tokenizer,
     iter_lines_with_no,
-    mask_html_comments,
     mask_markdown_structure,
     read_source_file,
 )
@@ -80,12 +77,12 @@ def _is_proper_noun_or_capitalized_latin_morpheme(morpheme) -> bool:
 def _term_context_and_gloss_hint(
     term: str, first_line_no: int, search_text: str, line_offsets: dict[int, int]
 ) -> tuple[str, bool]:
-    """search_text（HTMLコメントのみ空白化済みの原文相当。文字数・行数は原文と同一）
+    """search_text（抽出対象外の構造を空白化済み。文字数・行数は原文と同一）
     全体における term の初出近傍（前後 TERMS_GLOSS_CONTEXT_CHARS 字）と、
     説明の手掛かり（has_gloss_hint）の有無を返す。
 
-    raw_text そのものではなく HTML コメントを空白化したテキストを使うのは、
-    近傍表示にコメント内のメモ書き（校正メモ等）が紛れ込むのを防ぐため
+    抽出と同じマスク済みテキストを使い、近傍表示にコード・URL・メタデータや
+    コメント内のメモ書きが紛れ込むのを防ぐ
     （オフセット・行番号は raw_text と完全に一致するので、term の検索・切り出しは
     この search_text に対して行っても line_offsets が raw_text 側と食い違わない）。
     """
@@ -118,26 +115,13 @@ def build_term_inventory(raw_text: str) -> list[dict]:
     tokenizer = get_tokenizer()
     from sudachipy import SplitMode
 
-    masked_comments = mask_html_comments(raw_text, mask_fenced_code=True)
-    masked_structure = mask_markdown_structure(masked_comments)
-    body_lines = iter_lines_with_no(masked_structure)
-
-    # 見出し行は mask_markdown_structure() で空文字化されるため、見出しテキストも
-    # 用語抽出の対象に含めたい場合はコメント・コードを除いたテキストから拾って合流させる
-    # （制品名・専門用語が見出しで最初に登場するケースを取りこぼさないため）。
-    heading_lines: list[tuple[int, str]] = []
-    for no, line in iter_lines_with_no(masked_comments):
-        if _HEADING_RE.match(line):
-            _, heading_text = _heading_level_and_text(line)
-            heading_lines.append((no, heading_text))
-
-    combined_lines = sorted(body_lines + heading_lines, key=lambda t: t[0])
-
-    # masked_comments はコメント・コードを同じ長さの空白に置換しているため、
-    # ここで作るオフセットは raw_text 側にもそのまま使える。
+    # 抽出・回数・文脈を同じバッファで判断する。見出し本文を含めつつ、
+    # コード・URL・メタデータ・コメント・除外構造の文字オフセットを保持する。
+    search_text = mask_markdown_structure(raw_text, preserve_offsets=True, include_headings=True)
+    combined_lines = iter_lines_with_no(search_text)
     line_offsets: dict[int, int] = {}
     pos = 0
-    for no, line_text in enumerate(masked_comments.split("\n"), start=1):
+    for no, line_text in enumerate(search_text.split("\n"), start=1):
         line_offsets[no] = pos
         pos += len(line_text) + 1
 
@@ -199,11 +183,11 @@ def build_term_inventory(raw_text: str) -> list[dict]:
 
     results = []
     for term, info in seen.items():
-        # 出現回数もコメント・コードを除いた本文（masked_comments）基準で数える
+        # 出現回数もコメント・コードを除いた本文（search_text）基準で数える
         # （校正メモ等のコメント内言及を実際の用語出現としてカウントしないため）。
-        count = len(re.findall(re.escape(term), masked_comments))
+        count = len(re.findall(re.escape(term), search_text))
         context, has_gloss_hint = _term_context_and_gloss_hint(
-            term, info["first_line"], masked_comments, line_offsets
+            term, info["first_line"], search_text, line_offsets
         )
         results.append(
             {

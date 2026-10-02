@@ -1563,7 +1563,7 @@ BOILERPLATE_HEADING_WORDS = {
     "総括",
     "conclusion",
 }
-NUMBERED_PHASE_RE = re.compile(r"(フェーズ|ステップ|段階|ステージ)\s*[0-90-9１-９]")
+NUMBERED_PHASE_RE = re.compile(r"(フェーズ|ステップ|段階|ステージ)\s*[0-9１-９]")
 NUMBERED_PHASE_MIN_COUNT = 3
 # 絵文字・装飾記号（代表的なものに限定。厳密な Unicode 絵文字判定は行わない）
 EMOJI_SYMBOL_RE = re.compile(

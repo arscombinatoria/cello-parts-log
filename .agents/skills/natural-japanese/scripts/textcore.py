@@ -138,11 +138,6 @@ _BLOCKQUOTE_RE = re.compile(r"^\s*>")
 # 長さが開始フェンス以上」であることを別途チェックする（``` と ~~~ の混同や、
 # フェンス内に出てくる別種・より短いフェンス様の行での誤クローズを防ぐため）。
 _CODE_FENCE_RE = re.compile(r"^\s*(`{3,}|~{3,})")
-# 表の行判定は保守的に: 「行が `|` で始まり、`|` を2個以上含む」または
-# 区切り行（`|---|---|` 的な、`-`/`:`/`|`/空白のみで構成される行）に限定する。
-# 本文中にたまたま `|` が1個だけ出るケースを誤マスクしないための条件。
-_TABLE_ROW_RE = re.compile(r"^\s*\|.*\|")
-_TABLE_DELIMITER_RE = re.compile(r"^\s*\|?[\s:|-]+\|[\s:|-]*\|?\s*$")
 # YAML フロントマター（ファイル先頭の `---` ... `---`）。先頭行が単独の `---` の
 # ときだけフロントマターとみなし、次の単独 `---` までをまとめてマスクする。
 _FRONT_MATTER_DELIM_RE = re.compile(r"^---\s*$")
@@ -157,8 +152,117 @@ _INLINE_CODE_SPAN_RE = re.compile(
 # 誤マスクのリスクの方が高いと判断して見送る（要検討事項として明示しておく）。
 # Markdown 内のリンク・画像 `[text](url)` / `![alt](url)` の url 部分。
 # alt/text 側は自然文の一部として残し、URL のみ空白化する。
-_MARKDOWN_LINK_URL_RE = re.compile(r"(\]\()([^\n)]*)(\))")
 _AUTOLINK_RE = re.compile(r"<(?:https?://|mailto:)[^>\n]*>")
+
+
+def _markdown_link_end(text: str, start: int) -> int | None:
+    """リンク先の括弧・エスケープ・山括弧と任意のタイトルを読む。"""
+    if not text.startswith("](", start):
+        return None
+
+    def whitespace(pos: int) -> int:
+        while pos < len(text) and text[pos].isspace():
+            pos += 1
+        return pos
+
+    pos = whitespace(start + 2)
+    if pos >= len(text):
+        return None
+    if text[pos] == "<":
+        pos += 1
+        while pos < len(text) and text[pos] not in ">\n":
+            pos += 2 if text[pos] == "\\" and pos + 1 < len(text) else 1
+        if pos >= len(text) or text[pos] != ">":
+            return None
+        pos += 1
+    else:
+        depth = 0
+        while pos < len(text) and not text[pos].isspace():
+            char = text[pos]
+            if char == "\\" and pos + 1 < len(text) and text[pos + 1] != "\n":
+                pos += 2
+                continue
+            if char == "(":
+                depth += 1
+            elif char == ")":
+                if depth == 0:
+                    break
+                depth -= 1
+            pos += 1
+        if depth:
+            return None
+    destination_end = pos
+    pos = whitespace(pos)
+    if pos < len(text) and text[pos] != ")":
+        if pos == destination_end or text[pos] not in "\"'(":
+            return None
+        closing = ")" if text[pos] == "(" else text[pos]
+        pos += 1
+        while pos < len(text) and text[pos] != closing:
+            pos += 2 if text[pos] == "\\" and pos + 1 < len(text) else 1
+        if pos >= len(text):
+            return None
+        pos = whitespace(pos + 1)
+    if pos >= len(text) or text[pos] != ")":
+        return None
+    # リンク構文は空行を越えない。単一改行で分かれたタイトルは許容する。
+    if re.search(r"\n[ \t]*\n", text[start:pos + 1]):
+        return None
+    return pos + 1
+
+
+def _table_cells(line: str) -> list[str] | None:
+    """エスケープされていないパイプで分割し、任意の外側パイプを除く。"""
+    cells = []
+    start = 0
+    pos = 0
+    while pos < len(line):
+        if line[pos] == "\\" and pos + 1 < len(line):
+            pos += 2
+            continue
+        if line[pos] == "|":
+            cells.append(line[start:pos].strip())
+            start = pos + 1
+        pos += 1
+    if not cells:
+        return None
+    cells.append(line[start:].strip())
+    if not cells[0]:
+        cells.pop(0)
+    if cells and not cells[-1]:
+        cells.pop()
+    return cells
+
+
+def mask_gfm_tables(text: str) -> str:
+    """ヘッダーと同じ列数の区切り行から表ブロックを認識し、オフセットを保つ。
+
+    呼び出し元でコード・コメント・フロントマターを先に除外する。
+    パイプだけを含む通常の文は表として扱わない。
+    """
+    lines = text.split("\n")
+    def interrupts(line: str) -> bool:
+        return not line.strip() or bool(
+            _HEADING_RE.match(line) or _LIST_ITEM_RE.match(line)
+            or _BLOCKQUOTE_RE.match(line) or _CODE_FENCE_RE.match(line)
+            or re.fullmatch(r"[ \t]*(?:[-*_][ \t]*){3,}", line)
+        )
+    i = 0
+    while i + 1 < len(lines):
+        header = _table_cells(lines[i])
+        delimiter = _table_cells(lines[i + 1])
+        if (interrupts(lines[i]) or not header or not delimiter
+                or len(header) != len(delimiter)
+                or not all(re.fullmatch(r":?-+:?", cell) for cell in delimiter)):
+            i += 1
+            continue
+        end = i + 2
+        while end < len(lines) and not interrupts(lines[end]):
+            end += 1
+        for row in range(i, end):
+            lines[row] = " " * len(lines[row])
+        i = end
+    return "\n".join(lines)
 
 
 def _blank_preserving_offsets(text: str) -> str:
@@ -220,11 +324,11 @@ def mask_html_comments(
             out.append(_blank_preserving_offsets(code.group()) if mask_inline_code else code.group())
             pos = code.end()
             continue
-        link_url = _MARKDOWN_LINK_URL_RE.match(text, pos)
-        if link_url:
-            out.append(link_url.group(1) + _blank_preserving_offsets(link_url.group(2))
-                       + link_url.group(3) if mask_inline_code else link_url.group())
-            pos = link_url.end()
+        link_end = _markdown_link_end(text, pos)
+        if link_end is not None:
+            out.append("](" + _blank_preserving_offsets(text[pos + 2:link_end - 1]) + ")"
+                       if mask_inline_code else text[pos:link_end])
+            pos = link_end
             continue
         autolink = _AUTOLINK_RE.match(text, pos)
         if autolink:
@@ -250,15 +354,14 @@ def mask_markdown_structure(
     preserve_offsets=True は除外行も同じ長さの空白にし、文字オフセットも保つ。
     include_headings=True は見出しの本文を含める（用語抽出用）。
     """
-    text = mask_html_comments(text, mask_fenced_code=True, mask_inline_code=True)
+    text = mask_gfm_tables(mask_html_comments(text, mask_fenced_code=True))
+    text = mask_html_comments(text, mask_inline_code=True)
     masked_lines = []
     for line in text.split("\n"):
         heading = _HEADING_RE.match(line)
         if heading and include_headings:
             masked_lines.append(" " * heading.end() + line[heading.end():])
-        elif (heading or _LIST_ITEM_RE.match(line) or _BLOCKQUOTE_RE.match(line)
-              or (_TABLE_ROW_RE.match(line) and line.count("|") >= 2)
-              or _TABLE_DELIMITER_RE.match(line)):
+        elif heading or _LIST_ITEM_RE.match(line) or _BLOCKQUOTE_RE.match(line):
             masked_lines.append(" " * len(line) if preserve_offsets else "")
         else:
             masked_lines.append(line)

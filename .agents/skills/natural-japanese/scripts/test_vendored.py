@@ -90,6 +90,12 @@ class CallerRegressionTests(unittest.TestCase):
             'multiline_inline': "HTMLコメントは `<!--\n説明` で始めます。\n",
             'fence': "```html\n<!--\n```\n",
             'link_url': "[説明](https://example.com/<!--)\n",
+            'balanced_link': "[説明](https://example.com/foo_(bar)/<!--)\n",
+            'nested_link': "[説明](https://example.com/a_(b_(c))/<!--)\n",
+            'escaped_link': r"[説明](https://example.com/a_\(b\)/<!--)" + '\n',
+            'angle_link': '[説明](<https://example.com/a_(b)/<!--> "補足 (例)")\n',
+            'multiline_link_title': '[説明](https://example.com/a_(b)/<!--\n "補足 (例)")\n',
+            'image_link': '![説明](https://example.com/a_(b)/<!-- "補足 )")\n',
             'autolink': "<https://example.com/<!-->\n",
             'escaped': r"HTMLコメント記号は \<!-- です。" + '\n',
         }
@@ -110,6 +116,46 @@ class CallerRegressionTests(unittest.TestCase):
         self.assertNotIn('SQL', str(build_outline(source)))
         self.assertNotIn('API', [item['term'] for item in build_term_inventory(source)])
         self.assertNotIn('API', mask_markdown_structure(source))
+
+    def test_gfm_table_blocks_are_excluded_by_every_caller(self):
+        for header, delimiter, row in (
+            ('Name | Value', '--- | ---', 'API | 重要なのは、説明です。'),
+            ('| Name | Value |', '| :--- | ---: |', '| API | 重要なのは、説明です。 |'),
+            (r'Name\|Alias | Value', ':---: | ---', r'API\|SQL | 重要なのは、説明です。'),
+        ):
+            with self.subTest(header=header):
+                source = f'{header}\n{delimiter}\n{row}\n\n# 本文\n\n重要なのは、本文を読むことです。\n'
+                self.assertEqual([x['line'] for x in build_outline(source)], [5, 7])
+                self.assertNotIn('API', [x['term'] for x in build_term_inventory(source)])
+                findings, _ = run_lint(source)
+                self.assertFalse(any(x.line <= 3 for x in findings))
+                self.assertTrue(any(x.line == 7 for x in findings))
+                self.assertEqual([no for no, _ in doc_sentences_with_lines(source)], [7])
+                masked = mask_markdown_structure(source, preserve_offsets=True)
+                self.assertEqual(len(masked), len(source))
+
+    def test_pipe_in_prose_without_table_delimiter_is_retained(self):
+        source = 'API | SQLを比較します。\n\n後続の本文です。\n'
+        self.assertIn('API', mask_markdown_structure(source))
+        self.assertIn('API', str(build_outline(source)))
+        self.assertIn('API', [x['term'] for x in build_term_inventory(source)])
+
+    def test_table_requires_matching_header_and_delimiter_columns(self):
+        source = 'API | SQL\n--- | --- | ---\n本文です。\n'
+        self.assertIn('API', mask_markdown_structure(source))
+        self.assertIn('API', str(build_outline(source)))
+
+    def test_balanced_link_mask_keeps_label_offsets_and_real_comments(self):
+        source = '[API](https://example.com/a_(b)/SQL/<!--) <!--非表示-->本文です。\n'
+        masked = mask_markdown_structure(source, preserve_offsets=True)
+        self.assertEqual(len(masked), len(source))
+        self.assertIn('[API]', masked)
+        self.assertIn('本文です。', masked)
+        self.assertNotIn('SQL', masked)
+        self.assertNotIn('非表示', masked)
+        terms = build_term_inventory(source)
+        self.assertEqual(next(x for x in terms if x['term'] == 'API')['count'], 1)
+        self.assertNotIn('SQL', [x['term'] for x in terms])
 
     def test_term_count_and_context_exclude_code_and_urls(self):
         source = '`API` [説明](https://example.com/API)' + ' ' * 100 + 'API（定義）を使います。\n'

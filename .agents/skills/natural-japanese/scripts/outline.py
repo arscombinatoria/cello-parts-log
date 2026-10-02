@@ -42,11 +42,10 @@ from textcore import (
     _FRONT_MATTER_DELIM_RE,
     _HEADING_RE,
     _LIST_ITEM_RE,
-    _TABLE_DELIMITER_RE,
-    _TABLE_ROW_RE,
     _heading_level_and_text,
     get_tokenizer,
     mask_html_comments,
+    mask_gfm_tables,
     read_source_file,
     strip_trailing_symbols,
 )
@@ -82,7 +81,7 @@ def build_outline(raw_text: str) -> list[dict]:
     （空行がないからといって同じブロックにまとめてしまうと、後続ブロックの内容が
     丸ごと出力から消えてしまう）。
     """
-    text = mask_html_comments(raw_text, mask_fenced_code=True)
+    text = mask_gfm_tables(mask_html_comments(raw_text, mask_fenced_code=True))
     lines = text.split("\n")
 
     outline: list[dict] = []
@@ -99,10 +98,6 @@ def build_outline(raw_text: str) -> list[dict]:
             return "bullets"
         if _BLOCKQUOTE_RE.match(line_text):
             return "blockquote"
-        if (_TABLE_ROW_RE.match(line_text) and line_text.count("|") >= 2) or _TABLE_DELIMITER_RE.match(
-            line_text
-        ):
-            return "table"
         return "lead"
 
     def flush_buffer() -> None:
@@ -116,10 +111,6 @@ def build_outline(raw_text: str) -> list[dict]:
             )
         elif _BLOCKQUOTE_RE.match(first_line):
             pass  # 引用ブロックは段落として扱わずスキップ
-        elif (_TABLE_ROW_RE.match(first_line) and first_line.count("|") >= 2) or _TABLE_DELIMITER_RE.match(
-            first_line
-        ):
-            pass  # 表はスキップ
         else:
             m = re.search(r"[。！？]", first_line)
             lead = first_line[: m.end()] if m else first_line

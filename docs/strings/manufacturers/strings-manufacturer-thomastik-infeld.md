@@ -12,7 +12,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 
 - オーストリア・ウィーン拠点
 - 旧来定番（Dominant / Spirocore）と現代上位（Versum / Rondo 系）が併存
-- 発売年は、今回確認できた一次資料では個別シリーズごとの網羅情報は未確認
+- 確認した一次資料では、全シリーズの発売年を確認できていない
 
 ## シリーズ一覧（チェロ）
 
@@ -24,8 +24,8 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 | Belcanto Gold | 上級 | steel 系列 | 深さと明瞭さの両立志向 | しなやか寄り | 室内楽、歌う表現 | 旧称 Belcanto から名称更新 |
 | Versum | 上位 | A/D = carbon steel + multialloy、G/C = spiral core + tungsten/chrome | 密度と明瞭さの両立志向 | 反応が速い | ソロ、現代的セット | 単弦比較が有効 |
 | Versum Solo | 上位派生 | A/D = carbon steel + multialloy、G/C = spiral core + tungsten/chrome | より前方投射を狙う方向 | 張力感は強めになりやすい | 独奏 | Versum 本体と比較推奨 |
-| Rondo | advanced/pro line | steel 系列の上位設計 | 力強い音像を狙う方向 | 速い応答 | 独奏、投射重視 | Rondo Experience A string ラインあり |
-| Peter Infeld / Dominant Pro / Rondo Experience / Spirit! / Präzision | 現行ライン（補足） | 今回は各シリーズ本文未展開 | - | - | 追加比較候補 | 詳細は別ページ化検討 |
+| Rondo | 上級者・プロ向けシリーズ | steel 系列の上位設計 | 力強い音像を狙う方向 | 速い応答 | 独奏、投射重視 | Rondo Experience A string ラインあり |
+| Peter Infeld / Dominant Pro / Rondo Experience / Spirit! / Präzision | 現行ライン（補足） | このページでは各シリーズの詳細は未掲載 | - | - | 追加比較候補 | 詳細を別ページで紹介するかは検討中 |
 
 ## 各シリーズ解説
 
@@ -43,7 +43,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 - **位置づけ**: 合成コア系の長期定番。
 - **構造・材質（客観仕様）**: synthetic core。
 - **音の傾向（主観）**: 暖かめで中庸。
-- **張力感・レスポンス（主観）**: 扱いやすい中庸反応。
+- **張力感・レスポンス（主観）**: 反応は中程度で扱いやすい。
 - **推奨用途**: 学習〜アンサンブル。
 - **注意点**: 発売年は今回確認できず。
 
@@ -85,7 +85,7 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 
 ### Rondo
 
-- **位置づけ**: current official の advanced/pro line。
+- **位置づけ**: 現行の公式情報では上級者・プロ向けシリーズ。
 - **構造・材質（客観仕様）**: steel 系列上位設計。Rondo Experience A string の展開あり。
 - **音の傾向（主観）**: 力強い音像を狙う方向。
 - **張力感・レスポンス（主観）**: 速い応答。

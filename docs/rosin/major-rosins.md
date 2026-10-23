@@ -108,9 +108,14 @@ flowchart TD
 | Leatherwood Crisp | 高級・調整系 | 公式情報あり | 同上。 | 明瞭側の反応調整候補。 |
 | Leatherwood Bespoke | 高級・調整系 | 公式情報あり | カスタム思想。詳細処方は未公表。 | 基準松脂確定後に導入すると比較しやすい。 |
 | Larica metal rosin | 特殊配合 | 公式情報あり | 金属系名称（Gold/Copper/Meteor Iron 等）を持つ。 | 系列間差が大きく、型番単位比較が前提。 |
-| Cecilia Signature | 高級系 | 販売店情報ベース | Signature/Solo/Sanctus の流通表記あり。 | 公式一次情報の追加確認を推奨。 |
-| Cecilia Solo | 高級系 | 販売店情報ベース | 同上。 | 用途断定を避け、同条件比較で判断。 |
-| Cecilia Sanctus | 高級系 | 販売店情報ベース | 同上。 | 銘柄名先行でなく反応差で評価する。 |
+| CECILIA Signature Formula | 高級系・チェロ向けあり | 公式情報あり | メーカーは、少量で明確な反応と豊かで表現力のある音色を得られると説明。 | 同じ弓・弦・環境で、少量塗布時の反応を比較する候補。 |
+| CECILIA SOLO | 高級系・チェロ向けあり | 公式情報あり | メーカーは、強いグリップ、音の遠達性（プロジェクション）、明瞭な発音を重視し、高い弓圧にも対応すると説明。 | 遠達性や発音を重視する場合に、弱音から強音まで同条件で比較。 |
+| CECILIA A Piacere | 高級系・チェロ向けあり | 公式情報あり | メーカーは、SOLOより温かく丸い音色と音のまとまり、中程度のプロジェクションを訴求。柔らかめの弓との相性にも言及。 | 音のまとまりを重視する場合に、同じ弓・弦・環境でSOLOと比較。 |
+| CECILIA Sanctus | 高級系・チェロ向けあり | 公式情報あり | 1つのケーキに2フォーミュラを組み合わせる構造。メーカーは、外周の滑らかで焦点の定まった反応と、柔らかい中心部による強奏時の力強さを訴求。 | 同じ弓・弦・環境で、弓圧を変えたときの反応差を比較する候補。 |
+
+CECILIAの4フォーミュラは、[公式コレクション](https://www.ceciliarosincollection.com/collection/)でヴァイオリン・ヴィオラ・チェロ向けとして掲載されています。表中の音色・反応・プロジェクションはメーカーの訴求の要約であり、客観的に測定された音響特性を示すものではありません。
+
+CECILIA Artist Reserve（Prima / Divinum）は、[公式ページ](https://www.ceciliarosincollection.com/artist-reserve/)で2026年10月発売予定と告知され、両フォーミュラにviolin/viola・cello/viola向けを掲げています。ただし、確認時点（2026年10月24日）ではチェロ向けの販売開始・在庫状況を確認できていないため、現行製品表への追加は保留します。
 
 ## 弦・楽器別の見方
 
@@ -166,4 +171,5 @@ flowchart TD
 - [Bernardel Rosin（販売店情報例）](https://www.johnsonstring.com/cgi-bin/music/scripts/violin-viola-cello-bernardel-rosin.htm)
 - [Hill Premium Dark Cello（販売店情報例）](https://www.sharmusic.com/products/hill-dark-cello-rosin)
 - [Nyman Cello（販売店情報例）](https://www.concordmusic.com/products/nyman-cello-rosin)
-- [Cecilia Rosin（販売店情報例）](https://www.concordmusic.com/collections/cecilia-rosin)
+- [CECILIA Rosin Collection（公式・4フォーミュラの説明）](https://www.ceciliarosincollection.com/collection/)
+- [CECILIA Artist Reserve（公式・Prima / Divinumの発売告知）](https://www.ceciliarosincollection.com/artist-reserve/)

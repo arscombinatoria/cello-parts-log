@@ -14,7 +14,7 @@ sidebar_position: 3
 | Larsen Strings | Aurora / Original / Soloist / Magnacore / Il Cannone | チェロ弦の定番ブランド。複数ラインで性格差を作りやすい | A/Dの定番運用、ソロ向けセットアップ | 中〜高 | [詳細ページ](./strings-manufacturer-larsen.md) |
 | Pirastro | Chromcor / Obligato / Evah Pirazzi / Perpetual ほか | ガット〜合成〜スチールまで選択肢が広い | 音色キャラクター重視、幅広いレベル帯 | 中〜高 | [詳細ページ](./strings-manufacturer-pirastro.md) |
 | Savarez/Corelli | Corelli Solea（New Concept / Corelli Gut は現行未確認） | 公式カタログで Solea の掲載を確認 | スチール系セットの比較 | 中〜中高 | [詳細ページ](./strings-manufacturer-savarez-corelli.md) |
-| Thomastik-Infeld | Alphayue / Dominant / Spirocore / Versum / Rondo | ロープコア系を含む定番群が多く、組み合わせ運用の実績が豊富 | G/Cの定番選択、オーケストラ〜ソロ | 中〜高 | [詳細ページ](./strings-manufacturer-thomastik-infeld.md) |
+| Thomastik-Infeld | Alphayue / Dominant / Spirocore / Superflexible / Versum / Rondo | ロープコア系を含む定番群が多く、組み合わせ運用の実績が豊富 | G/Cの定番選択、オーケストラ〜ソロ | 中〜高 | [詳細ページ](./strings-manufacturer-thomastik-infeld.md) |
 | Warchal | Amber / Brilliant | シリーズ数は少なめだが個性が明確 | 温かさと反応性の両立を狙う用途 | 中高 | [詳細ページ](./strings-manufacturer-warchal.md) |
 
 ## 表の読み方

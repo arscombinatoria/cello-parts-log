@@ -28,6 +28,6 @@
     "@tsconfig/docusaurus": "^2.0.9",
     "eslint": "^9.39.5",
     "eslint-plugin-react": "^7.37.5",
-    "typescript": "^5.9.3"
+    "typescript": "^7.0.2"
   }
 }

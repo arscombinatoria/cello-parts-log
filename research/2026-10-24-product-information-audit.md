@@ -302,52 +302,52 @@ C/Eの項目は、新たな公式資料が確認できた時点で再調査す�
 指定語に加え確認できず・要追加確認等を含めた検索の50行を保存する。1行に複数概念や同じ不足の反復があるため、上の調査項目数とは一致しない。材質表記の揺れは本文の周辺確認で追加した。
 
 - `docs/bows/manufacturers.md:42` — 一方で、メーカー公式の一次情報を一元的に確認しにくいため、設立年や沿革はこのページでは断定しません。
-- `docs/bridges/bridges-blank-manufacturers.md:15` —  /  Milo Stamm Ponticelli（ミロ・スタム）  /  本拠地未確認（公式規約の返送先：セルビア・Indjija）※  /  Student / Standard / Premium / Royal（公式の4品質クラス）  /  B / B1 / D / F / F1 / H / H1 / H2 / K / M など（公式掲載の形状モデル。品質クラスとは別軸）  /  ラインが複数あり、予算に応じて段階選択しやすい。取扱店の型番・在庫が比較的多く、同じ工房でグレードを比較しやすい。  / 
+- `docs/bridges/bridges-blank-manufacturers.md:15` —  /  Milo Stamm Ponticelli（ミロ・スタム）  /  本拠地未確認（公式規約の返送先：セルビア・Indjija）※  /  Student / Standard / Premium / Royal（公式の4品質クラス）  /  B / B1 / D / F / F1 / H / H1 / H2 / K / M など（公式掲載の形状モデル。品質クラスとは別軸）  /  ラインが複数あり、予算に応じて段階選択しやすい。取扱店の型番・在庫が比較的多く、同じ工房でグレードを比較しやすい。  /
 - `docs/bridges/bridges-blank-manufacturers.md:18` — ※ Milo Stamm の表に記載した住所は、[公式利用規約](https://www.milostamm.com/e_agb.htm)に返送先として掲載された住所です。この住所は、本拠地やすべての製品の製造地を示すものではありません。[公式チェロ駒ページ](https://www.milostamm.com/violoncello.htm)と同規約では製造国が明示されていないため、製造国は「未指定」とします。
 - `docs/bridges/bridges-blank-manufacturers.md:81` — - 公式利用規約には、返送先住所として Zmaj Jovina 185a, 22320 Indjija, Serbien が掲載されています。この住所は、本拠地やすべての製品の製造地を示すものではありません。公式チェロ駒ページと同規約では製造国が明示されていないため、製造国は「未指定」とします。
 - `docs/rosin/major-rosins.md:14` — また、配合や製法は企業秘密である場合が多く、公開情報は限定的です。未公表事項は未公表と明示し、販売店情報と公式情報を分けて扱います。
-- `docs/rosin/major-rosins.md:27` — - ただし、**具体的な配合比・添加素材の詳細は未公表**である製品が多数です。  
+- `docs/rosin/major-rosins.md:27` — - ただし、**具体的な配合比・添加素材の詳細は未公表**である製品が多数です。
 - `docs/rosin/major-rosins.md:70` — > 注記: 「公式情報」はメーカー側の明示事項、「販売店情報ベース」は販売ページ中心の情報です。配合詳細は未公表が多いため、断定的な音質表現は避けています。
-- `docs/rosin/major-rosins.md:76` —  /  Pirastro Cellisto  /  チェロ向け  /  公式情報あり  /  Pirastro のチェロ用ライン。詳細配合は未公表。  /  Pirastro Cello との比較で硬さ方向を確認しやすい。  / 
-- `docs/rosin/major-rosins.md:77` —  /  Pirastro Cello  /  チェロ向け  /  公式情報あり  /  同社チェロ用の基準候補。詳細配合は未公表。  /  基準銘柄として他製品比較に使いやすい。  / 
-- `docs/rosin/major-rosins.md:78` —  /  Pirastro Oliv / Evah Pirazzi Rosin  /  汎用〜チェロ使用例あり  /  公式情報あり  /  製品ライン名は公式掲載。チェロ専用表記は要追加確認。  /  低粉塵・反応の比較対象として運用可能だが用途確認が必要。  / 
-- `docs/rosin/major-rosins.md:79` —  /  Kolstein Supreme Cello  /  チェロ向け  /  公式情報あり  /  チェロ用として展開。配合詳細は未公表。  /  専用品群の比較軸に入れやすい。  / 
-- `docs/rosin/major-rosins.md:83` —  /  Melos Cello Baroque  /  チェロ向け（用途限定）  /  公式情報あり  /  Baroque 用途名義の派生系。  /  通常運用に加える前に用途適合を要確認。  / 
-- `docs/rosin/major-rosins.md:85` —  /  Petz Soloist  /  チェロ使用例あり  /  販売店情報ベース  /  Soloist 名称は流通で確認、チェロ専用かは要追加確認。  /  比較候補にはなるが用途断定は避ける。  / 
-- `docs/rosin/major-rosins.md:87` —  /  Nyman Cello  /  チェロ向け  /  販売店情報ベース  /  Cello 表記で流通。公式仕様詳細は要追加確認。  /  実売実績は多いが最新仕様の一次確認を推奨。  / 
-- `docs/rosin/major-rosins.md:88` —  /  Hill Premium Dark Cello  /  チェロ向け  /  販売店情報ベース  /  Premium Dark Cello 名義は販売情報で確認。  /  代理店/販売店記載差異を要確認。  / 
-- `docs/rosin/major-rosins.md:98` —  /  D’Addario Clarity Hypoallergenic  /  代替系（低アレルギー訴求）  /  公式情報あり  /  低アレルギー訴求ライン。配合詳細は未公表。  /  皮膚刺激懸念時の候補。音色方向は要試奏確認。  / 
-- `docs/rosin/major-rosins.md:109` —  /  Leatherwood Bespoke  /  高級・調整系  /  公式情報あり  /  カスタム思想。詳細処方は未公表。  /  基準松脂確定後に導入すると比較しやすい。  / 
+- `docs/rosin/major-rosins.md:76` —  /  Pirastro Cellisto  /  チェロ向け  /  公式情報あり  /  Pirastro のチェロ用ライン。詳細配合は未公表。  /  Pirastro Cello との比較で硬さ方向を確認しやすい。  /
+- `docs/rosin/major-rosins.md:77` —  /  Pirastro Cello  /  チェロ向け  /  公式情報あり  /  同社チェロ用の基準候補。詳細配合は未公表。  /  基準銘柄として他製品比較に使いやすい。  /
+- `docs/rosin/major-rosins.md:78` —  /  Pirastro Oliv / Evah Pirazzi Rosin  /  汎用〜チェロ使用例あり  /  公式情報あり  /  製品ライン名は公式掲載。チェロ専用表記は要追加確認。  /  低粉塵・反応の比較対象として運用可能だが用途確認が必要。  /
+- `docs/rosin/major-rosins.md:79` —  /  Kolstein Supreme Cello  /  チェロ向け  /  公式情報あり  /  チェロ用として展開。配合詳細は未公表。  /  専用品群の比較軸に入れやすい。  /
+- `docs/rosin/major-rosins.md:83` —  /  Melos Cello Baroque  /  チェロ向け（用途限定）  /  公式情報あり  /  Baroque 用途名義の派生系。  /  通常運用に加える前に用途適合を要確認。  /
+- `docs/rosin/major-rosins.md:85` —  /  Petz Soloist  /  チェロ使用例あり  /  販売店情報ベース  /  Soloist 名称は流通で確認、チェロ専用かは要追加確認。  /  比較候補にはなるが用途断定は避ける。  /
+- `docs/rosin/major-rosins.md:87` —  /  Nyman Cello  /  チェロ向け  /  販売店情報ベース  /  Cello 表記で流通。公式仕様詳細は要追加確認。  /  実売実績は多いが最新仕様の一次確認を推奨。  /
+- `docs/rosin/major-rosins.md:88` —  /  Hill Premium Dark Cello  /  チェロ向け  /  販売店情報ベース  /  Premium Dark Cello 名義は販売情報で確認。  /  代理店/販売店記載差異を要確認。  /
+- `docs/rosin/major-rosins.md:98` —  /  D’Addario Clarity Hypoallergenic  /  代替系（低アレルギー訴求）  /  公式情報あり  /  低アレルギー訴求ライン。配合詳細は未公表。  /  皮膚刺激懸念時の候補。音色方向は要試奏確認。  /
+- `docs/rosin/major-rosins.md:109` —  /  Leatherwood Bespoke  /  高級・調整系  /  公式情報あり  /  カスタム思想。詳細処方は未公表。  /  基準松脂確定後に導入すると比較しやすい。  /
 - `docs/rosin/major-rosins.md:118` — CECILIA Artist Reserve（Prima / Divinum）は、[公式ページ](https://www.ceciliarosincollection.com/artist-reserve/)で2026年10月発売予定と告知され、両フォーミュラにviolin/viola・cello/viola向けを掲げています。ただし、確認時点（2026年10月24日）ではチェロ向けの販売開始・在庫状況を確認できていないため、現行製品表への追加は保留します。
-- `docs/strings/manufacturers/index.md:16` —  /  Savarez/Corelli  /  Corelli Solea（New Concept / Corelli Gut は現行未確認）  /  公式カタログで Solea の掲載を確認  /  スチール系セットの比較  /  中〜中高  /  [詳細ページ](./strings-manufacturer-savarez-corelli.md)  / 
+- `docs/strings/manufacturers/index.md:16` —  /  Savarez/Corelli  /  Corelli Solea（New Concept / Corelli Gut は現行未確認）  /  公式カタログで Solea の掲載を確認  /  スチール系セットの比較  /  中〜中高  /  [詳細ページ](./strings-manufacturer-savarez-corelli.md)  /
 - `docs/strings/manufacturers/strings-manufacturer-daddario.md:15` — - 確認した一次資料では、全シリーズの発売年を確認できていない
-- `docs/strings/manufacturers/strings-manufacturer-daddario.md:26` —  /  Kaplan  /  上級〜プロ  /  steel core（弦別構造は要確認）  /  豊かで複雑な音色を目指す設計  /  強い弓圧でも破綻しにくい設計  /  ソロ、出力重視  /  楽器側が硬い場合は張力感の確認推奨  / 
+- `docs/strings/manufacturers/strings-manufacturer-daddario.md:26` —  /  Kaplan  /  上級〜プロ  /  steel core（弦別構造は要確認）  /  豊かで複雑な音色を目指す設計  /  強い弓圧でも破綻しにくい設計  /  ソロ、出力重視  /  楽器側が硬い場合は張力感の確認推奨  /
 - `docs/strings/manufacturers/strings-manufacturer-jargar.md:15` — - 発売年は Evoke（2023年11月発売）以外、今回確認できた一次資料では未確認
-- `docs/strings/manufacturers/strings-manufacturer-jargar.md:28` —  /  Eccentric  /  現行製品  /  A/D = carbon steel core + multialloy 巻線、G/C = spiralcore + tungsten/nickel 巻線  /  未指定  /  Medium（反応は未指定）  /  未指定  /  4/4、A/D/G/C 単弦・セット  / 
+- `docs/strings/manufacturers/strings-manufacturer-jargar.md:28` —  /  Eccentric  /  現行製品  /  A/D = carbon steel core + multialloy 巻線、G/C = spiralcore + tungsten/nickel 巻線  /  未指定  /  Medium（反応は未指定）  /  未指定  /  4/4、A/D/G/C 単弦・セット  /
 - `docs/strings/manufacturers/strings-manufacturer-jargar.md:36` — 現行シリーズと Eccentric の仕様は、2026年10月24日に公式チェロ一覧と公式製品ページで確認しました。Eccentric の音色・反応・推奨用途は、比較条件を伴う評価を確認できていないため未指定としています。
 - `docs/strings/manufacturers/strings-manufacturer-jargar.md:38` — Silver Sound は、公式の[製品アーカイブ](https://jargar-strings.com/category/all/)で「Silver Sound Violoncello cancel product」として掲載されているため、終売扱いとして現行シリーズ一覧から除外しています。終売年月は未指定です。
 - `docs/strings/manufacturers/strings-manufacturer-larsen.md:15` — - 発表・発売時期は Sovereign（2026年4月24日発表、公式告知では2026年5月から世界展開）、Aurora（2021年公開）、Il Cannone（2020年リリース）、Magnacore Arioso（2017年フルセット完成）以外は今回確認できた一次資料では未確認
-- `docs/strings/manufacturers/strings-manufacturer-larsen.md:27` —  /  Soloist  /  出力重視  /  Original 系のソロ志向設定  /  前に出る音像を狙う方向  /  押弦感は強めになりやすい  /  独奏  /  発売年は今回確認できず  / 
+- `docs/strings/manufacturers/strings-manufacturer-larsen.md:27` —  /  Soloist  /  出力重視  /  Original 系のソロ志向設定  /  前に出る音像を狙う方向  /  押弦感は強めになりやすい  /  独奏  /  発売年は今回確認できず  /
 - `docs/strings/manufacturers/strings-manufacturer-pirastro.md:15` — - 発売年は、今回確認できた一次資料では多くのシリーズで未確認
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:23` —  /  Chromcor  /  入門〜実用  /  steel strings  /  明瞭で扱いやすい方向  /  反応が速い  /  学習、日常運用  /  発売年は今回確認できず  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:24` —  /  Piranito  /  入門  /  steel strings  /  素直で輪郭を出しやすい方向  /  安定志向  /  初学者、学校用途  /  発売年は今回確認できず  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:26` —  /  Evah Pirazzi  /  上位  /  チェロ用は steel strings  /  密度と出力を狙う方向  /  速い反応  /  ソロ、投射重視  /  発売年は今回確認できず  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:27` —  /  Evah Pirazzi Gold  /  上位派生  /  チェロ用は steel strings  /  滑らかさを加えた方向  /  反応としなやかさの両立志向  /  上位音色調整  /  発売年は今回確認できず  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:28` —  /  Evah Pirazzi Soloist  /  上位派生  /  steel strings 系列  /  前方投射を狙う方向  /  張力感は強めになりやすい  /  独奏  /  発売年は今回確認できず  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:35` —  /  Eudoxa  /  伝統系  /  gut strings  /  柔らかい質感を狙う方向  /  反応は穏やか寄り  /  伝統系運用  /  発売年は今回確認できず  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:37` —  /  Gold  /  現行ガット弦  /  羊ガットコア、A/D = アルミ巻、G/C = 銀巻  /  明るいガットの音色（公式説明）  /  4/4・medium の張力：A 13.6 / D 12.0 / G 12.0 / C 12.2 kg。速い反応（公式説明）  /  未指定  /  発売年：未指定。[チェロ用公式仕様](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)を参照  / 
-- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:38` —  /  Flexocor Deluxe  /  実用上位  /  steel strings  /  まとまりと明瞭さの両立志向  /  安定感重視  /  オケ、アンサンブル  /  発売年は今回確認できず  / 
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:23` —  /  Chromcor  /  入門〜実用  /  steel strings  /  明瞭で扱いやすい方向  /  反応が速い  /  学習、日常運用  /  発売年は今回確認できず  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:24` —  /  Piranito  /  入門  /  steel strings  /  素直で輪郭を出しやすい方向  /  安定志向  /  初学者、学校用途  /  発売年は今回確認できず  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:26` —  /  Evah Pirazzi  /  上位  /  チェロ用は steel strings  /  密度と出力を狙う方向  /  速い反応  /  ソロ、投射重視  /  発売年は今回確認できず  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:27` —  /  Evah Pirazzi Gold  /  上位派生  /  チェロ用は steel strings  /  滑らかさを加えた方向  /  反応としなやかさの両立志向  /  上位音色調整  /  発売年は今回確認できず  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:28` —  /  Evah Pirazzi Soloist  /  上位派生  /  steel strings 系列  /  前方投射を狙う方向  /  張力感は強めになりやすい  /  独奏  /  発売年は今回確認できず  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:35` —  /  Eudoxa  /  伝統系  /  gut strings  /  柔らかい質感を狙う方向  /  反応は穏やか寄り  /  伝統系運用  /  発売年は今回確認できず  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:37` —  /  Gold  /  現行ガット弦  /  羊ガットコア、A/D = アルミ巻、G/C = 銀巻  /  明るいガットの音色（公式説明）  /  4/4・medium の張力：A 13.6 / D 12.0 / G 12.0 / C 12.2 kg。速い反応（公式説明）  /  未指定  /  発売年：未指定。[チェロ用公式仕様](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)を参照  /
+- `docs/strings/manufacturers/strings-manufacturer-pirastro.md:38` —  /  Flexocor Deluxe  /  実用上位  /  steel strings  /  まとまりと明瞭さの両立志向  /  安定感重視  /  オケ、アンサンブル  /  発売年は今回確認できず  /
 - `docs/strings/manufacturers/strings-manufacturer-pirastro.md:55` — Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ用 Gut Strings 一覧](https://www.pirastro.com/public_pirastro/pages/en/Stringfinder-00002/?instrument=285_Cello&material=D)に掲載される現行製品です。表の Gold の材質・張力・音色・反応は[チェロ用の公式製品ページ](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)に基づきます。発売年と推奨用途は、確認したチェロ用公式資料では未指定です。
 - `docs/strings/manufacturers/strings-manufacturer-savarez-corelli.md:15` — - 過去に挙げられた名称の販売時期・仕様は未確認
 - `docs/strings/manufacturers/strings-manufacturer-savarez-corelli.md:29` — Corelli New Concept / Corelli Gut は、今回確認した公式資料では現行チェロ用シリーズとして確認できませんでした。過去に挙げられていた名称として区別し、現行比較表には含めません。過去の販売時期・仕様や終売時期も未確認であり、「掲載を確認できない」ことをもって終売とは断定しません。
 - `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:15` — - 確認した一次資料では、全シリーズの発売年を確認できていない
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:26` —  /  Belcanto Gold  /  上級  /  steel 系列  /  深さと明瞭さの両立志向  /  しなやか寄り  /  室内楽、歌う表現  /  Belcanto との同一性は未確認  / 
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:30` —  /  Superflexible  /  現行ライン  /  コア: A/D/G/C = rope core。巻線: A/D/G/C = chrome wound  /  未指定  /  未指定  /  未指定  /  型番 25/27/28/29、セット 31  / 
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:31` —  /  Peter Infeld  /  現行ライン  /  コア: A/D = carbon steel、G/C = spiral rope。巻線: A/D = multialloy、G/C = tungsten/chrome  /  未指定  /  未指定  /  未指定  /  型番 PI41–PI44、セット PI400  / 
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:32` —  /  Dominant Pro  /  現行ライン  /  コア: A/D = carbon steel、G/C = spiral core。巻線: A/D = chrome wound、G = nickel-alloy wound、C = tungsten/nickel-alloy  /  未指定  /  未指定  /  未指定  /  型番 DP41–DP44、セット DP400  / 
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:33` —  /  Rondo Experience  /  現行ライン（A弦）  /  コア: A = carbon steel。巻線: A = multialloy wound。D/G/C = 未指定  /  未指定  /  未指定  /  未指定  /  チェロ用ページには A弦 RO41XP のみ掲載  / 
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:34` —  /  Spirit!  /  現行ライン  /  コア: A/D = carbon steel、G/C = rope core。巻線: A/D/G/C = chrome wound  /  未指定  /  未指定  /  未指定  /  型番 SP41–SP44、セット SP400  / 
-- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:35` —  /  Präzision  /  現行ライン  /  コア: A/D/G/C = carbon steel。巻線: A/D/G/C = chrome wound  /  未指定  /  未指定  /  未指定  /  型番 90/93/95/98、セット 102  / 
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:26` —  /  Belcanto Gold  /  上級  /  steel 系列  /  深さと明瞭さの両立志向  /  しなやか寄り  /  室内楽、歌う表現  /  Belcanto との同一性は未確認  /
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:30` —  /  Superflexible  /  現行ライン  /  コア: A/D/G/C = rope core。巻線: A/D/G/C = chrome wound  /  未指定  /  未指定  /  未指定  /  型番 25/27/28/29、セット 31  /
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:31` —  /  Peter Infeld  /  現行ライン  /  コア: A/D = carbon steel、G/C = spiral rope。巻線: A/D = multialloy、G/C = tungsten/chrome  /  未指定  /  未指定  /  未指定  /  型番 PI41–PI44、セット PI400  /
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:32` —  /  Dominant Pro  /  現行ライン  /  コア: A/D = carbon steel、G/C = spiral core。巻線: A/D = chrome wound、G = nickel-alloy wound、C = tungsten/nickel-alloy  /  未指定  /  未指定  /  未指定  /  型番 DP41–DP44、セット DP400  /
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:33` —  /  Rondo Experience  /  現行ライン（A弦）  /  コア: A = carbon steel。巻線: A = multialloy wound。D/G/C = 未指定  /  未指定  /  未指定  /  未指定  /  チェロ用ページには A弦 RO41XP のみ掲載  /
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:34` —  /  Spirit!  /  現行ライン  /  コア: A/D = carbon steel、G/C = rope core。巻線: A/D/G/C = chrome wound  /  未指定  /  未指定  /  未指定  /  型番 SP41–SP44、セット SP400  /
+- `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:35` —  /  Präzision  /  現行ライン  /  コア: A/D/G/C = carbon steel。巻線: A/D/G/C = chrome wound  /  未指定  /  未指定  /  未指定  /  型番 90/93/95/98、セット 102  /
 - `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:49` — 2026年10月23日に公式チェロ一覧で Belcanto Gold の掲載を確認しました。ただし、Belcanto から単に名称変更されたとする根拠は確認できていません。旧製品との同一性は型番・仕様で確認してください。
 - `docs/strings/manufacturers/strings-manufacturer-thomastik-infeld.md:55` — この6シリーズのコアと巻線は、参考リンクに挙げた各チェロ用製品ページの「TECHNICAL DETAILS」に基づきます。いずれも掲載サイズは 4/4、ゲージは medium です。Rondo Experience は A弦 RO41XP のみ掲載されているため、D/G/C の仕様は未指定としています。音色・反応・推奨用途など、今回確認できなかった項目も未指定とし、発売年は補完していません。
 - `docs/strings/manufacturers/strings-manufacturer-warchal.md:15` — - 発売年は Brilliant（2010年開発）以外、今回確認できた一次資料では未確認

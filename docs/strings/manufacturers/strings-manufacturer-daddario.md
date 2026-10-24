@@ -32,9 +32,13 @@ D'Addario のチェロ弦シリーズを、客観仕様と主観的な音色傾�
 
 合成コア系へ移行する場合は、低めの張力という設計説明と、実際の押弦感を分けて評価します。型番ごとの流通状況を購入時に確認してください。
 
-### Helicore と Kaplan
+### Helicore
 
-Helicore を他系列と混用する場合は、張力バランスだけでなく弦高と押弦感も確認します。Kaplan は強い弓圧への対応を公式に説明している上位候補で、このページでは Kaplan Solo Cello を独立系列として扱いません。
+Helicore を他系列と混用する場合は、張力バランスだけでなく弦高と押弦感も確認します。
+
+### Kaplan
+
+Kaplan は強い弓圧への対応を公式に説明している上位候補で、このページでは Kaplan Solo Cello を独立系列として扱いません。
 
 Kaplan の弦別構造は、[公式製品ページ](https://www.daddario.com/products/kaplan-cello-string-set-44-scale-medium-tension)の「Tension Chart」に掲載された CORE/WINDING 欄で確認しました（2026年10月24日）。対象は 4/4・弦長 700 mm の KS511（A）/ KS512（D）/ KS513（G）/ KS514（C）です。セット全体の Core Material 表記だけで全弦を stranded steel とせず、弦別の表に基づいています。
 

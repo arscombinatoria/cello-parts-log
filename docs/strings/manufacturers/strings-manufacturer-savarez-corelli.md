@@ -22,9 +22,13 @@ Savarez / Corelli のチェロ弦を、今回確認できた一次資料に基�
 | --- | --- | --- | --- | --- | --- | --- |
 | Corelli Solea | 現行のチェロ弦セット | handmade in France、strings wound on steel、680M（Medium）/ 680F（Forte）。A=aluminum、D=mixed metals（aluminum含む）、G/C=mixed metals（tungsten含む） | 明瞭さと密度を両立しやすい方向 | 反応は速めの方向 | 現行の Corelli チェロ弦を中心とした比較 | 仕様更新時は公式情報を再確認 |
 
-## 現行性と過去の名称の扱い
+## シリーズ選定の補足
+
+### Corelli Solea
 
 2026年10月23日に公式製品カタログと Solea の製品ページを確認しました。680M は Medium、680F は Forte として掲載されています。公式掲載は、各地域の在庫や入手性を保証するものではありません。
+
+## 現行性と過去の名称の扱い
 
 Corelli New Concept / Corelli Gut は、今回確認した公式資料では現行チェロ用シリーズとして確認できませんでした。過去に挙げられていた名称として区別し、現行比較表には含めません。過去の販売時期・仕様や終売時期も未確認であり、「掲載を確認できない」ことをもって終売とは断定しません。
 

@@ -40,15 +40,35 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 
 同じシリーズでも巻線違いによって手触りや音の印象が変わるため、単弦の型番を記録して比較します。G/C の混用例は[弦の組み合わせガイド](../strings-selection-guide.md)を参照してください。
 
-### Versum / Versum Solo / Rondo
-
-楽器が明るい場合は、弱音や強奏で硬く感じないかを確認します。張力感は楽器の調整と弓によっても変わるため、Solo という名称だけで物理的な張力を判断しません。
-
 ### Belcanto Gold
 
 2026年10月23日に公式チェロ一覧で Belcanto Gold の掲載を確認しました。ただし、Belcanto から単に名称変更されたとする根拠は確認できていません。旧製品との同一性は型番・仕様で確認してください。
 
-### 6シリーズのゲージ・弦別張力（公式仕様）
+### Versum
+
+楽器が明るい場合は、弱音や強奏で硬く感じないかを確認します。
+
+### Versum Solo
+
+明るい楽器での確認点は Versum と共通です。張力感は楽器の調整と弓によっても変わるため、Solo という名称だけで物理的な張力を判断しません。
+
+### Rondo
+
+Versum と同様に、楽器が明るい場合は弱音や強奏で硬く感じないかを確認します。
+
+### Peter Infeld
+
+Peter Infeld の音色・制御性・投射力は[チェロ用公式フライヤー](https://www.thomastik-infeld.com/pdf/240926_PI_WebFlyer_Cello_EN.pdf)、対象奏者は[シリーズ公式説明](https://www.thomastik-infeld.com/en/new-releases/peter-infeld/string-line)に基づきます。反応速度の具体的な説明は、今回確認したこれらの資料では未確認です。
+
+### Dominant Pro
+
+Dominant Pro の音色・反応・プロ向けという位置づけは[チェロ用公式解説](https://www.thomastik-infeld.com/pdf/Thomastik-Infeld_DP400_webPDF_EN_LQ.pdf)に基づきます。
+
+### Rondo Experience
+
+Rondo Experience は[チェロ用 Rondo の公式解説](https://www.thomastik-infeld.com/database/2022042717092720406.pdf)の RO41XP の説明に基づきます。メーカーは通常の Rondo A弦 RO41 と比べて張力が 0.7 kg 小さく、右手の操作への反応が速いと説明しています。これはメーカーによる比較説明であり、このページでの実測・比較試奏の結果ではありません。
+
+## 6シリーズのゲージ・弦別張力（公式仕様）
 
 2026年10月24日に公式チェロ一覧の1・2ページ目を確認し、2ページ目の Superflexible を表に追加しました。従来「補足ライン」として一括掲載していた Peter Infeld、Dominant Pro、Rondo Experience、Spirit!、Präzision も個別行に分けています。
 
@@ -65,13 +85,11 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 
 この表は上記ページの掲載仕様を対象とし、過去の仕様や他サイズの流通を網羅するものではありません。Rondo Experience は A弦 RO41XP のみ掲載されており、D/G/C弦の存在や仕様は推測しません。
 
-### 音色・反応・用途の公式説明と確認範囲
+## 音色・反応・用途の公式説明と確認範囲
 
-Peter Infeld の音色・制御性・投射力は[チェロ用公式フライヤー](https://www.thomastik-infeld.com/pdf/240926_PI_WebFlyer_Cello_EN.pdf)、対象奏者は[シリーズ公式説明](https://www.thomastik-infeld.com/en/new-releases/peter-infeld/string-line)に基づきます。反応速度の具体的な説明は、今回確認したこれらの資料では未確認です。Dominant Pro の音色・反応・プロ向けという位置づけは[チェロ用公式解説](https://www.thomastik-infeld.com/pdf/Thomastik-Infeld_DP400_webPDF_EN_LQ.pdf)に基づきます。
+Superflexible、Spirit!、Präzision の音色は、[チェロ用 Rondo の公式解説](https://www.thomastik-infeld.com/database/2022042717092720406.pdf)の音色チャート（PDF 5ページ目）の配置を要約しています。音の明暗と広がり・集中の方向を示すメーカーの説明で、定量的な測定値ではありません。反応・推奨用途は、今回確認した製品ページ、公式ショップ、現行公式カタログのチェロ用掲載箇所では未確認です。「メーカーが公開していない」という断定ではありません。
 
-Rondo Experience は[チェロ用 Rondo の公式解説](https://www.thomastik-infeld.com/database/2022042717092720406.pdf)の RO41XP の説明に基づきます。メーカーは通常の Rondo A弦 RO41 と比べて張力が 0.7 kg 小さく、右手の操作への反応が速いと説明しています。これはメーカーによる比較説明であり、このページでの実測・比較試奏の結果ではありません。
-
-Superflexible、Spirit!、Präzision の音色は、上記 Rondo 公式解説のチェロ用音色チャート（PDF 5ページ目）の配置を要約しています。音の明暗と広がり・集中の方向を示すメーカーの説明で、定量的な測定値ではありません。反応・推奨用途は、今回確認した製品ページ、公式ショップ、現行公式カタログのチェロ用掲載箇所では未確認です。「メーカーが公開していない」という断定ではありません。上表に「公式説明」とした音色・反応・用途もメーカーの訴求であり、共通条件での独立した演奏評価とは区別します。発売年は、これらの資料だけでは確認できないため補完していません。
+シリーズ一覧で「公式説明」とした音色・反応・用途もメーカーの訴求であり、共通条件での独立した演奏評価とは区別します。発売年は、これらの資料だけでは確認できないため補完していません。
 
 ## 参考リンク
 

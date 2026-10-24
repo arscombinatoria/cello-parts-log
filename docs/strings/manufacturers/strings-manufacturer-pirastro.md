@@ -34,7 +34,7 @@ Pirastro のチェロ弦を、既存の製品情報に基づくシリーズを�
 | Oliv | 伝統系上位 | gut strings | 厚みと複雑さを狙う方向 | 扱いは難しめ | 伝統的ソロ志向 | 工房相談を推奨 |
 | Eudoxa | 伝統系 | gut strings | 柔らかい質感を狙う方向 | 反応は穏やか寄り | 伝統系運用 | 発売年は今回確認できず |
 | Chorda | バロック/古楽系 | gut strings | ナチュラルで軽やかな方向 | 張力は低め | 古楽・ピリオド運用 | セットアップ依存が大きい |
-| Gold | 現行ガット弦 | 羊ガットコア、A/D = アルミ巻、G/C = 銀巻 | 明るいガットの音色（公式説明） | 4/4・medium の張力：A 13.6 / D 12.0 / G 12.0 / C 12.2 kg。速い反応（公式説明） | 未指定 | 発売年：未指定。[チェロ用公式仕様](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)を参照 |
+| Gold | 現行ガット弦 | 羊ガットコア、A/D = アルミ巻、G/C = 銀巻 | 明るいガットの音色（公式説明） | 4/4・medium の張力：A 13.6 / D 12.0 / G 12.0 / C 12.2 kg。速い反応（公式説明） | 特定用途の推奨は今回確認した公式資料では未確認 | 発売年：今回確認した公式資料では未確認。[チェロ用公式仕様](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)を参照 |
 | Flexocor Deluxe | 実用上位 | steel strings | まとまりと明瞭さの両立志向 | 安定感重視 | オケ、アンサンブル | 発売年は今回確認できず |
 | Student Cello Set | 学習向け組み合わせ | Passione A/D + Chromcor G/C | 扱いやすさと音色バランスを狙う方向 | 反応と安定のバランス | 学習〜中級導入 | 既成組み合わせライン |
 
@@ -52,7 +52,7 @@ Perpetual と Permanent、Passione の Steel と Gut は別の選択肢です。
 
 ### ガット系と既成セット
 
-Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ用 Gut Strings 一覧](https://www.pirastro.com/public_pirastro/pages/en/Stringfinder-00002/?instrument=285_Cello&material=D)に掲載される現行製品です。表の Gold の材質・張力・音色・反応は[チェロ用の公式製品ページ](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)に基づきます。発売年と推奨用途は、確認したチェロ用公式資料では未指定です。
+Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ用 Gut Strings 一覧](https://www.pirastro.com/public_pirastro/pages/en/Stringfinder-00002/?instrument=285_Cello&material=D)に掲載される現行製品です。表の Gold の材質・張力・音色・反応は[チェロ用の公式製品ページ](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)に基づきます。発売年と特定の演奏形態（独奏・室内楽・古楽など）への推奨は、今回確認したチェロ用製品ページと[公式データシート](https://www.pirastro.com/public_pirastro/pdf?instrument=285_Cello&locale=en&quality=040_Gold)では未確認です。メーカーは価格に対する価値を訴求していますが、それだけで初心者用・古楽用などとは分類しません。公式ニュースも調査しましたが、チェロ用 Gold の発売年を確認できる発表は見つかりませんでした。他楽器用 Gold や Evah Pirazzi Gold の情報は流用していません。
 
 ガット系は温湿度と調弦の安定化を考慮し、特に Chorda のような古楽向けは楽器側のセットアップも工房に相談します。Student Cello Set の単弦交換では、異なる系列を組み合わせた構成を確認して選んでください。
 
@@ -64,3 +64,5 @@ Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ
 - [Pirastro Gold Cello（チェロ用仕様・公式説明）](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)
 
 - [Pirastro Obligato Cello（弦別コア仕様）](https://www.pirastro.com/public_pirastro/pages/en/Obligato-00005/)
+- [Pirastro Gold Cello 公式データシート（発売年・特定用途の記載は確認できず）](https://www.pirastro.com/public_pirastro/pdf?instrument=285_Cello&locale=en&quality=040_Gold)
+- [Pirastro 公式ニュース](https://www.pirastro.com/public_pirastro/pages/en/News/)

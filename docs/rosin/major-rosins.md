@@ -82,7 +82,6 @@ flowchart TD
 | Melos Cello Sticky | チェロ向け | 公式情報あり | 同ライン内で強いグリップ方向。 | 滑りが続く場合の追加候補。塗布過多に注意。 |
 | Melos Cello Baroque | チェロ向け（用途限定） | 公式情報あり | ガット弦用に設計された Cello & Bass Viol 向け（公式説明）。 | 通常運用に加える前に用途適合を要確認。 |
 | Petz Cello | チェロ向け | 公式情報あり | Petz のチェロ表記モデル。 | 型番/包装差があるため購入時に Cello 表記を確認。 |
-| Petz Soloist | チェロ用としての掲載は今回未確認 | 公式情報あり（Vn/Va用） | 公式製品紹介では violin / viola 向け soft / hard を確認。 | チェロでの用途・適合は別途確認。 |
 | Petz Vienna’s Best | チェロ向けあり | 公式情報あり | 公式製品紹介にチェロ用と violin / viola 用を別掲載。 | 対象楽器の表記を確認して選ぶ。 |
 | Nyman Cello | チェロ向け | 販売店情報ベース | Cello 表記で流通。公式仕様詳細は要追加確認。 | 実売実績は多いが最新仕様の一次確認を推奨。 |
 | Hill Premium Cello（2067M） | チェロ向け | 公式情報あり（Hidersine） | Dark / Medium。主成分は colophony・natural oils（公式仕様）。 | 上級者・プロ、全年候向け（公式説明）。通常の Hill Dark（2064）と区別。 |
@@ -160,9 +159,9 @@ CECILIA Artist Reserve（Prima / Divinum）は、[公式ページ](https://www.c
 
 Pirastro の Cello / Cellisto は[公式松脂ページ](https://www.pirastro.com/public_pirastro/pages/en/Rosin/)の製品説明に基づきます。同ページは製法を秘密として扱う一般的な説明も掲載していますが、両製品の詳細な配合比を確認できたわけではありません。Kolstein は[公式製品ページ](https://kolstein.com/products/kolsteins%E2%84%A2-supreme-cello-rosin)と[公式の松脂解説](https://kolstein.com/pages/kolsteins-rosin)を確認しました。製品ページからリンクされた MSDS は取得時に404となり、内容を確認できていません。
 
-Clarity の合成炭化水素樹脂は[公式製品ページ](https://www.daddario.com/products/clarity-hypoallergenic-rosin)、Leatherwood の松樹脂・楽器別レシピ・ブレンドは[公式FAQ](https://www.leatherwoodrosin.com.au/pages/faq)に基づきます。原料の一部が確認できることと、全成分・配合比が分かることは区別します。Hill は[Hidersine の公式製品ページ](https://www.hidersine.com/w-e-hill-sons/product/289-w-e-hill-premium-cello-rosin)で型番2067Mとチェロ用仕様を確認しました。
+Clarity の合成炭化水素樹脂は[公式製品ページ](https://www.daddario.com/products/clarity-hypoallergenic-rosin)、Leatherwood の松樹脂・楽器別レシピ・ブレンドは[公式FAQ](https://www.leatherwoodrosin.com.au/pages/faq)に基づきます。原料の一部が確認できることと、全成分・配合比が分かることは区別します。Hill は[Hidersine の公式製品ページ](https://www.hidersine.com/w-e-hill-sons/w-e-hill-products/product/289-w-e-hill-premium-cello-rosin)で型番2067Mとチェロ用仕様を確認しました。
 
-Petz は[公式製品紹介](https://pk.at/en_GB/kolophonium)で、Soloist は violin / viola 向け、Vienna’s Best はチェロ向けを含む掲載を確認しました。旧公式ショップのリンクは取得できず、Soloist のチェロ用製品の有無は今回確定していません。Nyman Cello の仕様は、今回メーカーの一次資料を特定できず、販売店情報の範囲を維持しています。
+Petz は[公式製品紹介](https://pk.at/en_GB/kolophonium)で、Soloist はヴァイオリン・ヴィオラ向け（soft / hard）、Vienna’s Best はチェロ向けを含む掲載を確認しました。旧公式ショップのリンクは取得できず、Soloist のチェロ用製品の有無は今回確定していません。この確認結果から、チェロ用製品の不存在・終売や、チェロでの使用不適合までは断定しません。Nyman Cello の仕様は、今回メーカーの一次資料を特定できず、販売店情報の範囲を維持しています。
 
 ## 参考リンク
 
@@ -183,7 +182,7 @@ Petz は[公式製品紹介](https://pk.at/en_GB/kolophonium)で、Soloist は v
 - [CECILIA Artist Reserve（公式・Prima / Divinumの発売告知）](https://www.ceciliarosincollection.com/artist-reserve/)
 - [Kolstein Supreme Cello 公式製品ページ（Normal / Medium）](https://kolstein.com/products/kolsteins%E2%84%A2-supreme-cello-rosin)
 - [Melos Cello Baroque 公式製品ページ（ガット弦向け設計）](https://melosrosin.gr/product/melos-rosin-cello-baroque/)
-- [Hill Premium Cello 2067M（Hidersine公式・仕様）](https://www.hidersine.com/w-e-hill-sons/product/289-w-e-hill-premium-cello-rosin)
+- [Hill Premium Cello 2067M（Hidersine公式・仕様）](https://www.hidersine.com/w-e-hill-sons/w-e-hill-products/product/289-w-e-hill-premium-cello-rosin)
 - [D'Addario Clarity 公式製品ページ（合成炭化水素樹脂）](https://www.daddario.com/products/clarity-hypoallergenic-rosin)
 - [Leatherwood 公式FAQ（原料・楽器別レシピ）](https://www.leatherwoodrosin.com.au/pages/faq)
 - [PetzVienna 公式製品紹介（楽器別のライン）](https://pk.at/en_GB/kolophonium)

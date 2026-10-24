@@ -12,10 +12,10 @@ sidebar_position: 3
 | --- | --- | --- | --- | --- |
 | Aubert Lutherie（オベール・リューテリエ） | フランス（ミルクール） | Mirecourt / Luxe / De Luxe など（刻印・ラインで区別） | French / Belgian、No.18系など | 流通量が多く入手性が高いので、まず定番として選びやすい。天然乾燥と天然由来の処理で音響特性の向上をうたう。 |
 | Chevalets Despiau（デスピオー） | フランス（ジモン／オクシタニー） | 4段階（最高位は「3ツリー刻印」） | French / Belgian、Supérieur など | 伝達速度、明瞭度、音量、倍音の豊かさに焦点を当てた説明があり、上位グレードほど選別が厳しい。 |
-| Milo Stamm Ponticelli（ミロ・スタム） | 公式規約の会社住所: セルビア（Indjija）※ | Student / Standard / Premium / Royal（公式の4品質クラス） | B / B1 / D / F / F1 / H / H1 / H2 / K / M など（公式掲載の形状モデル。品質クラスとは別軸） | ラインが複数あり、予算に応じて段階選択しやすい。取扱店の型番・在庫が比較的多く、同じ工房でグレードを比較しやすい。 |
+| Milo Stamm Ponticelli（ミロ・スタム） | 本拠地未確認（公式規約の返送先：セルビア・Indjija）※ | Student / Standard / Premium / Royal（公式の4品質クラス） | B / B1 / D / F / F1 / H / H1 / H2 / K / M など（公式掲載の形状モデル。品質クラスとは別軸） | ラインが複数あり、予算に応じて段階選択しやすい。取扱店の型番・在庫が比較的多く、同じ工房でグレードを比較しやすい。 |
 | Josef Teller（ヨーゼフ・テラー） | ドイツ（ブーベンロイト） | Student / Master、最上位は Manufacture line「Royal de Luxe」 | German / French / Belgian、Bausch / Tourte など（モデル数が多い） | ボスニア産メイプルの手選別と自然乾燥（化学処理を避ける方針）を明示している。モデル体系が広く、楽器個体や目的に合わせて選択肢を作りやすい。 |
 
-※ Milo Stamm の会社住所は、[公式利用規約](https://www.milostamm.com/e_agb.htm)に返送先として掲載された住所です。この住所は、すべての製品の製造地を示すものではありません。[公式チェロ駒ページ](https://www.milostamm.com/violoncello.htm)と同規約では製造国が明示されていないため、製造国は「未指定」とします。
+※ Milo Stamm の表に記載した住所は、[公式利用規約](https://www.milostamm.com/e_agb.htm)に返送先として掲載された住所です。この住所は、本拠地やすべての製品の製造地を示すものではありません。[公式チェロ駒ページ](https://www.milostamm.com/violoncello.htm)と同規約では製造国が明示されていないため、製造国は「未指定」とします。
 
 ## メーカー別のグレード差
 
@@ -78,7 +78,7 @@ sidebar_position: 3
 
 #### Milo Stamm（所在地・表記に関する注記）
 
-- 公式利用規約には、会社の返送先住所として Zmaj Jovina 185a, 22320 Indjija, Serbien が掲載されています。この住所は、すべての製品の製造地を示すものではありません。公式チェロ駒ページと同規約では製造国が明示されていないため、製造国は「未指定」とします。
+- 公式利用規約には、返送先住所として Zmaj Jovina 185a, 22320 Indjija, Serbien が掲載されています。この住所は、本拠地やすべての製品の製造地を示すものではありません。公式チェロ駒ページと同規約では製造国が明示されていないため、製造国は「未指定」とします。
   （この注記の根拠リンク: [Milo Stamm公式利用規約](https://www.milostamm.com/e_agb.htm) / [Milo Stamm公式（Cello）](https://www.milostamm.com/violoncello.htm)）
 
 ### Josef Teller（ヨーゼフ・テラー）：グレード差

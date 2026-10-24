@@ -20,12 +20,12 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 
 | シリーズ名 | 位置づけ | 構造・材質（仕様） | 音色の目安 | 張力・反応の目安 | 推奨用途 | 注意点 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Alphayue | 入門 | A/D = carbon steel、G/C = rope core | 素直で扱いやすい方向 | 安定志向 | 初学者 | 合成系ではない |
+| Alphayue | 入門 | 4/4: A/D = carbon steel、G/C = rope core（分数サイズの違いは下記参照） | 素直で扱いやすい方向 | 安定志向 | 初学者 | 合成系ではない |
 | Dominant | 中級定番 | synthetic core | 暖かめで中庸 | 反応は中庸 | 学習〜アンサンブル | 長期定番 |
 | Spirocore | 上級定番 | spiral core（巻線バリエーションあり） | 芯が明確な方向 | 反応が速い | G/C 強化、オケ〜ソロ | 巻線選択で印象差 |
 | Belcanto Gold | 上級 | steel 系列 | 深さと明瞭さの両立志向 | しなやか寄り | 室内楽、歌う表現 | Belcanto との同一性は未確認 |
 | Versum | 上位 | A/D = carbon steel + multialloy、G/C = spiral core + tungsten/chrome | 密度と明瞭さの両立志向 | 反応が速い | ソロ、現代的セット | 単弦比較が有効 |
-| Versum Solo | 上位派生 | A/D = carbon steel + multialloy、G/C = spiral core + tungsten/chrome | より前方投射を狙う方向 | 張力感は強めになりやすい | 独奏 | Versum 本体と比較推奨 |
+| Versum Solo | 上位派生 | A/D = carbon steel + multialloy、G/C = spiral core + tungsten/chrome | より前方投射を狙う方向 | Versum との弦別張力差は下記参照 | 独奏 | Versum 本体と比較推奨 |
 | Rondo | 上級者・プロ向けシリーズ | steel 系列の上位設計 | 力強い音像を狙う方向 | 速い応答 | 独奏、投射重視 | Rondo Experience A string ラインあり |
 | Superflexible | 現行ライン | コア: A/D/G/C = rope core。巻線: A/D/G/C = chrome wound | やや明るく集中的な方向（公式音色チャート） | medium（弦別張力は下表）。反応の公式説明は今回未確認 | 今回確認した公式資料では未確認 | 型番 25/27/28/29、セット 31 |
 | Peter Infeld | 現行ライン | コア: A/D = carbon steel、G/C = spiral rope。巻線: A/D = multialloy、G/C = tungsten/chrome | 中心のある音の芯、力強い中音域、豊かな音色（公式説明） | medium（弦別張力は下表）。音色の制御のしやすさを訴求（公式説明） | 経験のあるアマチュア〜プロ（公式説明） | 型番 PI41–PI44、セット PI400 |
@@ -35,6 +35,10 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 | Präzision | 現行ライン | コア: A/D/G/C = carbon steel。巻線: A/D/G/C = chrome wound | 集中的な方向（公式音色チャート） | medium（弦別張力は下表）。反応の公式説明は今回未確認 | 今回確認した公式資料では未確認 | 型番 90/93/95/98、セット 102 |
 
 ## シリーズ選定の補足
+
+### Alphayue
+
+一覧表のコア構造は4/4の仕様です。[公式のサイズ別技術表](https://www.thomastik-infeld.com/en/products/orchestral-strings/cello/alphayue)では、3/4・1/2・1/4・1/8 の G線は carbon steel で、4/4の rope core と異なります。C線はこれらの分数サイズでも rope core です。ゲージはいずれも medium ですが、分数サイズへの買い替え・単弦交換ではサイズ付き型番を確認してください（2026年10月24日確認）。
 
 ### Spirocore
 
@@ -46,15 +50,21 @@ Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音
 
 ### Versum
 
+メーカーは[公式ショップの VE400 の説明](https://shop.thomastik-infeld.com/product-category/orchestral/cello/versum-violoncello/product/versum-violoncello-ve400/)で、暖かく甘い音色と扱いやすさを挙げ、さまざまなチェロやジャンルに対応するシリーズとしています。Versum Solo との張力比較は次節、Rondo との公式の位置づけの違いは Rondo の補足を参照してください。
+
 楽器が明るい場合は、弱音や強奏で硬く感じないかを確認します。
 
 ### Versum Solo
 
-明るい楽器での確認点は Versum と共通です。張力感は楽器の調整と弓によっても変わるため、Solo という名称だけで物理的な張力を判断しません。
+[通常 Versum](https://www.thomastik-infeld.com/en/products/orchestral-strings/cello/versum)と[Versum Solo](https://www.thomastik-infeld.com/en/products/orchestral-strings/cello/versum-solo)の公式技術表を同じ4/4・medium・振動弦長70.0 cmで比較すると、A線は 17.6 → 18.2 kg、D線はともに14.3、G線も14.3、C線も13.7 kg（メーカー表記）です。Solo は全弦を一律に高張力化した仕様ではありません。D/G/C の公称張力が同じでも、同じ弦・同じ演奏感であることを意味しません（2026年10月24日確認）。
+
+メーカーは[公式ショップの VES400 の説明](https://shop.thomastik-infeld.com/product-category/orchestral/cello/versum-solo-violoncello/product/versum-solo-violoncello-ves400/)で、音色の多様さと強い投射力、強弱による音色の変化を訴求しています。明るい楽器での確認点は Versum と共通です。張力感は楽器の調整と弓によっても変わるため、仕様差と実際の演奏感を分けて比較します。
 
 ### Rondo
 
-Versum と同様に、楽器が明るい場合は弱音や強奏で硬く感じないかを確認します。
+[チェロ用公式解説](https://www.thomastik-infeld.com/database/2022042717092720406.pdf)は、明瞭で力強く深い音と滑らかな音色、速く正確で攻撃的になりすぎない反応、4弦間の音色・感触のつながりを特徴としています。プロ・上級者向け、特に新作楽器での投射力を訴求する一方、より控えめな音の性格を求める場合には Versum を勧めています。Versum Solo も投射力を訴求しますが、これらはメーカーの設計説明であり、Rondo の音量や反応が上回るという実測比較ではありません。
+
+[公式技術表](https://www.thomastik-infeld.com/en/products/orchestral-strings/cello/rondo)の標準セット RO400 は、4/4・medium・振動弦長70.0 cmで A 18.8、D 14.3、G 14.3、C 13.8 kg、合計61.2 kg（メーカー表記）です。Versum / Versum Solo と比べて D/G は同じ公称値、C の差は0.1 kgで、A の差が大きくなっています。A線だけを見直す場合は、下記 Rondo Experience RO41XP も別候補として区別します。Versum と同様に、明るい楽器では弱音や強奏で硬く感じないかを確認します。
 
 ### Peter Infeld
 

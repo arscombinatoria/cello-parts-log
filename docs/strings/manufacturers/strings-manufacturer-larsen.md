@@ -38,19 +38,33 @@ Original は、張力区分だけでなく楽器の弦高や調整状態によ�
 
 ### Soloist
 
+公式の[チェロ用 Soloist 製品ページ](https://larsenstrings.com/larsen-soloist/)で確認できるのは A/D/G の単弦です。A/D は Soft / Medium / Strong、G は Medium / Strong を選べます。確認した A/D/G はいずれも solid steel core ですが、巻線は A/D が stainless steel、G が tungsten です。専用の Soloist C線は同ページでは確認できず、音色図も Soloist A/D と Magnacore G/C の組み合わせを示しています。「Soloist の4弦セット」として購入する場合も、各弦のシリーズとゲージを確認してください（2026年10月24日確認）。
+
 Soloist を Original と比較するときは、耳元の音量感とホールでの聴こえ方を分けて確認してください。
 
 ### Magnacore
 
-Magnacore と Magnacore Arioso は別設計として比較します。
+[公式の弦別仕様](https://larsenstrings.com/larsen-magnacore/)では、A/D は solid steel core に stainless steel 巻線、G/C は multi-stranded steel core に tungsten 巻線です。Medium / Strong は4弦とも用意されています。メーカーは Medium を豊かな響きと柔軟性、Strong をより集中的な音と投射力を狙う選択肢として説明しています。
+
+同ページの公称張力は Medium → Strong の順に、A 18.4 → 19.3、D 14.3 → 14.5、G 14.1 → 14.4、C 13.7 → 14.2 kg（メーカー表記）で、増加幅は弦ごとに異なります。Magnacore と Arioso の数値は2026年10月24日の現行製品ページの掲載値を用いています。これらのページには基準弦長・調弦周波数の記載を確認できていないため、他社の数値と条件を揃えた比較には用いません。
+
+公式サイトが案内する2023年版情報シート（[Magnacore](https://larsenstrings.com/wp-content/uploads/2023/08/larsen-magnacore-cello-2023.pdf)・[Arioso](https://larsenstrings.com/wp-content/uploads/2023/08/larsen-magnacore-arioso-cello-2023.pdf)）とは一部の掲載張力値が異なります。数値差が生じた理由・時期は未確認で、製品の仕様変更と断定せず、参照した資料の版を区別してください。
 
 ### Magnacore Arioso
 
-Magnacore Arioso は、一覧表のとおり A/D と G/C で張力・コアの設計が異なるため、セット全体を「低張力」と一括りにせず、各弦の発音とフレーズのつながりを確認します。
+メーカーが[低張力設計と説明するのは G/C](https://larsenstrings.com/larsen-magnacore-arioso/)です。公称値は G 13.8、C 13.0 kg で、Magnacore Medium の G 14.1、C 13.7 kg より小さくなっています。一方、A/D は medium tension と説明され、A 18.9、D 14.7 kg と Magnacore Medium より大きい値です。セット全体を「Magnacore の低張力版」とせず、低弦だけを交換する場合とセットで交換する場合を分けて比較します。
+
+メーカーは G/C で音量を保ちながら低張力化し、A/D で焦点のある歌う音を組み合わせる設計を説明しています。これはメーカーの訴求であり、張力値から発音や音量を予測するものではありません。各弦の発音とフレーズのつながりを実際の楽器で確認します。
 
 ### Il Cannone
 
 2系統を混用する場合は、弦間の音色差に加え、強弱や会場規模に応じた扱いやすさを確認します。仕様上の互換性は、どの楽器でも同じバランスになることを意味しません。
+
+### Sovereign
+
+[公式FAQ](https://larsenstrings.com/sovereign-cello-strings/)は、Sovereign G/C に Original、Soloist、Magnacore、Il Cannone Warm & Broad または Direct & Focused の A/D を組み合わせる例を案内しています。既存の上2弦を残し、低弦だけを試す選択肢があります。FAQでは Original A/D で暖かく丸い方向、Soloist A/D で暖かさを保ちつつ投射を狙う方向と説明していますが、これはメーカーの組み合わせ提案です。
+
+張力は medium のみです。[2026年5月版の公式仕様シート](https://larsenstrings.com/wp-content/uploads/2026/05/larsen-sovereign-cello-information-sheet-may-26.pdf)では、4/4・基準周波数440 Hz・振動弦長700 mm で A 18.5、D 14.1、G 14.0、C 13.5 kg（メーカー表記）です。medium という名称だけで、他シリーズの同区分と各弦が同じ張力だとは判断しません。
 
 ## 参考リンク
 

@@ -52,11 +52,27 @@ Pirastro のチェロ弦を、既存の製品情報に基づくシリーズを�
 
 ### Perpetual
 
-Permanent とは別の選択肢です。購入時は製品名に加えて楽器種、対応弦、コアを確認してください。
+[公式製品ページ](https://www.pirastro.com/public_pirastro/pages/en/Perpetual-00001/)には Medium、Soloist Medium、Edition の3セットと、追加の単弦が掲載されています。メーカーは Medium を明るい A/D と基音を重視する G/C、Soloist Medium を暖かい A/D と輝き・明瞭さを狙う G/C、Edition を丸みのある A/D と力強い G/C の組み合わせと説明しています。同名シリーズ内でも音色の狙いが異なるため、比較・注文時はバリエーション名と型番まで確認します。Permanent とは別系列です（2026年10月24日確認）。
+
+Cadenza は G/C の追加ラインで、メーカーは Soloist と同じコア構造で張力を下げた選択肢と説明しています。4/4の公称値は Soloist → Cadenza の順に G 13.9 → 13.4、C 13.4 → 12.8 kg（メーカー表記）です。[公式の4/4基準振動弦長は69 cm](https://www.pirastro.com/public_pirastro/pages/en/Technical-Information/)で、他社の異なる弦長条件の値とは単純に比較しません。Soloist A は Weich / Medium / Strong、Edition C は通常版と Strong を区別し、標準 Medium の G/C にも Strong の単弦があります。「Perpetual の Strong」だけでは対象弦・仕様を特定できません。
+
+### Permanent
+
+Perpetual とは別系列で、[チェロ用 Permanent の公式仕様](https://www.pirastro.com/public_pirastro/pages/en/Permanent-00003/)は4/4・mediumです。A/D は単線の steel core に chrome steel 巻線、G/C は rope core に tungsten 巻線を使います。Permanent Soloist も同じコア・巻線の分類ですが、張力配分が異なるため、シリーズ名と単弦の型番を照合してください。
+
+### Permanent Soloist
+
+[公式の Permanent Soloist 仕様](https://www.pirastro.com/public_pirastro/pages/en/Permanent-Soloist-00001/)は4/4・1ゲージ（仕様表では Mittel）のラインです。同じ4/4・基準振動弦長69 cmで Permanent → Permanent Soloist を比較すると、A 17.6 → 17.2、D 14.8 → 14.4、G 13.8 → 14.0、C 13.4 → 13.2 kg（メーカー表記）です。G は増え、A/D/C は減る配分で、全弦を一律に高張力化した製品ではありません。メーカーは明るい A/D と大きく力強い G/C の音を訴求していますが、この数値差だけから音量や押弦感の変化は判断しません。
 
 ### Passione (Steel)
 
-Passione (Gut) とは別の選択肢です。購入時は製品名に加えて楽器種、対応弦、コアを確認してください。
+[チェロ用 Steel の公式ページ](https://www.pirastro.com/public_pirastro/pages/en/Passione-Steel/)で確認できるのは、4/4の A/D のラインです。単線の steel core に chrome steel 巻線を使い、Soft / Medium / Strong を選べます。G/C のガット弦を扱う Passione (Gut) とは、対応弦とコアを分けて確認します。
+
+同ページはプロ奏者の使用例として、Passione A medium・D strong に Evah Pirazzi G strong と Evah Pirazzi Soloist C を組み合わせる例を案内しています。メーカーはこの組み合わせを丸く力強い音と説明していますが、特定の使用例であり、すべての楽器で同じ結果になるとは限りません。4弦を揃える際は「Passione Steel のセット」という名称だけで判断せず、低弦のシリーズと各ゲージを確認してください。
+
+### Passione (Gut)
+
+[チェロ用 Gut の公式仕様](https://www.pirastro.com/public_pirastro/pages/en/Passione-Gut/)は4/4の G/C です。羊ガットコアに、G は chrome steel、C は tungsten を巻きます。ゲージは G が27 1/2・28・28 1/2、C が31 1/2・32・32 1/2 PM（メーカーの太さの単位）の各3段階です。Steel A/D の Soft / Medium / Strong と同じ区分として注文せず、弦名と PM 値を記録します。メーカーはガット弦として馴染み時間を短縮したと説明していますが、Steel A/D の安定化や扱いの情報をそのまま適用しません。
 
 ### Chorda
 
@@ -72,7 +88,7 @@ Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ
 
 ### Student Cello Set
 
-単弦交換では、異なる系列を組み合わせた構成を確認して選んでください。
+[公式セット（品番330020）](https://www.pirastro.com/public_pirastro/pages/en/Student-Cello-Set-/)は、4/4・medium の Passione Steel A/D と Chromcor G/C を組み合わせたものです。4弦とも solid steel core に chrome steel 巻線を使います。同じ Passione 名でも Gut G/C を使う構成ではありません。単弦交換で元の構成を再現する場合は、Student Cello Set 専用弦を探すのではなく、元のシリーズ・対応弦・ゲージを確認してください。
 
 ## ガット弦に共通する注意点
 

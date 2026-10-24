@@ -32,13 +32,21 @@ Larsen Strings のチェロ弦シリーズを、客観仕様と主観的な音�
 
 ## シリーズ選定の補足
 
-### Original と Soloist
+### Original
 
-Original は、張力区分だけでなく楽器の弦高や調整状態によって左手の負担が変わります。Soloist を比較するときは、耳元の音量感とホールでの聴こえ方を分けて確認してください。
+Original は、張力区分だけでなく楽器の弦高や調整状態によって左手の負担が変わります。
 
-### Magnacore と Magnacore Arioso
+### Soloist
 
-Arioso は Magnacore と同じ仕様ではありません。一覧表のとおり A/D と G/C で張力・コアの設計が異なるため、セット全体を「低張力」と一括りにせず、各弦の発音とフレーズのつながりを確認します。
+Soloist を Original と比較するときは、耳元の音量感とホールでの聴こえ方を分けて確認してください。
+
+### Magnacore
+
+Magnacore と Magnacore Arioso は別設計として比較します。
+
+### Magnacore Arioso
+
+Magnacore Arioso は、一覧表のとおり A/D と G/C で張力・コアの設計が異なるため、セット全体を「低張力」と一括りにせず、各弦の発音とフレーズのつながりを確認します。
 
 ### Il Cannone
 

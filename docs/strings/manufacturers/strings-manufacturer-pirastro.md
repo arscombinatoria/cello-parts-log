@@ -46,15 +46,37 @@ Pirastro のチェロ弦を、既存の製品情報に基づくシリーズを�
 
 チェロ用は A線がスチール、D/G/C線が合成コアです。シリーズ名だけで全弦を合成コアと判断せず、単弦ごとの仕様を確認します。
 
-### 名前が近い系列
+### Evah Pirazzi
 
-Perpetual と Permanent、Passione の Steel と Gut は別の選択肢です。購入時は製品名に加えて楽器種、対応弦、コアを確認してください。Evah Pirazzi も、他の楽器向けの仕様をチェロ用に流用しないよう注意します。
+他の楽器向けの仕様をチェロ用に流用しないよう注意します。
 
-### ガット系と既成セット
+### Perpetual
 
-Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ用 Gut Strings 一覧](https://www.pirastro.com/public_pirastro/pages/en/Stringfinder-00002/?instrument=285_Cello&material=D)に掲載される現行製品です。表の Gold の材質・張力・音色・反応は[チェロ用の公式製品ページ](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)に基づきます。発売年と特定の演奏形態（独奏・室内楽・古楽など）への推奨は、今回確認したチェロ用製品ページと[公式データシート](https://www.pirastro.com/public_pirastro/pdf?instrument=285_Cello&locale=en&quality=040_Gold)では未確認です。メーカーは価格に対する価値を訴求していますが、それだけで初心者用・古楽用などとは分類しません。公式ニュースも調査しましたが、チェロ用 Gold の発売年を確認できる発表は見つかりませんでした。他楽器用 Gold や Evah Pirazzi Gold の情報は流用していません。
+Permanent とは別の選択肢です。購入時は製品名に加えて楽器種、対応弦、コアを確認してください。
 
-ガット系は温湿度と調弦の安定化を考慮し、特に Chorda のような古楽向けは楽器側のセットアップも工房に相談します。Student Cello Set の単弦交換では、異なる系列を組み合わせた構成を確認して選んでください。
+### Passione (Steel)
+
+Passione (Gut) とは別の選択肢です。購入時は製品名に加えて楽器種、対応弦、コアを確認してください。
+
+### Chorda
+
+古楽向けの Chorda は、楽器側のセットアップも工房に相談します。
+
+### Gold
+
+Gold は Passione (Gut)、Oliv、Eudoxa、Chorda とともに[公式のチェロ用 Gut Strings 一覧](https://www.pirastro.com/public_pirastro/pages/en/Stringfinder-00002/?instrument=285_Cello&material=D)に掲載される現行製品です。表の Gold の材質・張力・音色・反応は[チェロ用の公式製品ページ](https://www.pirastro.com/public_pirastro/pages/en/Gold-00004/)に基づきます。
+
+発売年と特定の演奏形態（独奏・室内楽・古楽など）への推奨は、今回確認したチェロ用製品ページと[公式データシート](https://www.pirastro.com/public_pirastro/pdf?instrument=285_Cello&locale=en&quality=040_Gold)では未確認です。メーカーは価格に対する価値を訴求していますが、それだけで初心者用・古楽用などとは分類しません。
+
+公式ニュースも調査しましたが、チェロ用 Gold の発売年を確認できる発表は見つかりませんでした。他楽器用 Gold や Evah Pirazzi Gold の情報は流用していません。
+
+### Student Cello Set
+
+単弦交換では、異なる系列を組み合わせた構成を確認して選んでください。
+
+## ガット弦に共通する注意点
+
+ガット系は温湿度と調弦の安定化を考慮します。
 
 ## 参考リンク
 

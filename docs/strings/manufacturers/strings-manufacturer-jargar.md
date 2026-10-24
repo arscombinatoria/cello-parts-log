@@ -29,13 +29,29 @@ Jargar のチェロ弦シリーズを、客観仕様と主観的な音色傾向�
 
 ## シリーズ選定の補足
 
-Young Talent のサイズごとの入手性は販売地域によって異なります。Superior の carbon steel は炭素鋼を指し、合成繊維コアではありません。
+### Young Talent
+
+Young Talent のサイズごとの入手性は販売地域によって異なります。
+
+### Superior
+
+Superior の carbon steel は炭素鋼を指し、合成繊維コアではありません。
+
+### Special
 
 Special は A/D のみのシリーズです。既存セットへ部分導入するときの判断は[弦の組み合わせガイド](../strings-selection-guide.md)を参照してください。
 
-現行シリーズと Eccentric の仕様は、2026年10月24日に公式チェロ一覧と公式製品ページで確認しました。Eccentric の音色・反応は、[公式トップページのチェロ用製品紹介](https://jargar-strings.com/)に基づくメーカーの説明です。豊かな音色、幅広い強弱、音色の変えやすさ、速いアーティキュレーションを訴求しています。独立した比較試験や、このページでの比較条件を伴う演奏評価ではありません。特定の演奏形態（独奏・室内楽・オーケストラなど）への推奨は、今回確認した公式紹介・公式ショップでは未確認です。
+### Eccentric
+
+Eccentric の音色・反応は、[公式トップページのチェロ用製品紹介](https://jargar-strings.com/)に基づくメーカーの説明です。豊かな音色、幅広い強弱、音色の変えやすさ、速いアーティキュレーションを訴求しています。独立した比較試験や、このページでの比較条件を伴う演奏評価ではありません。
+
+特定の演奏形態（独奏・室内楽・オーケストラなど）への推奨は、今回確認した公式紹介・公式ショップでは未確認です。
 
 Eccentric の発売時期は[公式の公開キャンペーン案内](https://jargar-strings.com/dealer-area/)にある「ECCENTRIC CELLO / Launch · September · 2025」に基づきます。ヴァイオリン用の案内とは分けて確認しています。
+
+## 現行性と終売製品
+
+現行シリーズと Eccentric の仕様は、2026年10月24日に公式チェロ一覧と公式製品ページで確認しました。
 
 Silver Sound は、公式の[製品アーカイブ](https://jargar-strings.com/category/all/)で「Silver Sound Violoncello cancel product」として掲載されているため、終売扱いとして現行シリーズ一覧から除外しています。終売年月は、今回確認した公式アーカイブ、[公式沿革](https://jargar-strings.com/the-history/)、[公式製品カタログ](https://jargar-strings.com/wp-content/uploads/2024/06/JS-BtC-katalog_04a.pdf)では未確認です。アーカイブへの掲載や資料の日付から終売年月を推測しません。
 

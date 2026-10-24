@@ -187,6 +187,12 @@ C/Eの項目は、新たな公式資料が確認できた時点で再調査す�
 
 各PRの提出前に `git fetch origin main` を行った。#423〜#426の初回提出時は `e58e9a2c931bd79b461c2335d1dad2cb9fb93c48`。#427の提出直前には依存関係更新 #421 / #422 を含む `b854a9ee69a919cf3c434907d3bc960bb34ad041` に進んでいた。差分はpackage-lock.jsonのみで、docs・AGENTS.md・執筆スキルは不変と確認した。この最新mainを全修正ブランチへ安全にマージし、更新後の `npm ci` と4検証を再実行した。棚卸しの基準SHAと行番号は、文書内容が同一であるため当初のSHAを維持した。GitHubの未マージPRは対象ファイル一覧で重複を確認し、既存の変更を置き換えていない。
 
+## レビュー対応の追記（2026年10月24日）
+
+ID 57（Petz Soloist）に関連して、[PR #427 のコミット edac29d](https://github.com/arscombinatoria/cello-parts-log/commit/edac29d60a671159e1b369a03baf9ca943642e7f)では、チェロ向け製品比較表から Soloist を除外し、確認状況を補足説明に記載した。今回の公式資料で確認できたのはヴァイオリン・ヴィオラ向け製品であり、チェロ用製品は未確認である。チェロ用製品の不存在・終売や、チェロでの使用不適合までは断定しない。
+
+この追記は調査後の編集判断を記録するもので、基準コミットに対する棚卸し結果とは区別する。ID 57を含む元の調査項目・分類・集計、調査当時の記述・ファイルパス・行番号は変更していない。
+
 ## 出典URLと確認範囲
 
 以下は今回閲覧・取得を試みた一次資料のURL。取得に失敗したものは明記した。メーカー公式資料であると特定できない旧サイト候補も、その旨を記載して区別した。
@@ -224,7 +230,7 @@ C/Eの項目は、新たな公式資料が確認できた時点で再調査す�
 - **K-H**: [Kolstein 公式松脂解説](https://kolstein.com/pages/kolsteins-rosin)
 - **K-SDS**: [Kolstein 製品ページからのMSDSリンク（404）](https://kolstein.com/wp-content/uploads/2019/11/Kolstein-Rosin-Products-US-EN-2-sds.pdf)
 - **M-B**: [Melos Cello Baroque 公式製品ページ](https://melosrosin.gr/product/melos-rosin-cello-baroque/)
-- **H-R**: [Hidersine 公式 Hill Premium Cello](https://www.hidersine.com/w-e-hill-sons/product/289-w-e-hill-premium-cello-rosin)
+- **H-R**: [Hidersine 公式 Hill Premium Cello](https://www.hidersine.com/w-e-hill-sons/w-e-hill-products/product/289-w-e-hill-premium-cello-rosin)
 - **D-R**: [D’Addario Clarity 公式製品ページ](https://www.daddario.com/products/clarity-hypoallergenic-rosin)
 - **LW**: [Leatherwood 公式FAQ](https://www.leatherwoodrosin.com.au/pages/faq)
 - **CE**: [CECILIA Artist Reserve 公式告知](https://www.ceciliarosincollection.com/artist-reserve/)
@@ -277,7 +283,7 @@ C/Eの項目は、新たな公式資料が確認できた時点で再調査す�
 [K-H]: https://kolstein.com/pages/kolsteins-rosin
 [K-SDS]: https://kolstein.com/wp-content/uploads/2019/11/Kolstein-Rosin-Products-US-EN-2-sds.pdf
 [M-B]: https://melosrosin.gr/product/melos-rosin-cello-baroque/
-[H-R]: https://www.hidersine.com/w-e-hill-sons/product/289-w-e-hill-premium-cello-rosin
+[H-R]: https://www.hidersine.com/w-e-hill-sons/w-e-hill-products/product/289-w-e-hill-premium-cello-rosin
 [D-R]: https://www.daddario.com/products/clarity-hypoallergenic-rosin
 [LW]: https://www.leatherwoodrosin.com.au/pages/faq
 [CE]: https://www.ceciliarosincollection.com/artist-reserve/

@@ -5,7 +5,7 @@ const {themes} = require('prism-react-renderer');
 const config = {
   title: 'Cello Parts Log',
   tagline: 'チェロのパーツ交換と調整の記録',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/logo.svg',
 
   url: 'https://arscombinatoria.github.io',
   baseUrl: '/cello-parts-log/',

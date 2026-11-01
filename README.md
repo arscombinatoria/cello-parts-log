@@ -29,7 +29,7 @@
 - `npm run typecheck` — TypeScript の型チェック
 - `npm test` — `npm run typecheck` を実行（単体テストではありません）
 
-CI では Node.js 22 系、24 系、26 系で動作を確認しています。GitHub Pages へのデプロイには Node.js 24 系を使っています。
+CI では Node.js 22 系、24 系、26 系で動作を確認しています。GitHub Pages へのデプロイには Node.js 26 系を使っています。
 
 ## GitHub Pages へのデプロイ
 

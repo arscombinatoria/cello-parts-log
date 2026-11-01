@@ -84,7 +84,7 @@ flowchart TD
 | Petz Cello | チェロ向け | 公式情報あり | Petz のチェロ表記モデル。 | 型番/包装差があるため購入時に Cello 表記を確認。 |
 | Petz Vienna’s Best | チェロ向けあり | 公式情報あり | 公式製品紹介にチェロ用と violin / viola 用を別掲載。 | 対象楽器の表記を確認して選ぶ。 |
 | Nyman Cello | チェロ向け | 販売店情報ベース | Cello 表記で流通。公式仕様詳細は要追加確認。 | 実売実績は多いが最新仕様の一次確認を推奨。 |
-| Hill Premium Cello（2067M） | チェロ向け | 公式情報あり（Hidersine） | Dark / Medium。主成分は colophony・natural oils（公式仕様）。 | 上級者・プロ、全年候向け（公式説明）。通常の Hill Dark（2064）と区別。 |
+| Hill Premium Cello（2067M） | チェロ向け | 公式情報あり（Hidersine） | Dark / Medium。主成分は colophony・natural oils（公式仕様）。 | 上級者・プロ向け。さまざまな気候条件に対応（メーカー公称）。通常の Hill Dark（2064）と区別。 |
 
 ### 2) 汎用・低粉塵・代替系
 

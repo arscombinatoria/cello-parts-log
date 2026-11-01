@@ -8,8 +8,7 @@
     "serve": "docusaurus serve",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
-    "test": "npm run typecheck",
-    "print:docs": "node scripts/print-docs.js"
+    "test": "npm run typecheck"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.2",

@@ -6,7 +6,7 @@
 
 ## サイト構成
 
-- `docs/` 配下に各パーツのメモを配置しています。サイトのトップページは [docs/index.md](docs/index.md) で、サイトのサイドバーから各カテゴリに移動できます。
+- `docs/` 配下に各パーツのメモを配置しています。サイトのトップページは [docs/index.mdx](docs/index.mdx) で、カード型ナビゲーションから各カテゴリに移動できます。各カテゴリのページではサイドバーを利用できます。
 - 各カテゴリは `docs/<category>/` ディレクトリで管理し、カテゴリのトップページは
   `docs/<category>/index.md` に統一しています（例: `docs/bridges/index.md`,
   `docs/pegs/index.md`）。

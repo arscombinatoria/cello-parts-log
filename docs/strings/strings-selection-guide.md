@@ -4,7 +4,7 @@ title: おすすめの組み合わせ
 hide_table_of_contents: true
 slug: /strings/selection-guide
 displayed_sidebar: stringsSidebar
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 このページでは、購入する弦を特定し、「何を改善したくて試すのか」を決めるための具体例を紹介します。材質の用語は[材質比較ページ](/strings/materials)、シリーズ間の違いは[メーカー別ページ](/strings/manufacturers)を参照してください。

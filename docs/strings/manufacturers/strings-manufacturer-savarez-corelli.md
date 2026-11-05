@@ -3,7 +3,7 @@ id: strings-manufacturer-savarez-corelli
 displayed_sidebar: stringsSidebar
 title: "Savarez/Corelli (サバレス/コレリ)"
 slug: /strings/manufacturers/savarez-corelli
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Savarez / Corelli のチェロ弦を、今回確認できた一次資料に基づいて整理するページです。

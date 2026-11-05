@@ -3,7 +3,7 @@ id: strings-manufacturer-warchal
 displayed_sidebar: stringsSidebar
 title: "Warchal (ワーチャル)"
 slug: /strings/manufacturers/warchal
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 Warchal のチェロ弦シリーズを、客観仕様と主観的な音色傾向を分けて整理するページです。

@@ -90,7 +90,7 @@ SoleaはMediumの680Mを出発点とし、Forteの680Fと区別します。確�
 - **音量と投射力**：奏者の耳元で大きく聴こえることと、離れた客席で旋律が明瞭に届くことは同義ではありません。伴奏との関係や聴取位置を含めて確認します。
 - **弦の使用状態**：使用済み弦と新品では劣化の影響が混ざります。交換日・使用期間・安定化の状態を記録し、その差をシリーズの特性と即断しません。WarchalはBrilliantに3〜4日、Amberに約3日の演奏による安定化を案内していますが、実際の状態で判断します（[Brilliant公式][brilliant]・[Amber公式][amber]）。
 
-Amberは合成コアAと金属コアAを選べます。金属コアAは2026年10月以降、従来のhelix windingを使わないstraight仕様で供給すると公式が案内しています。比較時はA線の仕様と旧在庫の有無も確認してください（[公式][amber]）。
+Amberは合成コアAと金属コアAを選べます。2026年11月5日に取得した[メーカー公式本文の「Two A String Options」][amber]は、金属コアAを同年10月からhelix windingを使わないstraight仕様で供給すると説明しています。[販売代理店AR Distributionの製品ガイド](https://www.ardistribution.com/strings-guide)も同じ変更を案内しています。一次資料の引用は[メーカー別記事のAmberの補足](./manufacturers/strings-manufacturer-warchal.md#amber)を参照してください。地域・ロット別の切り替えや販売店在庫は未確認のため、比較・購入時は供給されるA線の仕様を確認します。
 
 具体的な部分交換・セット構成と比較条件の揃え方は、[おすすめの組み合わせ](./strings-selection-guide.md)と[試し方・聴き方チェックリスト](./strings-selection-guide.md#試し方聴き方チェックリスト)を参照してください。全シリーズの見取り図は[メーカー横断比較表](./manufacturers/index.md)で確認できます。
 

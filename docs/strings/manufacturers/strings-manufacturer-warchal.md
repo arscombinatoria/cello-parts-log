@@ -21,7 +21,7 @@ Warchal のチェロ弦シリーズを、客観仕様と主観的な音色傾向
 | シリーズ名 | 位置づけ | 構造・材質（仕様） | 音色の目安 | 張力・反応の目安 | 推奨用途 | 注意点 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Brilliant | 主力 | 合成コアのセット（2010年開発との説明あり） | 明瞭で前方投射を狙う方向 | 低めの張力を狙う設計（公式説明） | ソロ、投射重視 | 安定化の目安は下記参照 |
-| Amber | 主力派生 | synthetic-core set、metal-core A も選択可（2026年10月以降は straight version） | 暖かさと芯の両立志向 | 低めの張力を狙う設計（公式説明） | 室内楽〜ソロ | A線オプション有無で感触差 |
+| Amber | 主力派生 | synthetic-core set、metal-core A も選択可（straight仕様への変更の出典は下記参照） | 暖かさと芯の両立志向 | 低めの張力を狙う設計（公式説明） | 室内楽〜ソロ | A線オプション有無で感触差 |
 
 ## シリーズ選定の補足
 
@@ -33,7 +33,11 @@ Warchal のチェロ弦シリーズを、客観仕様と主観的な音色傾向
 
 メーカーは、Amber は約3日の演奏で安定すると案内しています（2026年10月23日確認）。
 
-[現行の公式製品ページ](https://warchal.com/product/amber-cello/)は、metal-core A線を2026年10月以降、従来の helix winding を用いない straight version で供給すると明記しています（2026年10月24日確認）。旧在庫や過去レビューを参照するときは、A線のコアだけでなく旧helix仕様と現行仕様も区別してください。
+[メーカー公式製品ページの「Two A String Options」](https://warchal.com/product/amber-cello/)には、metal-core A線の供給仕様について次の記載を確認しました（2026年11月5日確認）。
+
+> As of October 2026, the Amber metal-core cello A string is supplied in a straight version, without the previous helix winding.
+
+これは、2026年10月から従来のhelix windingを使わないstraight版を供給するというメーカーの説明です。[販売代理店AR Distributionの製品ガイド](https://www.ardistribution.com/strings-guide)も、同年10月からの変更を案内しています（2026年11月5日確認）。メーカー公式の説明と代理店の案内を区別して参照してください。地域・ロット別の切り替え時期や、各販売店の在庫が切り替わっているかは未確認です。購入時はA線のコアに加え、helix／straightのどちらが供給されるかを販売店に確認してください。
 
 メーカーは synthetic-core A をセット内の音色の統一、metal-core A をスチール弦の扱いを好む奏者向けの耐久性のある選択肢として説明しています。公式張力は振動弦長690 mm・基準周波数440 Hz（公式表記 A1）で、synthetic-core A が161.80 N、metal-core A が166.50 Nです。A線の選択を記録し、同じセット名でも構成を揃えて比較します。
 

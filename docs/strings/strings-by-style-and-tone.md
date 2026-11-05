@@ -70,7 +70,7 @@ Il Cannoneは名称だけで分類せず、公式本文の音色説明を根拠�
 | --- | --- | --- | --- |
 | ソロ・独奏：投射力、強弱の幅、音色変化 | [Evah Pirazzi Gold medium][pirastro]、[D'Addario Kaplan KS510 4/4M][daddario] | Goldはpp〜ffの反応、Kaplanは強い弓圧への対応と多様な音色を訴求（[Gold公式][gold]・[Kaplan公式][kaplan]） | 伴奏中の旋律、強奏の芯、弱音への戻しやすさ |
 | オーケストラ：発音の安定、調和、長時間の負担 | [Helicore H510 4/4M][daddario]、[Corelli Solea 680M][corelli] | Helicoreは速い反応とピッチ安定、Soleaは4弦の均質さと演奏の快適さを訴求（[Helicore公式][helicore]・[Solea公式][solea]） | 弦群との発音、溶け合う弱音、長時間の左右の手の負担 |
-| 室内楽・アンサンブル：調和、弱音の制御、音色の柔軟性 | [Warchal Amber][warchal]、[Thomastik-Infeld Versum VE400 medium][thomastik] | Amberは弓速・接点による音色変化、Versumは暖かく甘い音と扱いやすさを訴求（[Amber公式][amber]・[Versum公式][versum]） | 他楽器との音色・音量の関係、ppの持続、旋律と伴奏の切り替え |
+| 室内楽・アンサンブル：調和、弱音の制御、音色の柔軟性 | [Warchal Amber][warchal]、[Thomastik-Infeld Versum VE400 medium][thomastik] | Amberは暖かさ・深み・投射力、Versumは暖かく甘い音と扱いやすさを訴求（[Amber公式][amber]・[Versum公式][versum]） | 他楽器との音色・音量の関係、ppの持続、旋律と伴奏の切り替え |
 
 SoleaはMediumの680Mを出発点とし、Forteの680Fと区別します。確認した公式本文は均質さや運弓時の反応を開発目標としており、明暗や反応速度の他製品との比較は未確認です。「速い弦」とは断定せず、合奏の候補として確認します（[公式][solea]）。
 

@@ -2,7 +2,7 @@
 title: メーカー横断比較表
 slug: /strings/manufacturers
 displayed_sidebar: stringsSidebar
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 > 以下は「メーカー全体の見取り図」です。実際の音色・弾き心地は、楽器個体、弓、松脂、弾き方、部屋の響きで変わります。

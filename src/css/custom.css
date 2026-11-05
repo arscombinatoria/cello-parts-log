@@ -17,3 +17,15 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+.strings-style-and-tone-guide th,
+.strings-style-and-tone-guide td {
+  min-width: 9rem;
+}
+
+.strings-style-and-tone-guide th:nth-child(2),
+.strings-style-and-tone-guide td:nth-child(2),
+.strings-style-and-tone-guide th:nth-child(3),
+.strings-style-and-tone-guide td:nth-child(3) {
+  min-width: 13rem;
+}

@@ -24,7 +24,7 @@ jobs:
           BASE_REF: ${{ github.base_ref }}
         run: |
           git fetch origin "$BASE_REF"
-          files="$(git diff --name-only --diff-filter=ACMR "origin/$BASE_REF...HEAD" -- '*.md' '*.mdx' | tr '\n' ' ')"
+          files="$(git diff --name-only --diff-filter=ACMR "origin/$BASE_REF...HEAD" -- '*.md' | tr '\n' ' ')"
           if [ -z "$files" ]; then
             echo "any=false" >> "$GITHUB_OUTPUT"
             exit 0

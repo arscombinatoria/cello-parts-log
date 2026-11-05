@@ -3,7 +3,7 @@ id: strings-manufacturer-pirastro
 displayed_sidebar: stringsSidebar
 title: "Pirastro (ピラストロ)"
 slug: /strings/manufacturers/pirastro
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Pirastro のチェロ弦を、既存の製品情報に基づくシリーズを中心に整理するページです。

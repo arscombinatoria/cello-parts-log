@@ -3,7 +3,7 @@ id: strings-manufacturer-daddario
 displayed_sidebar: stringsSidebar
 title: "D'Addario (ダダリオ)"
 slug: /strings/manufacturers/daddario
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 D'Addario のチェロ弦シリーズを、客観仕様と主観的な音色傾向を分けて整理するページです。

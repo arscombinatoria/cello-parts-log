@@ -3,7 +3,7 @@ id: strings-manufacturer-thomastik-infeld
 displayed_sidebar: stringsSidebar
 title: "Thomastik-Infeld (トマスティーク・インフェルト)"
 slug: /strings/manufacturers/thomastik-infeld
-sidebar_position: 6
+sidebar_position: 7
 ---
 
 Thomastik-Infeld のチェロ弦シリーズを、客観仕様と主観的な音色傾向を分けて整理するページです。

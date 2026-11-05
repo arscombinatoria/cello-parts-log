@@ -24,7 +24,7 @@ jobs:
           BASE_REF: ${{ github.base_ref }}
         run: |
           git fetch origin "$BASE_REF"
-          files="$(git diff --name-only "origin/$BASE_REF...HEAD" -- '*.md' '*.mdx' | tr '\n' ' ')"
+          files="$(git diff --name-only --diff-filter=ACMR "origin/$BASE_REF...HEAD" -- '*.md' '*.mdx' | tr '\n' ' ')"
           if [ -z "$files" ]; then
             echo "any=false" >> "$GITHUB_OUTPUT"
             exit 0
@@ -40,4 +40,4 @@ jobs:
           filter_mode: file
           level: error
           fail_level: any
-          markdownlint_flags: ". --disable MD013 MD033"
+          markdownlint_flags: "${{ steps.changed.outputs.files }} --disable MD013 MD033"

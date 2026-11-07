@@ -42,20 +42,39 @@ sidebar_position: 2
 ## 選定フローチャート（チェロ向け）
 
 ```mermaid
+---
+config:
+  flowchart:
+    curve: linear
+    nodeSpacing: 16
+    rankSpacing: 36
+    padding: 8
+    wrappingWidth: 300
+---
 flowchart TD
-  A[弓毛の劣化・弦の状態や汚れ・松脂の塗布量を確認] --> B[必要に応じて清掃・塗布量の見直し・工房に相談]
-  B --> C{症状が続く?}
-  C -->|いいえ| D[現在の松脂を継続]
-  C -->|はい| E{主症状は?}
-  E -->|滑る/発音が浅い| F[グリップの強い候補を比較]
-  E -->|引っかかり過多/ザラつき| G[粘着性や演奏時の反応を基準に候補を比較]
-  E -->|粉が多い| H[低粉塵の候補を比較]
-  E -->|方向性不明| I[チェロ専用品を基準に2-3銘柄比較]
-  F --> J[同条件で録音比較]
+  A("弓毛の劣化・弦の状態や汚れ<br/>松脂の塗布量を確認") --> B("必要に応じて清掃<br/>塗布量の見直し・工房に相談")
+  B --> C{"症状が続く?"}
+  C -->|いいえ| D(["現在の松脂を継続"])
+  C -->|はい| E{"主症状は?"}
+  E -->|"滑る/<br/>発音が浅い"| F["グリップの<br/>強い候補を<br/>比較"]
+  E -->|"引っかかり<br/>過多/ザラつき"| G["粘着性や<br/>演奏時の反応で<br/>候補を比較"]
+  E -->|粉が多い| H["低粉塵の<br/>候補を比較"]
+  E -->|方向性不明| I["チェロ専用品<br/>を基準に<br/>2-3銘柄比較"]
+  F --> J["同条件で録音比較"]
   G --> J
   H --> J
   I --> J
-  J --> K[1-2週間使って再判定]
+  J --> K(["1-2週間使って再判定"])
+
+  classDef preparation fill:#f3eee7,stroke:#8b735b,color:#352b23,stroke-width:1.5px
+  classDef decision fill:#ead7bc,stroke:#916332,color:#352b23,stroke-width:1.5px
+  classDef comparison fill:#edf0e9,stroke:#738168,color:#293126,stroke-width:1.5px
+  classDef outcome fill:#e7ebef,stroke:#728193,color:#29333e,stroke-width:1.5px
+  class A,B preparation
+  class C,E decision
+  class F,G,H,I,J comparison
+  class D,K outcome
+  linkStyle default stroke:#8b7967,stroke-width:1.5px
 ```
 
 通常の清掃は柔らかい乾いた布で行います。固着した松脂など乾拭きで取れない汚れは専門の工房に相談し、塗装を傷める可能性がある溶剤などを自己判断で使用しないでください。

@@ -165,6 +165,8 @@ V. Richelieu の GaiaTone についても、メーカーはエボニーに近い
 
 ## 参考情報
 
+メーカー公式資料の確認日: 2026年11月11日。
+
 - [Neo-Ebène: Corene Specificities](https://www.mycorene.com/spec-en) — 外観、表面硬度、体積質量、寸法安定性に関するメーカーの説明です。
 - [Neo-Ebène: Corene Usage Guidelines](https://www.mycorene.com/usage-en) — 加工と指定接着剤に関するメーカーの説明です。
 - [V. Richelieu: GaiaTone](https://www.vrichelieu.com/gaiatone) — 素材の特徴と製品の紹介です。

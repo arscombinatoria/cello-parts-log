@@ -17,24 +17,21 @@ sidebar_position: 3
 
 - **主な用途**
   - バロック音楽、通奏低音、古楽アンサンブル、歴史的奏法（HIP）を重視する場面で使われることが多い弓です。
-- **設計傾向（一般論）**
-  - 現代弓より短め・軽めのモデルが多く見られます。
-  - 反り、重心、毛の張り方、ヘッドやフロッグ周辺の形状が現代弓と異なる場合があります。
-- **演奏上の傾向（一般論）**
-  - 音を均一に長く保つ方向より、音の立ち上がりや自然な減衰、言葉のような抑揚を活かしやすいと感じられる場合があります。
-  - 舞曲的なリズム、短い音、軽い発音との相性が良いとされることがあります。
-
-> なお、バロック弓の仕様は時代様式の解釈や製作者・モデルによって幅があり、単一の固定仕様としては断定できません。
+- **設計上の特徴**
+  - 「バロック弓」は一つの寸法規格を指しません。John Dilworthの章の公開概要は、1500年以前の弓の例について、深い反りと常に張られた毛、高い重心を説明しています。また、Corelli型はより長く比較的直線的なスティックと下向きのヘッドを持つと記しています。これらは時代や型ごとの説明で、すべてのバロック弓やチェロ弓に共通する仕様ではありません。[Cambridge University Pressの公開概要](https://www.cambridge.org/core/books/abs/cambridge-companion-to-the-cello/bow-its-history-and-development/E61D9020F619FFF43BAC53EA169F0E08)
+  - 製作者 Eduardo Francés Bruno の公開ページでは、17世紀初頭の「Claesz」チェロ弓は70.4 cm・65 g、18世紀のチェロ弓は75.2 cm・79 gと掲載されています。これは一製作者の個別モデルの仕様であり、歴史的な弓全体の統計ではありません。この情報からバロック弓が現代弓より必ず短い、または軽いとは判断できません。[Historical Bows](https://francesbrunoluthier.com/en/historical-bows-en/)
+- **演奏上の感覚**
+  - The Stradの記事は、バロック弓と現代弓の反りの違いが音色やアーティキュレーションの選択肢に関係すると説明しています。ただし、弓製作者による弓一般の論考で、チェロだけを対象にした比較試験ではありません。自然な減衰、軽い発音、舞曲との相性は、すべてのバロック弓に共通する性能ではなく、個々の弓で試奏して確かめる項目です。[The Strad「Embrace the difference」](https://www.thestrad.com/embrace-the-difference/2075.article)
+  - Thomas Demenga は、後のバッハ録音にバロック・モデルの弓と巻線のないガット弦を使い、先行録音では金属弦、現代チェロ、通常の弓を使ったとインタビューで述べています。弦、楽器、調律やピッチも変えているため、この証言から弓単独の効果は切り分けられません。ワンテイク録音で長いフレーズや自然な音楽の流れを感じたという感想も、録音方法についての本人の証言です。[Strings Magazineのインタビュー](https://stringsmagazine.com/thomas-demenga-on-tackling-bachs-cello-suites-in-one-take/)
 
 ## 現代弓
 
 - **主な用途**
   - 現在のクラシック演奏（オーケストラ、室内楽、独奏、近現代曲）で標準的に使われる弓です。
-- **設計の基礎**
-  - 一般に、トゥルテ型以降の設計思想を基礎とする現代的な弓として整理されます。
-- **演奏上の傾向（一般論）**
-  - 音量、均一なレガート、強い発音、幅広いダイナミクスを扱いやすい設計が多い傾向です。
-  - ジャンル横断で運用しやすく、教育現場や通常のレッスンでも標準になっています。
+- **設計上の比較**
+  - The Stradの記事は、バロック期の弓の反りが現代弓の反りと異なると説明しています。記事はチェロ用弓の長さや重量を規定していないため、具体的な寸法や重心は個別のモデルで確認します。[The Strad「Embrace the difference」](https://www.thestrad.com/embrace-the-difference/2075.article)
+- **試奏で確かめる表現**
+  - ロングトーン、レガート、強弱の幅、強い発音を普段の奏法で試します。これらをすべての現代弓に共通する性能とみなさず、楽器や奏者との組み合わせで判断します。
 - **初学者の選択**
   - 初心者が一本目を選ぶ場合は、通常は現代弓が標準的な選択肢です。
 
@@ -43,9 +40,8 @@ sidebar_position: 3
 | 観点 | バロック弓 | 現代弓 |
 | --- | --- | --- |
 | 主な用途 | バロック音楽、古楽、歴史的奏法 | 現代の標準的なクラシック演奏全般 |
-| 設計傾向 | 軽め・短めのモデルが多く、発音と減衰を活かしやすい | 長いレガートや均一な音量を保ちやすい |
-| 音の出方 | 語るような発音、自然な減衰、軽い反応 | 持続力、音量、安定した圧を出しやすい |
-| 得意な表現 | 舞曲的な弾み、短い音、明瞭なアーティキュレーション | 長い旋律、強弱の幅、現代的な表現 |
+| 設計上の比較 | 時代・型・モデルによって反り、重心、ヘッドやフロッグの形、長さ、重量が異なる。短い・軽いとは一概にいえない | 反りはバロック期の弓と異なるが、具体的な寸法や重心はモデルごとに確認する |
+| 試奏で確かめる表現 | 短い音の発音、減衰、舞曲の拍節やアーティキュレーションを試し、楽器との組み合わせで判断する | ロングトーン、レガート、強弱、強い発音を普段の奏法で試し、楽器との組み合わせで判断する |
 | 選び方 | 古楽やバロック奏法を重視する場合に検討する | 迷った場合の標準的な選択肢 |
 
 ## どちらを選ぶべきか
@@ -65,11 +61,9 @@ sidebar_position: 3
 - 「**ペルナンブコ、ブラジルウッド、カーボン**」などは、弓の**材質**による分類です。
 - そのため、弓を選ぶときは「**様式（どう弾きたいか）**」と「**材質（どんな手触り・扱いやすさを求めるか）**」を分けて考えると整理しやすくなります。
 
-## 参考情報（一次情報・準一次情報）
+## 参考資料
 
-- [Encyclopædia Britannica: bow (musical instrument)](https://www.britannica.com/art/bow-musical-instrument)
-- [Oxford Reference: François Tourte](https://www.oxfordreference.com/)（現代弓設計史の参照入口）
-- [RISM Digital Center](https://rism.digital/)（バロック期レパートリー・資料探索の入口）
-- [The Strad](https://www.thestrad.com/)（弓史・演奏実務に関する記事群。二次情報として補助的に参照）
-
-※ 上記のうち百科事典・専門メディアは概説として有用ですが、個別仕様や実務判断は製作者情報・工房・教育機関の一次情報で再確認してください。
+- [John Dilworth, “The bow: its history and development,” The Cambridge Companion to the Cello, pp. 28–36](https://www.cambridge.org/core/books/abs/cambridge-companion-to-the-cello/bow-its-history-and-development/E61D9020F619FFF43BAC53EA169F0E08)（公開ページには概要と一部本文があり、章全体の閲覧にはアクセス権が必要）
+- [Thomas Demenga, “Thomas Demenga on Tackling Bach’s Cello Suites in One Take,” Strings Magazine](https://stringsmagazine.com/thomas-demenga-on-tackling-bachs-cello-suites-in-one-take/)（演奏者本人へのインタビュー）
+- [David Hawthorne, “Embrace the difference,” The Strad](https://www.thestrad.com/embrace-the-difference/2075.article)（弓製作者による論考。チェロに限定した比較試験ではない）
+- [Eduardo Francés Bruno, “Historical Bows”](https://francesbrunoluthier.com/en/historical-bows-en/)（製作者によるモデル紹介と個別仕様）

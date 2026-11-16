@@ -140,7 +140,7 @@ CECILIA Artist Reserve（Prima / Divinum）は、[公式ページ](https://www.c
 
 ## 塗り方・量・トラブルシュート
 
-- 新しい松脂に変える際は、旧松脂を弦と弓毛表面から可能な範囲で除去してから開始します。  
+- 新しい松脂を試すときは、弦に付着した松脂を柔らかい乾いた布で拭き取ります。通常の銘柄変更で弓毛に残る旧松脂を毎回完全に除去する必要はありません（非常に柔らかく粘着性の高い松脂から切り替える場合は、乾いた布で拭く方法もあります）。新旧の松脂が弓毛上で混ざるため、変更直後の演奏感だけでは新しい銘柄の特性を判断できない場合があります。弓毛の汚れや松脂の過剰な付着が問題になった場合は、溶剤を自己判断で使わず専門工房に相談してください。
 - 初期量の目安は「少なめから開始し、必要時のみ追加」です。  
 - 滑る場合は、塗布前に弓毛の消耗と弦寿命も点検します（松脂のみが原因とは限らない）。
 
@@ -200,3 +200,6 @@ Petz は[公式製品紹介](https://pk.at/en_GB/kolophonium)で、Soloist は�
 - [D'Addario Clarity 公式製品ページ（合成炭化水素樹脂）](https://www.daddario.com/products/clarity-hypoallergenic-rosin)
 - [Leatherwood 公式FAQ（原料・楽器別レシピ）](https://www.leatherwoodrosin.com.au/pages/faq)
 - [PetzVienna 公式製品紹介（楽器別のライン）](https://pk.at/en_GB/kolophonium)
+- [CodaBow — Too Much Rosin on Your Bow?](https://blog.codabow.com/news/too-much-rosin/)
+- [CodaBow — Bow Maker's Guide to Applying Rosin](https://blog.codabow.com/news/the-bow-makers-guide-to-applying-rosin-on-a-bow/)
+- [050 Rosin — How to Apply Rosin](https://050rosinusa.com/journal/how-to-apply-rosin/)
